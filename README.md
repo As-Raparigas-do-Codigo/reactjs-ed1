@@ -76,3 +76,10 @@ Ok to proceed? (y)
 Introduz `y` e depois clica Enter.
 
 ![Screenshot 2022-01-20 at 12 19 49](https://user-images.githubusercontent.com/39055313/150337542-ce269c9e-e392-4665-b090-676a9fe36318.png)
+
+Quando este processo chegar ao fim corre:
+
+```
+cd my-app
+npm start
+```
