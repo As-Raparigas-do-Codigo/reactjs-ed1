@@ -12,7 +12,7 @@ Ao longo deste módulo vamos descrever uma série de instruções, algumas das q
 
 2. Se quiseres listar os conteúdos da pasta corre `ls` ou (com mais informação) `ls -la`:
 
-![Screenshot 2022-01-20 at 12 30 00](https://user-images.githubusercontent.com/39055313/150339186-e34f87a3-8c00-402c-9ad8-3e5b90016463.png)
+![Screenshot 2022-01-20 at 12 30 00](https://user-images.githubusercontent.com/39055313/150339775-ea1f558b-84db-4987-9ccc-8f5b24afa2f2.png)
 
 3. Se quiseres navegar para uma pasta corre `cd <o nome da pasta>`:
 
