@@ -8,11 +8,11 @@ Ao longo deste módulo vamos descrever uma série de instruções, algumas das q
 
 1. Se quiseres saber em que pasta estás corre `pwd`:
 
-![Screenshot 2022-01-20 at 12 23 07](https://user-images.githubusercontent.com/39055313/150338062-1977db1f-f204-4c15-9d80-becd633ae69e.png)
+![Screenshot 2022-01-20 at 12 30 12](https://user-images.githubusercontent.com/39055313/150339282-6125bb77-275f-406c-b4c8-aed4e57e2d81.png)
 
 2. Se quiseres listar os conteúdos da pasta corre `ls` ou (com mais informação) `ls -la`:
 
-![Screenshot 2022-01-20 at 12 26 58](https://user-images.githubusercontent.com/39055313/150338819-5277899e-d595-4c90-a7b9-4142e788922c.png)
+![Screenshot 2022-01-20 at 12 30 00](https://user-images.githubusercontent.com/39055313/150339186-e34f87a3-8c00-402c-9ad8-3e5b90016463.png)
 
 3. Se quiseres navegar para uma pasta corre `cd <o nome da pasta>`:
 
@@ -20,7 +20,7 @@ Ao longo deste módulo vamos descrever uma série de instruções, algumas das q
 
 4. Se quiseres navegar para trás corre `cd ..`:
 
-![Screenshot 2022-01-20 at 12 25 02](https://user-images.githubusercontent.com/39055313/150338246-70672058-cc30-477d-bc2b-493ec3e4f9d2.png)
+![Screenshot 2022-01-20 at 12 30 26](https://user-images.githubusercontent.com/39055313/150339413-8b0af3b9-e939-4806-a36d-25227861106b.png)
 
 
 ## Instalação do NodeJS e npm
