@@ -71,3 +71,40 @@ Quando este processo chegar ao fim corre:
 cd my-app
 npm start
 ```
+
+Se tudo correr bem deves ver uma nova _tab_ no teu browser com o endereço [http://localhost:3000/](http://localhost:3000/), e uma aplicação assim:
+
+![Screenshot 2022-01-21 at 15 35 47](https://user-images.githubusercontent.com/39055313/150554959-f21b7ba2-a618-4770-9534-864c067897d3.png)
+
+**Informações Adicionais**
+P: O que é o localhost?
+R: `localhost` é só um _alias_ para o IP `127.0.0.1` que é o endereço do teu computador, ou seja, podes navegar para 127.0.0.1:3000 e deves ver a mesma aplicação.
+
+P: Porque é que aparece o 3000?
+R: `3000` é a porta escolhida por esta aplicação para correr. O teu computador tem 35565 portas mas muitas delas estão reservadas para certos serviços.
+Por defeito, o teu browser usa `80` para HTTP, `443` para HTTPS`.
+
+### Hello, world
+
+Abre a pasta no teu IDE preferido.
+
+O teu projecto deve estar organizado da seguinte forma:
+- `node_modules`: tem todas as dependências do projecto, que vamos organizar usando o `npm`
+- `public`: contém o código que vai ser usado na versão final do site
+- `src`: contém o código-fonte, que vai depois ser optimizado e processado, de forma a ir para a pasta `public`
+- `.gitignore`: o ficheiro que é usado pelo `git` para ignorar certos ficheiros e pastas
+- `package-lock.json`: versão não editável do ficheiro `package.json`
+- `package.json`: ficheiro usado pelo Node para adicionar uma série de configurações sobre o projecto
+
+Durante o desenvolvimento do projecto vais sempre trabalhar sobre a pasta `src`.
+
+Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente que consegues ver na página [http://localhost:3000/](http://localhost:3000/).
+
+- `App.css`
+- `App.test.js`
+- `index.css`
+- `index.js`
+- `index.js`
+
+
+
