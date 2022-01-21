@@ -11,4 +11,4 @@ Bem-vinda ao segundo módulo de Web.
 
 ## Aula 2
 
-6. [SPAs](5-SPAs.md)
+5. [SPAs](5-SPAs.md)
