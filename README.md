@@ -11,4 +11,4 @@ Bem-vinda ao segundo módulo de Web.
 
 ## Aula 2
 
-5. [SPAs](5-SPAs.md)
+5. [Arquitectura Tradicional, AJAX e SPAs](5-SPAs.md)
