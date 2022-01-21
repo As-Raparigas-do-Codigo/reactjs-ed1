@@ -1,4 +1,4 @@
-# Arquitectura Tradicional, AJAX e SPAs
+# Arquitectura Web Tradicional, AJAX e SPAs
 
 ![image](https://user-images.githubusercontent.com/39055313/150569545-080a9ab4-1f7c-4fb2-b89a-8c5f78fc2ef5.png)
 
