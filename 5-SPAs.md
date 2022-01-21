@@ -1,5 +1,8 @@
 # SPAs
 
+![image](https://user-images.githubusercontent.com/39055313/150569545-080a9ab4-1f7c-4fb2-b89a-8c5f78fc2ef5.png)
+
+
 Para percebermos o que são SPAs temos primeiro de perceber a forma como os sites funcionam agora, e funcionaram ao longo da sua (não muito longa) história.
 
 Quando a Web nasceu, os sites normalmente funcionavam da seguinte forma:
@@ -13,3 +16,4 @@ Pensem no último site que visitaram.
 Quando fazem ações - clicam num botão, escrevem num formulário, etc - a página faz sempre refresh?
 
 ## AJAX
+
