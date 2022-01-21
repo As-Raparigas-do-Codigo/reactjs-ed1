@@ -22,7 +22,6 @@ Ao longo deste módulo vamos descrever uma série de instruções, algumas das q
 
 ![Screenshot 2022-01-20 at 12 30 26](https://user-images.githubusercontent.com/39055313/150339413-8b0af3b9-e939-4806-a36d-25227861106b.png)
 
-
 ## Instalação do NodeJS e npm
 
 O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") é um "JavaScript runtime" que tem várias funcionalidades.
@@ -100,13 +99,43 @@ O teu projecto deve estar organizado da seguinte forma:
 
 Durante o desenvolvimento do projecto vais sempre trabalhar sobre a pasta `src`.
 
-Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente que consegues ver na página [http://localhost:3000/](http://localhost:3000/).
+Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App`:
 
-- `App.css`
-- `App.test.js`
-- `index.css`
-- `index.js`
-- `index.js`
+```
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Este é o principal componente por defeito em todas as aplicações ReactJS.
+
+Para veres como funciona este ambiente de desenvolvimento, experimenta muda a frase "Lear React" pelo teu nome e guarda o ficheiro.
+
+Olha para o teu browser novamente e vê que as alterações foram imediatamente reflectidas no site:
+
+![Screenshot 2022-01-21 at 16 19 19](https://user-images.githubusercontent.com/39055313/150562242-b2bf1789-3b5d-4a7f-9d5a-ed550b81c09d.png)
 
 
 
