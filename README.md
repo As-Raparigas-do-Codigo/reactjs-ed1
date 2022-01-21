@@ -6,25 +6,23 @@ Bem-vinda ao segundo módulo de Web.
 
 Ao longo deste módulo vamos descrever uma série de instruções, algumas das quais envolvem ter conhecimento básico de utilização do terminal.
 
-1. Se quiseres saber em que pasta estás corre `pwd`:
+Em primeiro lugar é crucial que saibas identificar que aplicação de terminal está disponível no teu Sistema Operativo. 
 
-![Screenshot 2022-01-20 at 12 30 12](https://user-images.githubusercontent.com/39055313/150339282-6125bb77-275f-406c-b4c8-aed4e57e2d81.png)
+Em princípio:
+- se estás a usar Windows, deves ter a Shell ou a PowerShell instalada;
+- se estás a usar MacOS ou Linux, deves ter o Terminal instalado;
 
-2. Se quiseres listar os conteúdos da pasta corre `ls` ou (com mais informação) `ls -la`:
+Depois de lançares a aplicação, é importante que saibas navegar entre pastas e listar os seus conteúdos.
 
-![Screenshot 2022-01-20 at 12 30 00](https://user-images.githubusercontent.com/39055313/150339775-ea1f558b-84db-4987-9ccc-8f5b24afa2f2.png)
-
-3. Se quiseres navegar para uma pasta corre `cd <o nome da pasta>`:
-
-![Screenshot 2022-01-20 at 12 23 34](https://user-images.githubusercontent.com/39055313/150338210-a2328044-2fbf-497c-8dfb-513d3546a00e.png)
-
-4. Se quiseres navegar para trás corre `cd ..`:
-
-![Screenshot 2022-01-20 at 12 30 26](https://user-images.githubusercontent.com/39055313/150339413-8b0af3b9-e939-4806-a36d-25227861106b.png)
+- se quiseres saber em que pasta estás corre `pwd`;
+- se quiseres listar os conteúdos da pasta corre `ls` (macOS/Linux) ou `dir` (Windows);
+- se quiseres navegar para dentro de uma pasta corre `cd <o nome da pasta>`;
+- se quiseres navegar para trás corre `cd ..`.
 
 ## Instalação do NodeJS e npm
 
-O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") é um "JavaScript runtime" que tem várias funcionalidades.
+O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") tem várias funcionalidades.
+
 Neste caso, vamos instalar o Node para correr aplicações construídas em [React](https://reactjs.org/) nos nossos computadores, e vamos ainda instalar um dos seus sub-módulos - o [npm](https://www.npmjs.com/) - para gerirmos as dependências do nosso projeto.
 
 Para instalar o NodeJS e o npm segue os seguintes passos:
@@ -44,11 +42,12 @@ Para instalar o NodeJS e o npm segue os seguintes passos:
 
 ## Criar o esqueleto do projecto
 
-Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar esta "base" de forma rápida - este projecto é muitas vezes designado por "scaffolding".
+Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "scaffolding".
 
-Para criar esta base abre novamente o teu terminal, navega até à pasta que queres utilizar (podes ter que pedir ajuda para fazer este projecto) e corre `npx create-react-app <o nome da app>`:
+Para criar um projecto base, abre novamente o teu terminal, navega até à pasta onde queres trabalhar (por exemplo, o teu Ambiente de Trabalho) e corre:
+* Nota que deves substituir `my-app` pelo nome que queres dar à aplicaçao.
 
-```
+```shell
 npx create-react-app my-app
 ```
 
@@ -66,8 +65,13 @@ Introduz `y` e depois clica Enter.
 
 Quando este processo chegar ao fim corre:
 
+```shell
+cd <nome-do-teu-projecto>
 ```
-cd my-app
+
+Depois de estares dentro da tua nova pasta corre:
+
+```shell
 npm start
 ```
 
@@ -77,13 +81,17 @@ Se tudo correr bem deves ver uma nova _tab_ no teu browser com o endereço [http
 
 #### Notas Importantes
 
-O `localhost` é um _alias_ para o IP `127.0.0.1`, que é o endereço que todos os computadores usam para se referirem a eles próprios.
+![image](https://user-images.githubusercontent.com/39055313/150566529-7eb6c06d-de58-4e58-b06d-b7cb56e8aac1.png)
+
+O `localhost` é uma forma alternativa do teu computador se referir ao IP `127.0.0.1`, que é o endereço que todos os computadores usam para se referirem a eles próprios.
 
 Ou seja, quando vês uma página a correr em [http://localhost:3000/](http://localhost:3000/), isto significa que o teu browser está a "servir" um site que está alojado no teu computador, e mais especificamente está a correr na porta 3000. 
 
 O teu computador tem 65535 portas onde os serviços podem correr mas muitas delas estão reservadas para certos serviços. Por exemplo, o teu browser usa `80` para HTTP, `443` para HTTPS por defeito.
 
 Neste caso, a aplicação escolheu a porta `3000`, mas podia ter escolhido qualquer outra das portas disponíveis.
+
+---------
 
 ### Hello, world
 
@@ -99,7 +107,7 @@ O teu projecto deve estar organizado da seguinte forma:
 
 Durante o desenvolvimento do projecto vais sempre trabalhar sobre a pasta `src`.
 
-Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App`:
+Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
 
 ```
 import logo from './logo.svg';
@@ -129,13 +137,13 @@ function App() {
 export default App;
 ```
 
-Este é o principal componente por defeito em todas as aplicações ReactJS.
+O componente `App` é por convenção o principal componente em todas as aplicações ReactJS.
 
-Para veres como funciona este ambiente de desenvolvimento, experimenta muda a frase "Lear React" pelo teu nome e guarda o ficheiro.
+Para veres como funciona este ambiente de desenvolvimento, experimenta mudar a frase "Learn React" pelo teu nome e guarda o ficheiro.
 
 Olha para o teu browser novamente e vê que as alterações foram imediatamente reflectidas no site:
 
 ![Screenshot 2022-01-21 at 16 19 19](https://user-images.githubusercontent.com/39055313/150562242-b2bf1789-3b5d-4a7f-9d5a-ed550b81c09d.png)
 
-
+### SPAs and where to find them
 
