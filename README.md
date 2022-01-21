@@ -76,13 +76,15 @@ Se tudo correr bem deves ver uma nova _tab_ no teu browser com o endereço [http
 
 ![Screenshot 2022-01-21 at 15 35 47](https://user-images.githubusercontent.com/39055313/150554959-f21b7ba2-a618-4770-9534-864c067897d3.png)
 
-**Informações Adicionais**
-P: O que é o localhost?
-R: `localhost` é só um _alias_ para o IP `127.0.0.1` que é o endereço do teu computador, ou seja, podes navegar para 127.0.0.1:3000 e deves ver a mesma aplicação.
+#### Notas Importantes
 
-P: Porque é que aparece o 3000?
-R: `3000` é a porta escolhida por esta aplicação para correr. O teu computador tem 35565 portas mas muitas delas estão reservadas para certos serviços.
-Por defeito, o teu browser usa `80` para HTTP, `443` para HTTPS`.
+O `localhost` é um _alias_ para o IP `127.0.0.1`, que é o endereço que todos os computadores usam para se referirem a eles próprios.
+
+Ou seja, quando vês uma página a correr em [http://localhost:3000/](http://localhost:3000/), isto significa que o teu browser está a "servir" um site que está alojado no teu computador, e mais especificamente está a correr na porta 3000. 
+
+O teu computador tem 65535 portas onde os serviços podem correr mas muitas delas estão reservadas para certos serviços. Por exemplo, o teu browser usa `80` para HTTP, `443` para HTTPS por defeito.
+
+Neste caso, a aplicação escolheu a porta `3000`, mas podia ter escolhido qualquer outra das portas disponíveis.
 
 ### Hello, world
 
