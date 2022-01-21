@@ -1,5 +1,5 @@
 
-# Criar o esqueleto do projecto
+# Criação do esqueleto do projecto
 
 Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "scaffolding".
 
