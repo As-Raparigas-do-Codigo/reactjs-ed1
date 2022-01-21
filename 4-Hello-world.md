@@ -3,7 +3,7 @@
 
 Abre a pasta no teu IDE preferido.
 
-O teu projecto deve estar organizado da seguinte forma:
+Repara que o teu projecto está organizado da seguinte forma:
 - `node_modules`: tem todas as dependências do projecto, que vamos organizar usando o `npm`
 - `public`: contém o código que vai ser usado na versão final do site
 - `src`: contém o código-fonte, que vai depois ser optimizado e processado, de forma a ir para a pasta `public`
@@ -11,7 +11,7 @@ O teu projecto deve estar organizado da seguinte forma:
 - `package-lock.json`: versão não editável do ficheiro `package.json`
 - `package.json`: ficheiro usado pelo Node para adicionar uma série de configurações sobre o projecto
 
-Durante o desenvolvimento do projecto vais sempre trabalhar sobre a pasta `src`.
+**Durante o desenvolvimento do projecto vais sempre trabalhar dentro da pasta `src`.**
 
 Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
 
