@@ -19,4 +19,4 @@ Para instalar o NodeJS e o npm segue os seguintes passos:
 ![Screenshot 2022-01-20 at 12 18 37](https://user-images.githubusercontent.com/39055313/150337392-17ee6f89-f432-42d9-9e19-c2e465890883.png)
 
   - Se estiver tudo OK deves ver a versão do npm, por exemplo: `8.3.0`;
-  - Para poderes usar o projecto "Create React App" a tua versão do Node tem de ser >= `5.6`;
+  - Para poderes usar o projecto [Create React App](https://reactjs.org/docs/create-a-new-react-app.html) a tua versão do Node tem de ser >= `5.6`;
