@@ -2,6 +2,11 @@
 
 Bem-vinda ao segundo módulo de Web.
 
+1. [Utilização básica do terminal](Utilização-basica-do-terminal.md)
+2. [Instalação do NodeJS e npm](Instalação-do-NodeJS-e-npm.md)
+3. [Criar o esqueleto do projecto](Criar-o-esqueleto-do-projecto.md)
+4. [Hello, world](Hello-world.md)
+
 ## Utilização básica do terminal
 
 Ao longo deste módulo vamos descrever uma série de instruções, algumas das quais envolvem ter conhecimento básico de utilização do terminal.
