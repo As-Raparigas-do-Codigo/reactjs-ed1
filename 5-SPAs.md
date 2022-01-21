@@ -12,7 +12,7 @@ Quando a Web nasceu, os sites normalmente funcionavam da seguinte forma:
 3. Sempre que havia uma alteração era feito um novo pedido `HTTP` ao servidor, e era devolvida uma nova página
 4. Em suma, sempre que era necessário fazer uma ação a página era re-loaded
 
-Hoje em dia, muitos poucos sites têm este comportamentos:
+Hoje em dia, muitos poucos sites complexos têm este comportamentos:
 * Da última vez que fizeste "like" no Instagram, a tua página fez refresh?
 
 Nesta arquitectura tradicional teria que fazer:
