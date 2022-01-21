@@ -2,6 +2,8 @@
 
 Ao longo deste módulo vamos descrever uma série de instruções, algumas das quais envolvem ter conhecimento básico de utilização do terminal.
 
+O terminal é só mais uma forma de interagir com o teu computador, e não tem que ser um bicho de sete cabeças!
+
 Em primeiro lugar é crucial que saibas identificar que aplicação de terminal está disponível no teu Sistema Operativo. 
 
 Em princípio:
