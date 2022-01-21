@@ -1,4 +1,4 @@
-# web2-ed-1
+# Web 2 - Edição 1
 
 Bem-vinda ao segundo módulo de Web.
 
