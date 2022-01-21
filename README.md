@@ -6,7 +6,7 @@ Bem-vinda ao segundo módulo de Web.
 
 1. [A linha de comandos](1-A-linha-de-comandos.md)
 2. [Instalação do NodeJS e npm](2-Instalação-do-NodeJS-e-npm.md)
-3. [Criar o esqueleto do projecto](3-Criar-o-esqueleto-do-projecto.md)
+3. [Criação do esqueleto do projecto](3-Criacao-do-esqueleto-do-projecto.md)
 4. [A nossa primeira modificação](4-A-nossa-primeira-modificacao.md)
 
 ## Aula 2
