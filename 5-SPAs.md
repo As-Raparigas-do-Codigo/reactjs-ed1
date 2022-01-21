@@ -22,9 +22,9 @@ Nesta arquitectura tradicional teria que fazer:
 
 ## AJAX
 
-Para evitar este tipo de flows surgiu a arquitectura AJAX.
+Para evitar este tipo de flows surgiu a arquitectura `AJAX`.
 
-AJAX significa Asynchronous JavaScript and XML, ou seja, os nossos sites começam a conseguir fazer ações assíncronas (sem haver reload da página) via JavaScript e XML.
+AJAX significa Asynchronous JavaScript and `XML`, ou seja, os nossos sites começam a conseguir fazer ações assíncronas (sem haver reload da página) via JavaScript e XML.
 
 ## SPAs
 
