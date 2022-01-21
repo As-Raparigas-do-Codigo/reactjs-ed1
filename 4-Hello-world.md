@@ -15,7 +15,7 @@ Durante o desenvolvimento do projecto vais sempre trabalhar sobre a pasta `src`.
 
 Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
 
-```
+```js
 import logo from './logo.svg';
 import './App.css';
 
