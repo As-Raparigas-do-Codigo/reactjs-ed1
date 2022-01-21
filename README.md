@@ -12,3 +12,4 @@ Bem-vinda ao segundo módulo de Web.
 ## Aula 2
 
 5. [Arquitectura Tradicional, AJAX e SPAs](5-SPAs.md)
+6. [Como funciona o ReactJS](6-Como-funciona-o-ReactJS.md)
