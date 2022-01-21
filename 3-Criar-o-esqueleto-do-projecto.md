@@ -4,11 +4,12 @@
 Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "scaffolding".
 
 Para criar um projecto base, abre novamente o teu terminal, navega até à pasta onde queres trabalhar (por exemplo, o teu Ambiente de Trabalho) e corre:
-* Nota que deves substituir `my-app` pelo nome que queres dar à aplicaçao.
 
 ```shell
 npx create-react-app my-app
 ```
+
+Nota que deves substituir `my-app` pelo nome que queres dar à aplicaçao.
 
 Logo a seguir vais ver no terminal a seguinte pergunta:
 
