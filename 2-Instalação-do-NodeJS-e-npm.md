@@ -6,7 +6,9 @@
 
 O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") tem várias funcionalidades.
 
-Neste caso, vamos instalar o Node para correr aplicações construídas em [React](https://reactjs.org/) nos nossos computadores, e vamos ainda instalar um dos seus sub-módulos - o [npm](https://www.npmjs.com/) - para gerirmos as dependências do nosso projeto.
+Neste caso, vamos instalar: 
+- o Node para correr aplicações construídas em [React](https://reactjs.org/) nos nossos computadores;
+- um dos sub-módulos do Node, o [npm](https://www.npmjs.com/), para gerirmos as dependências do nosso projeto.
 
 Em programação designam-se por dependências todas as bibliotecas que são importadas pelos projectos.
 
