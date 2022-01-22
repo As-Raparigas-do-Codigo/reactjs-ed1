@@ -24,3 +24,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ## Aula 3
 
 9. [Adicionar dinamismo ao componente](9-Adicionar-dinamismo-ao-componente.md)
+10. [Introdução à gestão de dependências]()
