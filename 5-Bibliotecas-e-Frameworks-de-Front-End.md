@@ -7,13 +7,8 @@ Tal como explicado no primeiro módulo Web, os programadores não gostam de rein
 
 Obviamente que é possível importar apenas pedaços de código ou certos ficheiros, mas normalmente esta reutilização de código é feita através da utilização de bibliotecas (libraries) e frameworks.
 
-A diferença entre bibliotecas e frameworks, é que o nosso projecto "chama" ou "importa" código escrito numa biblioteca, enquanto as frameworks é que chamam o nosso código.
+Nota que há uma diferença crucial entre as bibliotecas e as frameworks, mas normalmente os programadores usam as palavras para se referirem à mesma coisa.
 
-O [React](https://reactjs.org/) é actualmente a biblioteca/framework de JavaScript mais popular, seguida pelo VueJs, e pelo Angular.
+De forma geral, podemos dizer que os projectos "chamam" ou "importam" código escrito numa biblioteca, enquanto quando usamos uma framework é esta que "chama" ou "importa" o nosso código - a diferença pode ser difícil de entender para já, mas vai ficar mais clara com o tempo.
 
-A diferença é que pode usar apenas os componentes que te interessam, e construir o resto da aplicação da forma que mais te interessar.
-
-O React incentiva à **utilização de componentes** como forma de reduzir a duplicação de código e garantir que tudo é modular.
-
-Quando criamos o esqueleto do nosso projeto já vimos que o componente principal se chama `App`, agora vamos criar outros componentes que vão ficar dentro deste componente grande!
-
+O [React](https://reactjs.org/) é um exemplo de uma biblioteca de front-end, e de facto é a mais popular entre todas as bibliotecas/frameworks actuais, seguida pelo VueJs (biblioteca), e pelo Angular (framework).
