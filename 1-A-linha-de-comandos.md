@@ -6,7 +6,7 @@
 Até agora provavelmente só usaste a interface gráfica ([GUI](https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador)) para interagir com o teu computador, mas este módulo requer que saibas alguns comandos básicos da linha de comandos.
 
 Alguns tempos que podes ouvir os developers utilizarem para se referirem à linha de comandos são:
-- CLI (tanto a palavra como a sigla - foneticamente _si_el_ai)
+- CLI (tanto a palavra como a sigla)
 - Terminal
 - Shell ou Bash
 
