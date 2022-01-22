@@ -1,4 +1,4 @@
-# O nosso primeiro componente ReactJS
+# O nosso primeiro componente
 
 Dentro da pasta `src` cria um novo ficheiro `Button.js` com o seguinte conteúdo:
 
