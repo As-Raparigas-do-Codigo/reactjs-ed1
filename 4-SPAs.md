@@ -33,7 +33,7 @@ Hoje em dia, é muito mais provável que a autenticação seja implementada da s
 6. O utilizador introduz as suas credenciais
 7. O JavaScript envia um novo pedido `HTTP` com as credenciais do utilizador
 8. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta pergunta**
-9. Se as credenciais estiverem OK, o JavaScript sabe que é para mostrar outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor.
+9. Se as credenciais estiverem OK, o JavaScript sabe que é para mostrar a "Home" page que não é mais do que outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor.
 
 Como percebeste, só houve aqui um carregamento de HTML - uma única página HTML - e a isto se chama **SPA** (Single Page Application).
 
