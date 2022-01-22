@@ -5,10 +5,12 @@
 
 Tal como explicado no primeiro módulo Web, os programadores não gostam de reinventar a roda e, quando possível, utilizam código escrito por outros programadores.
 
-Obviamente que é possível importar apenas pedaços de código ou certos ficheiros, mas normalmente esta reutilização de código é feita através da utilização de bibliotecas (libraries) e frameworks.
+Obviamente que é possível importar apenas pedaços de código ou certos ficheiros, mas normalmente esta reutilização de código é feita através da utilização de **bibliotecas** (libraries) e **frameworks**.
 
-Nota que há uma diferença crucial entre as bibliotecas e as frameworks, mas normalmente os programadores usam as palavras para se referirem à mesma coisa.
+Nota que há uma diferença crucial entre as bibliotecas e as frameworks, mas normalmente os programadores usam as palavras de forma intercambiável para se referirem à mesma coisa.
 
 De forma geral, podemos dizer que os projectos "chamam" ou "importam" código escrito numa biblioteca, enquanto quando usamos uma framework é esta que "chama" ou "importa" o nosso código - a diferença pode ser difícil de entender para já, mas vai ficar mais clara com o tempo.
 
 O [React](https://reactjs.org/) é um exemplo de uma biblioteca de front-end, e de facto é a mais popular entre todas as bibliotecas/frameworks actuais, seguida pelo VueJs (biblioteca), e pelo Angular (framework).
+
+Mas nota que estamos apenas a falar no contexto de front-end - existem outras tecnologias, bibliotecas e frameworks que são usadas na construção de back-ends.
