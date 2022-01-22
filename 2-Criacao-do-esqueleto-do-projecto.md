@@ -1,7 +1,7 @@
 
 # Criação do esqueleto do projecto
 
-O nosso projecto vai ser escrito em [ReactJS](https://reactjs.org/), que é actualmente a biblioteca de desenvolvimento "front-end" mais popular no mercado. [Lê mais [aqui](5-Bibliotecas-e-Frameworks-de-Front-End.md))
+O nosso projecto vai ser escrito em [ReactJS](https://reactjs.org/), que é actualmente a biblioteca de desenvolvimento "front-end" mais popular no mercado (lê mais [aqui](5-Bibliotecas-e-Frameworks-de-Front-End.md)).
 
 Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "[scaffolding](https://en.wikipedia.org/wiki/Scaffold_(programming))".
 
