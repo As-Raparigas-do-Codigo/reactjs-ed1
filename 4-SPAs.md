@@ -12,7 +12,7 @@ Isto é a forma como os sites funcionavam quando a Web nasceu, a grande diferen�
 
 Mas rapidamente se percebeu a necessidade de **enviar e receber dados** e **alterar o estado** de uma aplicação, por exemplo, mostrar uma página diferente aos utilizadores quando estão autenticados e quando não estão.
 
-### Autenticação em "Web Tradicional" vs "AJAX"
+### Autenticação em "Web Tradicional" vs SPAs
 
 Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 1. O browser fazia um pedido `HTTP` a um servidor: "dá-me a página inicial"
