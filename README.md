@@ -18,3 +18,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 4. [Arquitectura Web Tradicional, AJAX e SPAs](4-SPAs.md)
 5. [Bibliotecas e Frameworks de Front-End](5-Bibliotecas-e-Frameworks-de-Front-End.md)
 6. [Como funciona o ReactJS](6-Como-funciona-o-ReactJS.md)
+7. [Análise do componente App.js](7-Analise-do-componente-Appjs.md)
