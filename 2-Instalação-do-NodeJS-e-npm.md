@@ -4,7 +4,9 @@ O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") tem várias fu
 
 Neste caso, vamos instalar o Node para correr aplicações construídas em [React](https://reactjs.org/) nos nossos computadores, e vamos ainda instalar um dos seus sub-módulos - o [npm](https://www.npmjs.com/) - para gerirmos as dependências do nosso projeto.
 
-Um gestor de dependências não é mais do que uma ferramenta que nos ajuda a organizar todas as bibliotecas externas que usamos num projecto.
+Em programação designam-se por dependências todas as bibliotecas que são importadas pelos projectos.
+
+Um gestor de dependências não é mais do que uma ferramenta que nos ajuda a organizar estas bibliotecas e as suas versões.
 
 Para instalar o NodeJS e o npm segue os seguintes passos:
 1. Vai a [https://nodejs.org/en/](https://nodejs.org/en/) e instala a versão do Node correspondente para o teu Sistema Operativo.
