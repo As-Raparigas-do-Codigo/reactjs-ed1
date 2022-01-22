@@ -1,7 +1,9 @@
 
 # Criação do esqueleto do projecto
 
-Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "scaffolding".
+O nosso projecto vai ser escrito em [ReactJS](https://reactjs.org/), que é actualmente a biblioteca de desenvolvimento front-end mais popular no mercado.
+
+Todos os projectos React têm muitas coisas em comum, e como tal, existem formas de criar um projecto base de forma rápida - este processo é muitas vezes designado por "[scaffolding](https://en.wikipedia.org/wiki/Scaffold_(programming))".
 
 Para criar um projecto base, abre novamente o teu terminal, navega até à pasta onde queres trabalhar (por exemplo, o teu Ambiente de Trabalho) e corre:
 
