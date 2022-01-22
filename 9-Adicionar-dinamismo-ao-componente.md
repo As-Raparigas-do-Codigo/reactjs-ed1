@@ -1,0 +1,1 @@
+# Adicionar dinamismo ao componente
