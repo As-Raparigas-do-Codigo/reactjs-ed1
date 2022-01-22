@@ -25,8 +25,8 @@ Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 ### Autenticação em SPAs
 
 Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
-1. O browser faz um pedido `HTTP` ao servidor ("dá-me a página inicial")
-2. O servidor envia um ficheiro `HTML` (juntamente com o resto dos "assets") - **nota que este é o único pedido que devolve `HTML` no flow inteiro**
+1. O browser faz um pedido `HTTP` ao servidor ("dá-me tudo o que preciso para lançar o site")
+2. O servidor envia um ficheiro `HTML` juntamente com o resto dos "assets" - **nota que este é o único pedido que devolve `HTML` no flow inteiro**
 3. O browser corre o JavaScript, que pega na cookie ou token de autenticação que está guardado no browser e envia-o para o servidor para perceber se este é válido
 4. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta questão**
 5. Se o utilizador não estiver logado, o JavaScript decide mostrar o formulário de login que está algures declarado no ficheiro `HTML` que foi inicialmente devolvido pelo servidor
