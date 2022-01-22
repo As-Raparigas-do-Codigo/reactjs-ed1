@@ -53,6 +53,6 @@ Um exemplo disso é o código abaixo, como podemos ver esta linha não é `HTML`
 
 No final do documento vemos que basicamente está a exportar esta função - `App` - para poder ser utilizada no resto da app.
 
-```
+```javascript
 export default App;
 ```
