@@ -5,7 +5,7 @@ Bem-vinda ao segundo módulo de Web.
 Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por isso se tiveres dúvidas ou quiseres rever alguma matéria consulta [este](https://github.com/As-Raparigas-do-Codigo/web-ed-3) repositório.
 
 ## Requisitos
-* [Instalação de Software](0-Instala%C3%A7%C3%A3o.md)
+* [Instalação de Software](0-Instalaco-de-Software.md)
 
 ## Aula 1
 
