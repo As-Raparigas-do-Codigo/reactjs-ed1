@@ -12,7 +12,7 @@ Isto é a forma como os sites funcionavam quando a Web nasceu, a grande diferen�
 
 Mas rapidamente se percebeu a necessidade de **enviar e receber dados** e **alterar o estado** de uma aplicação, por exemplo, mostrar uma página diferente aos utilizadores quando estão autenticados e quando não estão.
 
-### Autenticação em "Web Tradicional" vs SPAs
+### Autenticação em "Web Tradicional"
 
 Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 1. O browser fazia um pedido `HTTP` ao servidor ("dá-me a página inicial") e envia juntamente a cookie ou token de autenticação que está guardado no browser, se estes existires
@@ -22,8 +22,9 @@ Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 5. O browser enviava um novo pedido `HTTP` com as credenciais do utilizador
 6. O servidor respondia com uma nova página `HTML` que poderia ser por exemplo a página "Home" se as credenciais fossem válidas ou a página de login com uma mensagem de erro, se as credenciais estivessem erradas
 
+### Autenticação em SPAs
+
 Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
-Eu 
 1. O browser faz um pedido `HTTP` ao servidor ("dá-me a página inicial")
 2. O servidor envia um ficheiro `HTML` (juntamente com o resto dos "assets") - **nota que este é o único pedido que devolve `HTML` no flow inteiro**
 3. O browser corre o JavaScript, que pega na cookie ou token de autenticação que está guardado no browser e envia-o para o servidor para perceber se este é válido
