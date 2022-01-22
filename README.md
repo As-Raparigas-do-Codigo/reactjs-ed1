@@ -19,4 +19,8 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 5. [Bibliotecas e Frameworks de Front-End](5-Bibliotecas-e-Frameworks-de-Front-End.md)
 6. [Como funciona o ReactJS](6-Como-funciona-o-ReactJS.md)
 7. [Análise do componente App.js](7-Analise-do-componente-Appjs.md)
-8. [O nosso primeiro componente ReactJS](8-O-nosso-primeiro-componente-ReactJS.md)
+8. [O nosso primeiro componente](8-O-nosso-primeiro-componente.md)
+
+## Aula 3
+
+9. [Adicionar dinamismo ao componente](9-Adicionar-dinamismo-ao-componente.md)
