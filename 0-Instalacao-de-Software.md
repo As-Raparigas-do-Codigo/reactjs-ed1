@@ -3,7 +3,7 @@
 No decorrer dos workshops vais precisar de um editor de texto para escreveres o teu código (HTML, CSS, JS), de um navegador (um browswer) que interprete esse código (onde vemos os resultados!), e de algumas tecnologias base que vamos utilizar. Nestes workshops iremos usar:
 
 - [ ] Google Chrome
-- [ ] Sublime Text ou Visual Studio Code
+- [ ] Sublime Text
 - [ ] NodeJS + npm
 
 
