@@ -5,11 +5,6 @@
 
 Até agora provavelmente só usaste a interface gráfica ([GUI](https://pt.wikipedia.org/wiki/Interface_gr%C3%A1fica_do_utilizador)) para interagir com o teu computador, mas este módulo requer que saibas alguns comandos básicos da linha de comandos.
 
-Alguns tempos que podes ouvir os developers utilizarem para se referirem à linha de comandos são:
-- CLI (tanto a palavra como a sigla)
-- Terminal
-- Shell ou Bash
-
 Em primeiro lugar é crucial que saibas identificar que aplicação de linha de comandos está disponível no teu Sistema Operativo. 
 
 Em princípio:
@@ -24,3 +19,13 @@ Depois de lançares a linha de comandos, é importante que saibas navegar entre 
 - se quiseres navegar para trás corre `cd ..`.
 
 Provavelmente esta lógica é-te familiar de quando estudamos a referenciação relativa de ficheiros!
+
+---------
+
+**Nerd Fact 🤓** 
+
+Alguns termos que podes ouvir os developers utilizarem de forma "intercambiável", para se referirem à linha de comandos são:
+- CLI (tanto a palavra como a sigla)
+- Command Line
+- Terminal
+- Shell ou Bash
