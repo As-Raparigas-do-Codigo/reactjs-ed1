@@ -1,5 +1,8 @@
 # Instalação do NodeJS e npm
 
+![image](https://user-images.githubusercontent.com/39055313/150638124-c000eb1e-a832-43cb-b641-81c13b2a87f1.png)
+[Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.luiztools.com.br%2Fpost%2Fcomo-rodar-nodejs-em-servidor-windows%2F&psig=AOvVaw3OeRAoRpR2MZwSXJEl_b5s&ust=1642940021981000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNjFodaqxfUCFQAAAAAdAAAAABAD)
+
 O [NodeJS](https://nodejs.org/en/) (também conhecido por "Node") tem várias funcionalidades.
 
 Neste caso, vamos instalar o Node para correr aplicações construídas em [React](https://reactjs.org/) nos nossos computadores, e vamos ainda instalar um dos seus sub-módulos - o [npm](https://www.npmjs.com/) - para gerirmos as dependências do nosso projeto.
