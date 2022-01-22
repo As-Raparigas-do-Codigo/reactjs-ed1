@@ -2,6 +2,7 @@
 
 ![image](https://user-images.githubusercontent.com/39055313/150569545-080a9ab4-1f7c-4fb2-b89a-8c5f78fc2ef5.png)
 
+Os developers utilizam frequentemente React para construir SPAs.
 
 Para percebermos o que são SPAs temos primeiro de perceber a forma como os sites funcionam agora, e funcionaram ao longo da sua (não muito longa) história.
 
