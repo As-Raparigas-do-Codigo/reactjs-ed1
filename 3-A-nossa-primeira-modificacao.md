@@ -1,16 +1,14 @@
 # A nossa primeira modificação
 
-Abre a pasta no teu IDE preferido.
+Abre a pasta do projecto no teu IDE preferido.
 
 Repara que o teu projecto está organizado da seguinte forma:
 - `node_modules`: tem todas as dependências do projecto, que vamos organizar usando o `npm`
-- `public`: contém o código que vai ser usado na versão final do site
-- `src`: contém o código-fonte, que vai depois ser optimizado e processado, de forma a ir para a pasta `public`
-- `.gitignore`: o ficheiro que é usado pelo `git` para ignorar certos ficheiros e pastas
-- `package-lock.json`: versão não editável do ficheiro `package.json`
-- `package.json`: ficheiro usado pelo Node para adicionar uma série de configurações sobre o projecto
-
-**Durante o desenvolvimento do projecto vais sempre trabalhar dentro da pasta `src`.**
+- `public`: a pasta que contém os conteúdos que vão ser públicos quando o site for publicado
+- `src`: contém o código-fonte da aplicação, ou seja, é a **pasta onde vão trabalhar**
+- `.gitignore`: o ficheiro que é usado pelo `git` para não versionar certos ficheiros e pastas
+- `package-lock.json`: versão não editável do ficheiro `package.json` que é gerada automaticamente
+- `package.json`: ficheiro usado pelo Node para adicionar uma série de configurações sobre o projecto, incluindo a declaração de todas as dependências e suas respectivas versões
 
 Dentro desta pasta podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
 
