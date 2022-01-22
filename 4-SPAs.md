@@ -15,26 +15,24 @@ Mas rapidamente se percebeu a necessidade de **enviar e receber dados** e **alte
 ### Autenticação em "Web Tradicional" vs SPAs
 
 Nos princípios da Web, a autenticação fazia-se da seguinte forma:
-1. O browser fazia um pedido `HTTP` a um servidor: "dá-me a página inicial"
-2. O servidor valida que o utilizador não está logado e responde com o `HTML` que correspondia à página de login 
+1. O browser fazia um pedido `HTTP` ao servidor ("dá-me a página inicial") e envia juntamente a cookie ou token de autenticação que está guardado no browser, se estes existires
+2. Se o servidor validasse que o utilizador não estava logado responderia com o `HTML` que corresponde à página de login
 3. O browser mostrava esta página
 4. O utilizador introduzia as suas credenciais
-5. O browser enviava um novo pedido `HTTP` com as credenciais do utilizador, e pedia a nova página
-6. O servidor respondia com uma nova página `HTML` que poderia ser a página "Home" se as credenciais fossem válidas ou a página de login com uma mensagem de erro, se as credenciais estivessem erradas;
-7. Sempre que havia uma alteração era feito um novo pedido `HTTP` ao servidor, e era devolvida uma nova página
+5. O browser enviava um novo pedido `HTTP` com as credenciais do utilizador
+6. O servidor respondia com uma nova página `HTML` que poderia ser por exemplo a página "Home" se as credenciais fossem válidas ou a página de login com uma mensagem de erro, se as credenciais estivessem erradas
 
 Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
-
-1. O browser fazia um pedido `HTTP` a um servidor: "dá-me a página inicial"
-2. O servidor envia um ficheiro `HTML` (juntamente com o resto dos "assets") independentemente do estado de autenticação do user - **nota que este é o único pedido que devolve `HTML`!**.
-3. O browser corre o JavaScript decide que interface mostrar ao utilizador
-4. Para tomar esta decisão o JavaScript pega na cookie ou token de autenticação que está guardado no browser e envia-o para o servidor para perceber se este é válido
-5. O servidor responde **não com HTML mas apenas com uma mensagem que responde à pergunta**
-6. Se o utilizador não estiver logado, o JavaScript decide mostrar o formulário de login que está algures declarado no ficheiro `HTML` que foi inicialmente devolvido pelo servidor;
-7. O utilizador introduzia as suas credenciais
-8. O browser envia um novo pedido `HTTP` com as credenciais do utilizador
-9. O servidor responde **não com HTML mas apenas com uma mensagem que responde à pergunta**
-10. Se as credenciais estiverem OK, o JavaScript sabe que é para mostrar outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor;
+Eu 
+1. O browser faz um pedido `HTTP` ao servidor ("dá-me a página inicial")
+2. O servidor envia um ficheiro `HTML` (juntamente com o resto dos "assets") - **nota que este é o único pedido que devolve `HTML` no flow inteiro**
+3. O browser corre o JavaScript, que pega na cookie ou token de autenticação que está guardado no browser e envia-o para o servidor para perceber se este é válido
+4. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta questão**
+5. Se o utilizador não estiver logado, o JavaScript decide mostrar o formulário de login que está algures declarado no ficheiro `HTML` que foi inicialmente devolvido pelo servidor
+6. O utilizador introduz as suas credenciais
+7. O JavaScript envia um novo pedido `HTTP` com as credenciais do utilizador
+8. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta pergunta**
+9. Se as credenciais estiverem OK, o JavaScript sabe que é para mostrar outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor.
 
 Como percebeste, só houve aqui um carregamento de HTML - uma única página HTML - e a isto se chama **SPA** (Single Page Application).
 
