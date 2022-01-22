@@ -2,16 +2,21 @@
 
 Quando criamos o esqueleto do nosso projeto já vimos que o componente principal se chama `App`, vamos agora olhar para ele em detalhe:
 
-* Em primeiro lugar podemos ver que no topo do documento estão a ser importados 2 ficheiros - `logo.svg` e `App.css` - usando uma funcionalidade nativa do JavaScript que é o [import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import).
+### Importação
+Mesmo no topo do documento vemos que está a ser utilizada uma funcionalidade nativa do JavaScript - o [import](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/import).
 
 ```javascript
 import logo from './logo.svg';
 import './App.css';
 ```
 
-* Isto permite-nos ir buscar estes 2 ficheiros e utilizá-los ao longo deste ficheiro.
+Nota que, na primeira linha, é usada a expressão `import x from y`, o que significa que o conteúdo do ficheiro `logo.svg` está a ser atribuído à variável `logo`.
 
-* Depois vemos uma declaração de uma função chamada `App` que não recebe argumentos e simplesmente retorna o que parece `HTML`:
+Na segunda linha, simplesmente está a ser importado tudo o que está dentro do ficheiro `App.css` sem nenhuma atribuição.
+
+### Declaração da Função
+
+Depois das importações vemos uma declaração de uma função chamada `App` que não recebe argumentos e simplesmente retorna o que parece `HTML`:
 
 ```javascript
 function App() {
@@ -36,15 +41,17 @@ function App() {
 }
 ```
 
-* Na verdade isto não é `HTML`, é `JSX`, uma linguagem de templating que se recomenda utilizar em ReactJS (ainda que não seja obrigatório), e que nos ajuda a concatenar `HTML` com variáveis e dados dinâmicos.
+Na verdade isto não é `HTML`, é [JSX](https://reactjs.org/docs/introducing-jsx.html), que é uma "extensão do JavaScript" que se recomenda utilizar em ReactJS (ainda que não seja obrigatório), e que nos ajuda a concatenar criar templates com dados dinâmicos.
 
-* A única coisa aqui que não é `HTML` válido é esta linha, porque contém a expressão `{logo}`, que em `JSX` significa que o conteúdo da variável `logo` vai ser injectado aqui:
+Um exemplo disso é o código abaixo, como podemos ver esta linha não é `HTML` válido é esta linha, porque contém a expressão `{logo}`, que em `JSX` significa que o conteúdo da variável `logo` vai ser injectado dentro do componente `<img>`:
 
 ```HTML
 <img src={logo} className="App-logo" alt="logo" />
 ```
+ 
+### Exportação da Função
 
-* Finalmente vemos esta linha, que basicamente está a exportar esta função - `App` - para poder ser utilizada no resto da app.
+No final do documento vemos que basicamente está a exportar esta função - `App` - para poder ser utilizada no resto da app.
 
 ```
 export default App;
