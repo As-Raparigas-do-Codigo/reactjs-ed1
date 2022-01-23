@@ -31,6 +31,8 @@ Nesta linha o [hook de estado](https://reactjs.org/docs/hooks-state.html) cria u
 const [tarefas, setTarefas] = useState([]);
 ```
 
+--------
+
 Sempre que uma nova tarefa for criada dentro do componente `FormularioTarefa` queremos que este componente passe essa informação ao pai - `App`, de forma a que este possa actualizar a lista que é mostrada ao utilizador. 
 
 Para isso, dentro doo componente `App` vamos passar uma função de "callback" ao componente filho `FormularioTarefa`:
