@@ -35,7 +35,9 @@ const [tarefas, setTarefas] = useState([]);
 
 Sempre que uma nova tarefa for criada dentro do componente `FormularioTarefa` queremos que este componente passe essa informação ao pai - `App` -, de forma a que este possa actualizar a lista que é mostrada ao utilizador. 
 
-Para isso, dentro doo componente `App` vamos passar uma função de "callback" ao componente filho `FormularioTarefa`:
+Para isso, dentro do componente `App` vamos dizer ao componente filho `FormularioTarefa` que queremos que ele nos notifique sempre que uma nova tarefa for criada.
+
+Para tal, na declaração do componente `FormularioTarefa` adicionamos um novo evento `onTarefaCriada` - por convenção, chamamos aos eventos `onNomeDoEvento`, para seguir a lógica de outros eventos nativos como `onClick`, `onMouseOver`, etc.
 
 ```javascript
 import { useState } from 'react';
@@ -54,11 +56,9 @@ function App() {
 export default App;
 ```
 
-Como consegues ver, na declaração do componente `FormularioTarefa` estamos a declarar um novo evento `onTarefaCriada` e quando este evento for executado dentro do componente, a função `adicionarTarefa` vai ser executada - é por isso que lhe chamamos uma função de "callback", porque vai do pai para o filho, e de volta para o pai.
+Como consegues ver acima, quando este evento for executado dentro do componente, estamos a dizer que queremos executar a função `adicionarTarefa`.
 
-Por convenção, chamamos aos eventos `onNomeDoEvento`, para seguir a lógica de outros eventos nativos como `onClick`, `onMouseOver`, etc.
-
-Esta função `adicionarTarefa`  ainda não existe, por isso vamos criá-la:
+Esta função ainda não existe, por isso vamos criá-la:
 
 ```javascript
 import { useState } from 'react';
@@ -82,6 +82,8 @@ function App() {
 export default App;
 ```
 
+Esta função vai buscar a lista atual de tarefas e adiciona-lhe a nova tarefa, que foi criada dentro do comportamento `FormularioTarefa`.
+
 Nota que usando a síntaxe mais recente do JavaScript podemos simplificar a função `adicionarTarefa` da seguinte forma:
 
 ```javascript
@@ -90,8 +92,7 @@ function adicionarTarefa(novaTarefa) {
 }
 ```
 
-Se a nossa função tem apenas uma linha, podemos chamá-la diretamente na declaração do componente filho, simplificando ainda mais o componente:
-
+Quando a função tem apenas uma linha, podemos chamá-la diretamente na declaração do evento, simplificando ainda mais o componente:
 
 ```javascript
 import { useState } from 'react';
