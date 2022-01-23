@@ -42,7 +42,7 @@ Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 5. Imaginando que o utilizador não estava autenticado, o browser mostrava a página de login, por exemplo: [exemplo.com/login](http://exemplo.com/login)
 6. O utilizador introduzia as suas credenciais no formulário de login
 7. O browser enviava um novo pedido `HTTP` com as credenciais do utilizador para [exemplo.com/login](http://exemplo.com/login)
-8. Se as credencias fossem válidas, o servidor respondia com uma nova página `HTML` da "Home" page
+8. Se as credencias fossem válidas, o servidor respondia com uma nova página `HTML` da "Home" page - nota que este `HTML` já vinha com informação exclusiva daquele utilizador
 9. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
 
 ### Autenticação em SPAs
