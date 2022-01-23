@@ -26,7 +26,8 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 - [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
 - [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
-- [Aplicação de gestão de tarefas](Aplicacao-de-gestao-de-tarefas.md)
+- [Aplicação de gestão de tarefas - intro](Aplicacao-de-gestao-de-tarefas.md)
+- [Aplicação de gestão de tarefas - hooks](Aplicacao-de-gestao-de-tarefas-hooks.md)
 
 ### Aula 4
 
