@@ -8,13 +8,20 @@ Ou seja, se tivessem construído 2 páginas - `index.html` e `contactos.html` - 
 
 Os princípios da Web não foram muito diferentes, com a excepção de que os clientes carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos `HTTP`**.
 
+Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
+
+**Experiência**
+
+No teu browser, navega até [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html) e abre as "Developer Tools" na tab de "Network".
+
+* De cada vez que clicas numa hiperligação, consegues ver o pedido `HTTP` que é enviado? 
+* Consegues ver na resposta o `HTML` que corresponde à página para onde navegaste?
+
 ![image](https://user-images.githubusercontent.com/39055313/150641570-a2bf8095-1f87-43a9-b344-e7be6429e23b.png)
 
 [Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Finnovationm.co%2Fhttp-protocol%2F&psig=AOvVaw0LR2w7ZDd20N2xvERBePqT&ust=1642946636973000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDYn6jDxfUCFQAAAAAdAAAAABA1)
 
-Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
-
-Podemos ver o primeiro website alguma vez construído aqui: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
+-----
 
 No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
 
