@@ -9,7 +9,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## Aula 1
 
-1. [As Diferentes Arquitecturas Da Web](As-Diferentes-Arquitecturas-Da-Web.md)
+1. [As diferentes arquitecturas da Web](As-diferentes-arquitecturas-da-web.md)
 2. [Bibliotecas e Frameworks de Front-End](Bibliotecas-e-Frameworks-de-Front-End.md)
 3. [A linha de comandos](A-linha-de-comandos.md)
 4. [Criação do esqueleto do projecto](Criacao-do-esqueleto-do-projecto.md)
