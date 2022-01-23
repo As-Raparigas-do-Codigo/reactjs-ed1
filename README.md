@@ -27,10 +27,11 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
 - [Aplicação de gestão de tarefas - intro](Aplicacao-de-gestao-de-tarefas.md)
 - [Aplicação de gestão de tarefas - hooks](Aplicacao-de-gestao-de-tarefas-hooks.md)
-- [Aplicação de gestão de tarefas - map](Aplicacao-de-gestao-de-tarefas-map.md)
+- [Aplicação de gestão de tarefas - input values](Aplicacao-de-gestao-de-tarefas-input-values.md)
 
 ### Aula 4
 
+- [Aplicação de gestão de tarefas - map](Aplicacao-de-gestao-de-tarefas-map.md)
 - [Introdução à gestão de dependências](Introducao-a-gestao-de-dependencias.md)
 
 ### Aula 5
