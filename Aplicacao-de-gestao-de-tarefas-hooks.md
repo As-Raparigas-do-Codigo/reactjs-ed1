@@ -56,6 +56,8 @@ export default App;
 
 Como consegues ver, na declaração do componente `FormularioTarefa` estamos a declarar um novo evento `onTarefaCriada` e quando este evento for executado dentro do componente, a função `adicionarTarefa` vai ser executada - é por isso que lhe chamamos uma função de "callback", porque vai do pai para o filho, e de volta para o pai.
 
+Por convenção, chamamos aos eventos `onNomeDoEvento`, para seguir a lógica de outros eventos nativos como `onClick`, `onMouseOver`, etc.
+
 Esta função `adicionarTarefa`  ainda não existe, por isso vamos criá-la:
 
 ```javascript
