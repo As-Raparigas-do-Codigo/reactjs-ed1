@@ -35,8 +35,6 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 
 [ADICIONAR DIAGRAMA]
 
-Nos princípios da Web, a autenticação fazia-se da seguinte forma:
-
 1. O utilizador queria ver o site [exemplo.com](http://exemplo.com)
 2. O browser fazia um pedido `HTTP` para este servidor e incluía automaticamente a cookie que comprova a sua identidade
 3. O servidor analisava esta cookie, validava a identidade do utilizador e respondia, ou com o `HTML` que correspondia à página de login, ou com o `HTML` correspondente à "Home" page
@@ -47,7 +45,6 @@ Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 
 [ADICIONAR DIAGRAMA]
 
-Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
 1. O browser envia um pedido `HTTP` para [exemplo.com](http://exemplo.com)
 2. O servidor responde com `HTML` e outros "assets" (css, js, imagens, etc) - **nota que este é o único pedido que devolve `HTML` em todo este fluxo*
 3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade
