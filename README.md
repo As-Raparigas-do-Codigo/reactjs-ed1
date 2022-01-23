@@ -25,9 +25,10 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 9. [Adicionar comportamento ao botão](9-Adicionar-comportamento-ao-botao.md)
 10. [Tornar o comportamento dinâmico](10-Tornar-o-comportamento-dinamico.md)
+11. [Adicionar estilo ao botão](11-Adicionar-estilo-ao-botao.md)
 
 ### Aula 4
 
-11. Introdução à gestão de dependências
-12. Utilização de npm para scripting
-13. ECMAScript 2015
+12. Introdução à gestão de dependências
+13. Utilização de npm para scripting
+14. ECMAScript 2015
