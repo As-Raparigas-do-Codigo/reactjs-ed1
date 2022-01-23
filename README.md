@@ -9,25 +9,26 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## Aula 1
 
-1. [A linha de comandos](1-A-linha-de-comandos.md)
-2. [Criação do esqueleto do projecto](2-Criacao-do-esqueleto-do-projecto.md)
-3. [A nossa primeira modificação](3-A-nossa-primeira-modificacao.md)
+1. [As Diferentes Arquitecturas Da Web](As-Diferentes-Arquitecturas-Da-Web.md)
+2. [Bibliotecas e Frameworks de Front-End](Bibliotecas-e-Frameworks-de-Front-End.md)
+3. [A linha de comandos](A-linha-de-comandos.md)
+4. [Criação do esqueleto do projecto](Criacao-do-esqueleto-do-projecto.md)
 
 ## Aula 2
 
-4. [As Diferentes Arquitecturas Da Web](4-As-Diferentes-Arquitecturas-Da-Web.md)
-5. [Bibliotecas e Frameworks de Front-End](5-Bibliotecas-e-Frameworks-de-Front-End.md)
-6. [Como funciona o ReactJS](6-Como-funciona-o-ReactJS.md)
-7. [Análise do componente App.js](7-Analise-do-componente-Appjs.md)
-8. [O nosso primeiro componente](8-O-nosso-primeiro-componente.md)
+5. [Como funciona o ReactJS](Como-funciona-o-ReactJS.md)
+6. [A nossa primeira modificação](A-nossa-primeira-modificacao.md)
+7. [Análise do componente App.js](Analise-do-componente-Appjs.md)
+8. [O nosso primeiro componente](O-nosso-primeiro-componente.md)
+9. [Adicionar comportamento ao botão](Adicionar-comportamento-ao-botao.md)
 
 ## Aula 3
 
-9. [Adicionar comportamento ao botão](9-Adicionar-comportamento-ao-botao.md)
-10. [Tornar o comportamento dinâmico](10-Tornar-o-comportamento-dinamico.md)
+10. [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
+11. [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
 
 ### Aula 4
 
-11. Introdução à gestão de dependências
-12. Utilização de npm para scripting
-13. ECMAScript 2015
+12. Introdução à gestão de dependências
+13. Utilização de npm para scripting
+14. ECMAScript 2015
