@@ -28,6 +28,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
 - [Aplicação de gestão de tarefas - intro](Aplicacao-de-gestao-de-tarefas.md)
 - [Aplicação de gestão de tarefas - hooks](Aplicacao-de-gestao-de-tarefas-hooks.md)
+- [Aplicação de gestão de tarefas - map](Aplicacao-de-gestao-de-tarefas-map.md)
 
 ### Aula 4
 
