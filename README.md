@@ -26,9 +26,9 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 10. [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
 11. [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
+12. [Re-utilizar o botão](Reutilizar-o-botao.md)
+13. [Arranque da aplicação de gestão de tarefas](Arranque-da-aplicação-de-gestão-de-tarefas.md)
 
 ### Aula 4
 
-12. [Introdução à gestão de dependências](Introducao-a-gestao-de-dependencias.md)
-13. Utilização de npm para scripting
-14. ECMAScript 2015
+14. [Introdução à gestão de dependências](Introducao-a-gestao-de-dependencias.md)
