@@ -4,7 +4,7 @@ Como indicamos no módulo anterior, para conseguirmos gerir as tarefas precisamo
 
 Para gerir o estado deste array vamos usar as chamadas "variáveis de estado" que sã disponibilizadas pela funcionalidade de [Hooks](https://reactjs.org/docs/hooks-intro.html) do React.
 
-Portanto, dentro do componente `App` vamos declarar uma variável de estado - `tarefas` - da seguinte forma:
+Portanto, dentro do componente `App` vamos declarar uma nova variável de estado chamada `tarefas`, da seguinte forma:
 
 ```javascript
 import { useState } from 'react';
@@ -23,13 +23,15 @@ function App() {
 export default App;
 ```
 
-Esta linha tem uma síntaxe especial, que cria uma variável `tarefas` que é actualizada chamando a função `setTarefas` e que está a ser inicializada como um array vazio:
+Esta linha tem uma síntaxe especial, lembra-te dela!
+
+Nesta linha o [hook de estado](https://reactjs.org/docs/hooks-state.html) cria uma nova variável `tarefas`, que é actualizada chamando a função `setTarefas`, e que está a ser inicializada como um `array` vazio:
 
 ```javascript
 const [tarefas, setTarefas] = useState([]);
 ```
 
-Sempre que uma nova tarefa for criada dentro do componente `FormularioTarefa` queremos que este componente passe essa informação ao pai - `App, de forma a que este possa actualizar a lista que é mostrada ao utilizador. 
+Sempre que uma nova tarefa for criada dentro do componente `FormularioTarefa` queremos que este componente passe essa informação ao pai - `App`, de forma a que este possa actualizar a lista que é mostrada ao utilizador. 
 
 Para isso, dentro doo componente `App` vamos passar uma função de "callback" ao componente filho `FormularioTarefa`:
 
