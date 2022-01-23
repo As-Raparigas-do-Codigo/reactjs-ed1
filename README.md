@@ -26,7 +26,6 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 - [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
 - [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
-- [Re-utilizar o botão](Reutilizar-o-botao.md)
 - [Arranque da aplicação de gestão de tarefas](Arranque-da-aplicação-de-gestão-de-tarefas.md)
 
 ### Aula 4
