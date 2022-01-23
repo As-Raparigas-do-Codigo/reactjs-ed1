@@ -12,12 +12,6 @@ import './App.css';
 import Button from './Button';
 
 function App() {
-  function adicionarTarefa() {
-    alert("Adicionar tarefa")
-  }
-  function removerTarefa() {
-    alert("Remover tarefa")
-  }
   return (
     <div className="App">
     </div>
@@ -27,7 +21,7 @@ function App() {
 export default App;
 ```
 
-Sabemos que vamos querer um campo de `input` seguido de um botão para adicionar as tarefas, por isso vamos adicioná-los:
+Para conseguirmos criar uma nova tarefa, sabemos que precisamos de um campo de `input` seguido de um botão para adicionar a tarefa, por isso vamos adicionar estes componentes ao `JSX` que é devolvido pelo componente:
 
 ```javascript
 import logo from './logo.svg';
@@ -40,7 +34,7 @@ function App() {
   }
   return (
     <div className="App">
-      <div>
+      <div className="">
         <input type="text" placeholder="Introduz a tua tarefa"/>
         <Button title="Adicionar" onClickHandler={adicionarTarefa}/>
       </div>
@@ -51,4 +45,8 @@ function App() {
 export default App;
 ```
 
-Como consegues ver, a função `adicionarTarefa` só lança um alerta, mas queremos que quando o utilizador clickar neste botão a nova tarefa apareça na lista de tarefas!
+Como consegues ver, a função `adicionarTarefa` só lança um alerta, o nosso objectivo é que quando o utilizador clicke neste botão a nova tarefa apareça na lista de tarefas!
+
+Mas para isso precisamos de uma estrutura de dados - um array - que mantenham todas as tarefas adicionadas pelo utilizador.
+
+Vamos ver como criar e gerir este array no próximo módulo.
