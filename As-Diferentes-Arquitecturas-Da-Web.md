@@ -14,6 +14,8 @@ Os princípios da Web não foram muito diferentes, com a excepção de que os cl
 
 Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
 
+Podemos ver o primeiro website alguma vez construído aqui: [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html)
+
 No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
 
 ### Autenticação em "Web Tradicional"
