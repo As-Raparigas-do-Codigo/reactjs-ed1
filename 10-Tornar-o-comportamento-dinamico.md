@@ -12,11 +12,9 @@ Ou seja, o nosso componente passa a receber argumentos do pai - estes argumentos
 function Button(props) {
    ...
 }
-
-export default Button;
 ```
 
-A variável `props` é constituída por um dicionário, e como tal, podes referir-te a cada uma das suas propriedades desta forma: `props.<nome-da-propriedade>`.
+A variável [props](https://reactjs.org/docs/components-and-props.html#function-and-class-components) é um objecto, e como tal, podes referir-te a cada uma das suas propriedades desta forma: `props.<nome-da-propriedade>`.
 
 Ou seja, em vez de termos:
 
@@ -24,13 +22,13 @@ Ou seja, em vez de termos:
 <button onClick={() => alert("Alguém clicou no botão!")}>Click me</button>
 ```
 
-passamos a ter:
+... passamos a ter:
 
 ```javascript
 <button onClick={props.onClickHandler}>{props.title}</button>
 ```
 
-E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho":
+E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho" da seguinte forma:
 
 ```javascript
 import logo from './logo.svg';
