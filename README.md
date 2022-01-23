@@ -17,8 +17,8 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ## Aula 2
 
 5. [Como funciona o ReactJS](Como-funciona-o-ReactJS.md)
-6. [Análise do componente App.js](Analise-do-componente-Appjs.md)
-7. [A nossa primeira modificação](A-nossa-primeira-modificacao.md)
+6. [A nossa primeira modificação](A-nossa-primeira-modificacao.md)
+7. [Análise do componente App.js](Analise-do-componente-Appjs.md)
 8. [O nosso primeiro componente](O-nosso-primeiro-componente.md)
 
 ## Aula 3
