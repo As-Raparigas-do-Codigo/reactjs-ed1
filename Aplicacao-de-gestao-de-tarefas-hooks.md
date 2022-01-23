@@ -1,5 +1,7 @@
 # Aplicação de gestão de Tarefas - Hooks
 
+## Declaração das Variáveis de Estado
+
 Como indicamos no módulo anterior, para conseguirmos gerir as tarefas precisamos de as manter numa estrutura de dados, mais especificamente num `array`.
 
 Para gerir o estado deste array vamos usar as chamadas "variáveis de estado" que sã disponibilizadas pela funcionalidade de [Hooks](https://reactjs.org/docs/hooks-intro.html) do React.
@@ -31,7 +33,7 @@ Nesta linha o [hook de estado](https://reactjs.org/docs/hooks-state.html) cria u
 const [tarefas, setTarefas] = useState([]);
 ```
 
---------
+## Declaração do Evento onTarefaCriada
 
 Sempre que uma nova tarefa for criada dentro do componente `FormularioTarefa` queremos que este componente passe essa informação ao pai - `App` -, de forma a que este possa actualizar a lista que é mostrada ao utilizador. 
 
@@ -55,6 +57,8 @@ function App() {
 
 export default App;
 ```
+
+## Declaração do "Event Handler"
 
 Como consegues ver acima, quando este evento for executado dentro do componente, estamos a dizer que queremos executar a função `adicionarTarefa`.
 
