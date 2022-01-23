@@ -29,6 +29,6 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ### Aula 4
 
-12. Introdução à gestão de dependências
+12. [Introdução à gestão de dependências](Introducao-a-gestao-de-dependencias.md)
 13. Utilização de npm para scripting
 14. ECMAScript 2015
