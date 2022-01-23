@@ -33,6 +33,8 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 
 ### Autenticação em "Web Tradicional"
 
+[ADICIONAR DIAGRAMA]
+
 Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 
 1. O utilizador queria ver o site [exemplo.com](http://exemplo.com)
@@ -46,6 +48,8 @@ Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 9. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
 
 ### Autenticação em SPAs
+
+[ADICIONAR DIAGRAMA]
 
 Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
 1. O browser envia um pedido `HTTP` para [exemplo.com](http://exemplo.com)
