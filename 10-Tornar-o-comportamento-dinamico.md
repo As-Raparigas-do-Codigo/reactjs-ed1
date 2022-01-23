@@ -27,11 +27,11 @@ Ou seja, em vez de termos:
 passamos a ter:
 
 ```javascript
-<button onClick={() => props.onClickHandler()}>{ props.title }</button>
+<button onClick={props.onClickHandler}>{props.title}</button>
 ```
 
 E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho":
 
-```
+```javascript
 <Button title="Click me" onClickHandler={() => alert("Alguém clicou neste botão")}></Button>
 ```
