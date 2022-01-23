@@ -48,7 +48,7 @@ Se tudo correr bem, deves agora conseguir ver o teu botão:
 
 <img width="1440" alt="Screenshot 2022-01-22 at 13 16 14" src="https://user-images.githubusercontent.com/39055313/150640002-0b082461-551f-4b2d-a0fc-ec5593365ca0.png">
 
-## Componentes `class` vs funcionais
+## Componentes de classe vs Componentes funcionais
 
 Nota que esta é só uma de várias síntaxes que podemos utilizar para declarar componentes em React, e é conhecida como React funcional, porque cada componente é declarado como uma função.
 
