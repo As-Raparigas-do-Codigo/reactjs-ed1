@@ -14,12 +14,12 @@ Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` 
 
 No teu browser, navega até [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html) e abre as "Developer Tools" na tab de "Network".
 
-* De cada vez que clicas numa hiperligação, consegues ver o pedido `HTTP` que é enviado? 
-* Consegues ver na resposta o `HTML` que corresponde à página para onde navegaste?
+Garante que a opção "Preserve log" está seleccionada
 
-![image](https://user-images.githubusercontent.com/39055313/150641570-a2bf8095-1f87-43a9-b344-e7be6429e23b.png)
+1. De cada vez que clicas numa hiperligação, consegues ver o pedido `HTTP` que é enviado? 
+2. Consegues ver na resposta o `HTML` que corresponde à página para onde navegaste?
 
-[Source](https://www.google.com/url?sa=i&url=https%3A%2F%2Finnovationm.co%2Fhttp-protocol%2F&psig=AOvVaw0LR2w7ZDd20N2xvERBePqT&ust=1642946636973000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJDYn6jDxfUCFQAAAAAdAAAAABA1)
+<img width="1440" alt="Screenshot 2022-01-23 at 16 53 12" src="https://user-images.githubusercontent.com/39055313/150689148-d052756c-e5a6-4a14-ab72-c5a8b47baa71.png">
 
 -----
 
