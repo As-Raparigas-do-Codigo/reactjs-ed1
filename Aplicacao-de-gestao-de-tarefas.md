@@ -24,7 +24,6 @@ export default App;
 Para conseguirmos criar uma nova tarefa, sabemos que precisamos de um campo de `input` seguido de um botão para adicionar a tarefa, por isso vamos adicionar estes componentes ao `JSX` que é devolvido pelo componente:
 
 ```javascript
-import logo from './logo.svg';
 import './App.css';
 import Button from './Button';
 
