@@ -10,7 +10,7 @@ Reparem que o protocolo que é usado neste flow é o protocolo `file`, dado que 
 
 ![file_protocol](https://user-images.githubusercontent.com/39055313/150689551-0af917d8-8517-4ef5-8a73-a105fdbc2c02.gif)
 
-No início da World Wide Web, os sites eram muito parecidos com aqueles que tens vindo a desenvolver, com a principal diferença de que os clientes/browsers carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos `HTTP`**.
+No início da World Wide Web, os sites eram muito parecidos com aqueles que tens vindo a desenvolver, com a principal diferença de que os clientes/browsers carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos [HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)**.
 
 Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
 
