@@ -20,10 +20,10 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 6. [A nossa primeira modificação](A-nossa-primeira-modificacao.md)
 7. [Análise do componente App.js](Analise-do-componente-Appjs.md)
 8. [O nosso primeiro componente](O-nosso-primeiro-componente.md)
+9. [Adicionar comportamento ao botão](Adicionar-comportamento-ao-botao.md)
 
 ## Aula 3
 
-9. [Adicionar comportamento ao botão](Adicionar-comportamento-ao-botao.md)
 10. [Tornar o comportamento dinâmico](Tornar-o-comportamento-dinamico.md)
 11. [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
 
