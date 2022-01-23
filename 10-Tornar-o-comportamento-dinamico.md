@@ -30,3 +30,8 @@ passamos a ter:
 <button onClick={() => props.onClickHandler()}>{ props.title }</button>
 ```
 
+E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho":
+
+```
+<Button title="Click me" onClickHandler={() => alert("Alguém clicou neste botão")}></Button>
+```
