@@ -49,4 +49,4 @@ Como consegues ver, a função `adicionarTarefa` só lança um alerta, o nosso o
 
 Mas para isso precisamos de uma estrutura de dados - um array - que mantenham todas as tarefas adicionadas pelo utilizador.
 
-Vamos ver como criar e gerir este array no próximo módulo.
+Vamos ver como criar e gerir este array no próximo módulo, quando virmos como funcionam os [Hooks](https://reactjs.org/docs/hooks-intro.html).
