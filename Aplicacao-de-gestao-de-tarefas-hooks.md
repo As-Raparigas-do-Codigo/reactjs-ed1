@@ -80,17 +80,15 @@ function App() {
 export default App;
 ```
 
-Nota que podemos simplificar a função `adicionarTarefa` da seguinte forma:
+Nota que usando a síntaxe mais recente do JavaScript podemos simplificar a função `adicionarTarefa` da seguinte forma:
 
 ```javascript
-...
-  function adicionarTarefa(novaTarefa) {
-    setTarefas([...tarefas, { novaTarefa }]);
-  }
-...
+function adicionarTarefa(novaTarefa) {
+  setTarefas([...tarefas, { novaTarefa }]);
+}
 ```
 
-... o que significa que podemos simplificar ainda mais o componente:
+Se a nossa função tem apenas uma linha, podemos chamá-la diretamente na declaração do componente filho, simplificando ainda mais o componente:
 
 
 ```javascript
