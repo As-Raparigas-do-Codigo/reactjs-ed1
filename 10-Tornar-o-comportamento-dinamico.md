@@ -33,5 +33,31 @@ passamos a ter:
 E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho":
 
 ```javascript
-<Button title="Click me" onClickHandler={() => alert("Alguém clicou neste botão")}></Button>
+import logo from './logo.svg';
+import './App.css';
+import Button from './Button';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <Button title="Click me" onClickHandler={() => alert("Alguém clicou neste botão")}></Button>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Inês Martins
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;
 ```
