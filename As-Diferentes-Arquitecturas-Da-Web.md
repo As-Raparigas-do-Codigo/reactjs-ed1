@@ -31,36 +31,30 @@ Garante que a opção "Preserve log" está seleccionada
 
 No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
 
-### Autenticação em "Web Tradicional"
+### Flow "Web Tradicional"
 
 [ADICIONAR DIAGRAMA]
 
 Nos princípios da Web, a autenticação fazia-se da seguinte forma:
 
 1. O utilizador queria ver o site [exemplo.com](http://exemplo.com)
-2. O browser fazia um pedido `HTTP` para [exemplo.com](http://exemplo.com) e enviava juntamente algo que está guardado no browser, que comprova a autenticação do utilizador
-3. O servidor analisava este valor que estava guardado no browser, validava se o utilizador estava ou não autenticado
-4. Se o utilizador estivesse logado, o servidor respondia com o `HTML` que correspondia à página de login, caso contrário respondia com o `HTML` correspondente à "Home" page, por exemplo
-5. Imaginando que o utilizador não estava autenticado, o browser mostrava a página de login, por exemplo: [exemplo.com/login](http://exemplo.com/login)
-6. O utilizador introduzia as suas credenciais no formulário de login
-7. O browser enviava um novo pedido `HTTP` com as credenciais do utilizador para [exemplo.com/login](http://exemplo.com/login)
-8. Se as credencias fossem válidas, o servidor respondia com uma nova página `HTML` da "Home" page - nota que este `HTML` já vinha com informação exclusiva daquele utilizador
-9. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
+2. O browser fazia um pedido `HTTP` para este servidor e incluía automaticamente a cookie que comprova a sua identidade
+3. O servidor analisava esta cookie, validava a identidade do utilizador e respondia, ou com o `HTML` que correspondia à página de login, ou com o `HTML` correspondente à "Home" page
+4. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
+5. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` para a página `profile` por exemplo, juntamente com a cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `HTML` correspondente à página de perfil com a informação do utilizador.
 
-### Autenticação em SPAs
+### Flow SPAs
 
 [ADICIONAR DIAGRAMA]
 
 Hoje em dia, é muito mais provável que a autenticação seja implementada da seguinte forma:
 1. O browser envia um pedido `HTTP` para [exemplo.com](http://exemplo.com)
 2. O servidor responde com `HTML` e outros "assets" (css, js, imagens, etc) - **nota que este é o único pedido que devolve `HTML` em todo este fluxo*
-3. O browser corre o JavaScript, que pega em algo que está guardado no browser, que comprova a autenticação do utilizador, e envia-o para o servidor para perceber se este é válido
-4. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta questão**
-5. Se o utilizador não estiver logado, o JavaScript decide mostrar o formulário de login que está algures declarado no ficheiro `HTML` que foi inicialmente devolvido pelo servidor
-6. O utilizador introduz as suas credenciais neste formulário
-7. O JavaScript envia um novo pedido `HTTP` com as credenciais do utilizador
-8. O servidor responde **não com HTML mas apenas com uma mensagem que responde a esta pergunta**
-9. Se as credenciais estiverem OK, o JavaScript sabe que é para mostrar a "Home" page que não é mais do que outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor
+3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade
+4. O servidor responde com um código correspondente
+5. Se o utilizador estiver logado, o JavaScript sabe que é para mostrar a "Home" page que não é mais do que outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor
+6. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` **que apenas pede os dados do utilizador**, juntamente com o token/cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `JSON` correspondente aos dados do utilizador
+7. O JavaScipt pega nesse `JSON` e injecta-o num pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor
 
 Como percebeste, só houve aqui um carregamento de HTML - uma única página HTML - e a isto se chama **SPA** (Single Page Application).
 
