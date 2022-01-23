@@ -6,9 +6,15 @@ No módulo de Web 1 vocês construíram websites que consistiam basicamente em p
 
 Ou seja, se tivessem construído 2 páginas - `index.html` e `contactos.html` - simplesmente colocavam um link numa das páginas que abre a outra.
 
-Os princípios da Web não foram muito diferentes, com a excepção de que os clientes carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos `HTTP`**.
+Reparem que o protocolo que é usado neste flow é o protocolo `file`, dado que se tratam sempre de ficheiros locais:
+
+![file_protocol](https://user-images.githubusercontent.com/39055313/150689408-367f061a-2873-4446-8326-e3ed7c302b8a.gif)
+
+No início da World Wide Web, os sites eram muito parecidos com aqueles que tens vindo a desenvolver, com a principal diferença de que os clientes/browsers carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos `HTTP`**.
 
 Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
+
+**Saltamos do domínio do `file` para o `http`** - é normal que estes termos ainda não te digam muito mas vão começar a fazer sentido aos poucos.
 
 **Experiência**
 
