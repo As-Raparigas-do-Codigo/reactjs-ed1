@@ -1,0 +1,32 @@
+# Tornar o comportamento dinâmico
+
+Ok, já sabemos como adicionar comportamento ao nosso botão, mas isto significa que este botão não é reutilizável, certo?
+
+Mas a ideia do React é tornar os componentes reutilizáveis, por isso como é que nós garantimos que é este o caso do `Button`?
+
+A resposta é adicionando comportamento dinâmico, ou seja, o botão não tem o seu comportamento definido internamente, mas é-lhe passado pelo componente pai onde este é declarado.
+
+Ou seja, o nosso componente passa a receber argumentos do pai - estes argumentos são sempre chamados `props`:
+
+```javascript
+function Button(props) {
+   ...
+}
+
+export default Button;
+```
+
+A variável `props` é constituída por um dicionário, e como tal, podes referir-te a cada uma das suas propriedades desta forma: `props.<nome-da-propriedade>`.
+
+Ou seja, em vez de termos:
+
+```javascript
+<button onClick={() => alert("Alguém clicou no botão!")}>Click me</button>
+```
+
+passamos a ter:
+
+```javascript
+<button onClick={() => props.onClickHandler()}>{ props.title }</button>
+```
+
