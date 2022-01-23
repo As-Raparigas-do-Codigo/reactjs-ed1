@@ -23,5 +23,11 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## Aula 3
 
-9. [Adicionar dinamismo ao componente](9-Adicionar-dinamismo-ao-componente.md)
-10. [Introdução à gestão de dependências]()
+9. [Adicionar comportamento ao botão](9-Adicionar-comportamento-ao-botao.md)
+10. [Tornar o comportamento dinâmico](10-Tornar-o-comportamento-dinamico.md)
+
+### Aula 4
+
+11. Introdução à gestão de dependências
+12. Utilização de npm para scripting
+13. ECMAScript 2015
