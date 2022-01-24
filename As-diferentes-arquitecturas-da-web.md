@@ -12,7 +12,7 @@ Reparem que o protocolo que é usado neste flow é o [protocolo `file://`](https
 
 No início da World Wide Web, os sites eram muito parecidos com aqueles que tens vindo a desenvolver, com a principal diferença de que os clientes/browsers carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos [HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)**.
 
-Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
+Ou seja, para o browser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
 
 **Saltamos do domínio do `file` para o `http`** - é normal que estes termos ainda não te digam muito mas vão começar a fazer sentido aos poucos.
 
