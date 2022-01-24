@@ -31,7 +31,7 @@ Garante que a opção "Preserve log" está seleccionada
 
 No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
 
-### Flow "Web Tradicional"
+## Flow "Web Tradicional"
 
 ![Screenshot 2022-01-24 at 11 05 35](https://user-images.githubusercontent.com/39055313/150771791-5c40ea3a-91f4-4b5e-b84b-1df615f44b9b.png)
 
@@ -41,7 +41,7 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 4. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
 5. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` para a página `profile` por exemplo, juntamente com a cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `HTML` correspondente à página de perfil com a informação do utilizador.
 
-### Flow SPAs
+## Flow SPAs
 
 ![Screenshot 2022-01-24 at 11 15 17](https://user-images.githubusercontent.com/39055313/150773076-4443a77d-adbf-40bf-bfbe-5d63d0f86164.png)
 
