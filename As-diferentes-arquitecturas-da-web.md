@@ -29,7 +29,7 @@ Garante que a opção "Preserve log" está seleccionada
 
 -----
 
-No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
+No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, enviar e receber dados, ou actualizar o estado do site de acordo com o utilizador que está autenticado.
 
 ## Flow "Web Tradicional"
 
