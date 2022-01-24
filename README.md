@@ -32,8 +32,9 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ### Aula 4
 
 - [Aplicação de gestão de tarefas - map](Aplicacao-de-gestao-de-tarefas-map.md)
+- [Aplicação de gestão de tarefas - adicionar estilos](Aplicacao-de-gestao-de-tarefas-input-adicionar-estilos.md)
 - [Introdução à gestão de dependências](Introducao-a-gestao-de-dependencias.md)
 
 ### Aula 5
 
-- [Adicionar estilo ao botão](Adicionar-estilo-ao-botao.md)
+- [Aplicação de gestão de tarefas - styled components](Aplicacao-de-gestao-de-tarefas-input-styled-components.md)
