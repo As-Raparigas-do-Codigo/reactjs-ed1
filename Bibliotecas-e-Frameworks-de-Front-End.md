@@ -18,7 +18,7 @@ Mas nota que estamos apenas a falar no contexto de front-end - existem outras te
 ## Lista de Bibliotecas/Frameworks de Front-End (2021)
 
 * [React](https://reactjs.org/) 
-* [Angular](https://angular.io/) - (nota que Angular é diferente de Angular.js)
+* [Angular](https://angular.io/)
 * [Vue](https://vuejs.org/)
 * [jQuery](https://jquery.com/)
 * [Ember](https://emberjs.com/)
