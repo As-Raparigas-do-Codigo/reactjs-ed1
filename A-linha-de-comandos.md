@@ -32,6 +32,6 @@ Alguns termos que podes ouvir os developers utilizarem de forma "intercambiável
 
 -------
 
-Recursos
+## Recursos
 
 * [Essential Linux commands with Interactive Challenge](https://noureldinehab.medium.com/essential-linux-commands-interactive-challenge-67820557c79) from [Twitter](https://twitter.com/Nouureldin_Ehab/status/1485338055238209540)
