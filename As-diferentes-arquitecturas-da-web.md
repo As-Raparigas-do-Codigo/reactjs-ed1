@@ -6,7 +6,7 @@ No módulo de Web 1 vocês construíram websites que consistiam basicamente em p
 
 Ou seja, se tivessem construído 2 páginas - `index.html` e `contactos.html` - simplesmente colocavam um link numa das páginas que abre a outra.
 
-Reparem que o protocolo que é usado neste flow é o protocolo `file`, dado que se tratam sempre de ficheiros locais:
+Reparem que o protocolo que é usado neste flow é o [protocolo `file://`](https://en.wikipedia.org/wiki/File_URI_scheme), dado que se tratam sempre de ficheiros locais:
 
 ![file_protocol](https://user-images.githubusercontent.com/39055313/150689551-0af917d8-8517-4ef5-8a73-a105fdbc2c02.gif)
 
