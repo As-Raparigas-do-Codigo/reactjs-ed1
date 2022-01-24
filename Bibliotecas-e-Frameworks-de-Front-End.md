@@ -14,3 +14,14 @@ De forma geral, podemos dizer que os projectos "chamam" ou "importam" código es
 O [React](https://reactjs.org/) é um exemplo de uma biblioteca de front-end, e de facto é a mais popular entre todas as bibliotecas/frameworks actuais, seguida pelo VueJs (biblioteca), e pelo Angular (framework).
 
 Mas nota que estamos apenas a falar no contexto de front-end - existem outras tecnologias, bibliotecas e frameworks que são usadas na construção de back-ends.
+
+## Lista de Bibliotecas/Frameworks de Front-End (2021)
+
+* [React](https://reactjs.org/) 
+* [Angular](https://angular.io/) - (nota que Angular é diferente de Angular.js)
+* [Vue](https://vuejs.org/)
+* [jQuery](https://jquery.com/)
+* [Ember](https://emberjs.com/)
+* [Svelte](https://svelte.dev/)
+* [Backbone](https://backbonejs.org/)
+* [Semantic UI](https://semantic-ui.com/)
