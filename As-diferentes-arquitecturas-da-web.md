@@ -43,11 +43,11 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 
 ### Flow SPAs
 
-[ADICIONAR DIAGRAMA]
+![Screenshot 2022-01-24 at 11 15 17](https://user-images.githubusercontent.com/39055313/150773076-4443a77d-adbf-40bf-bfbe-5d63d0f86164.png)
 
 1. O browser envia um pedido `HTTP` para [exemplo.com](http://exemplo.com)
 2. O servidor responde com `HTML` e outros "assets" (css, js, imagens, etc) - **nota que este é o único pedido que devolve `HTML` em todo este fluxo*
-3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade
+3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade, normalmente para um endpoint de uma **API**
 4. O servidor responde com um código correspondente
 5. Se o utilizador estiver logado, o JavaScript sabe que é para mostrar a "Home" page que não é mais do que outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor
 6. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` **que apenas pede os dados do utilizador**, juntamente com o token/cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `JSON` correspondente aos dados do utilizador
