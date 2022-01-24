@@ -16,7 +16,7 @@ Ou seja, para o browser mostrar a página `index.html` ou `contactos.html` de um
 
 **Saltamos do domínio do `file` para o `http`** - é normal que estes termos ainda não te digam muito mas vão começar a fazer sentido aos poucos.
 
-**Experiência**
+#### 🧑‍🔬 Experiência
 
 No teu browser, navega até [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html) e abre as "Developer Tools" na tab de "Network".
 
