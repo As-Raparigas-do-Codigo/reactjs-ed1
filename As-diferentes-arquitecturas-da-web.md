@@ -33,7 +33,7 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 
 ### Flow "Web Tradicional"
 
-[ADICIONAR DIAGRAMA]
+![Screenshot 2022-01-24 at 11 05 35](https://user-images.githubusercontent.com/39055313/150771791-5c40ea3a-91f4-4b5e-b84b-1df615f44b9b.png)
 
 1. O utilizador queria ver o site [exemplo.com](http://exemplo.com)
 2. O browser fazia um pedido `HTTP` para este servidor e incluía automaticamente a cookie que comprova a sua identidade
@@ -58,5 +58,3 @@ Como percebeste, só houve aqui um carregamento de HTML - uma única página HTM
 Os developers utilizam frequentemente React para construir SPAs, ainda que tal não seja obrigatório.
 
 As SPAs tornaram-se possíveis com a introdução de um conceito chamado **AJAX** (Asynchronous JavaScript and `XML`), ou seja, quando se tornou possível aos browsers enviarem pedidos de JavaScript e XML assíncronamente (sem haver um novo pedido de página HTML).
-
-![image](https://user-images.githubusercontent.com/39055313/150569545-080a9ab4-1f7c-4fb2-b89a-8c5f78fc2ef5.png)
