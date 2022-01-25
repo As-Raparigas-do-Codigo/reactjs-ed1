@@ -22,10 +22,6 @@ Vamos definir alguns estilos possíveis, por exemplo:
 E agora, no ficheiro `App.css` podemos limpar os estilos que já vinham com o projecto-base e declará-los usando `CSS` - esta parte deve ser familiar:
 
 ```css
-button {
-
-}
-
 button.info {
   background-color: cadetblue;
   color: white;
@@ -45,31 +41,10 @@ button.danger {
 De volta ao ficheiro `App.js`, podemos passar o estilo que queremos ao botão:
 
 ```javascript
-import logo from './logo.svg';
-import './App.css';
-import Button from './Button';
+<Button style="warning" title="Click me" onClickHandler={() => alert("Alguém clicou no botão")}></Button>
+```
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <Button style="warning" title="Click me" onClickHandler={() => alert("Alguém clicou no botão")}></Button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Inês Martins
-        </a>
-      </header>
-    </div>
-  );
-}
+O resultado, como podes ver, é que o botão é renderizado com a classe "warning":
 
-export default App;
+![Screenshot 2022-01-25 at 17 28 52](https://user-images.githubusercontent.com/39055313/151028124-8d2ef279-fb4b-4e37-9936-5d9af0a9e2a5.png)
 
