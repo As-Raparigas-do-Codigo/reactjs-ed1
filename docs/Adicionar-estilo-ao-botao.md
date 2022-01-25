@@ -60,5 +60,5 @@ export default FormularioTarefa;
 
 O resultado, como podes ver, é que o botão é renderizado com a classe "warning":
 
-![Screenshot 2022-01-25 at 17 28 52](https://user-images.githubusercontent.com/39055313/151028124-8d2ef279-fb4b-4e37-9936-5d9af0a9e2a5.png)
+![Screenshot 2022-01-25 at 17 35 05](https://user-images.githubusercontent.com/39055313/151029068-2411cc23-e8b3-4925-b6e6-cb51de6dd2e9.png)
 
