@@ -7,7 +7,7 @@ Para podemos reutilizar o botão com vários estilos, vamos especificar uma clas
 ```javascript
 function Button(props) {
     return (
-        <button className={props.style} onClick={props.onClickHandler}>{ props.title }</button>
+        <button className={props.type} onClick={props.onClickHandler}>{ props.title }</button>
     );
 }
 
@@ -38,10 +38,24 @@ button.danger {
 }
 ```
 
-De volta ao ficheiro `App.js`, podemos passar o estilo que queremos ao botão:
+De volta ao componente `FormularioTarefa`, podemos passar o estilo que queremos ao botão:
 
 ```javascript
-<Button style="warning" title="Click me" onClickHandler={() => alert("Alguém clicou no botão")}></Button>
+import Button from './Button';
+
+function FormularioTarefa() {
+    function adicionarTarefa() {
+        // TBD        
+    }
+    return (
+        <div>
+            <input type="text" placeholder="Introduz a tua tarefa"/>
+            <Button type="warning" title="Adicionar" onClickHandler={adicionarTarefa}/>
+        </div>        
+    );
+}
+
+export default FormularioTarefa;
 ```
 
 O resultado, como podes ver, é que o botão é renderizado com a classe "warning":
