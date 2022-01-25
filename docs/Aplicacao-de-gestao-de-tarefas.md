@@ -23,7 +23,7 @@ O React incentiva-nos a pensar de forma modular, por isso vamos dividir cada fun
 
 Este novo componente pode chamar-se, por exemplo, `FormularioTarefa` e deve ser declarado num ficheiro `FormularioTarefa.js`.
 
-Este componente precisa de um `input` e de um botão - podemos usar o componente `Button` que já implementamos:
+Este componente precisa de um `input` e de um botão - para o botão podemos usar o componente `Button` que já implementamos:
 
 ```javascript
 import Button from './Button';
@@ -45,7 +45,7 @@ export default FormularioTarefa;
 
 Como consegues ver, a função `adicionarTarefa` só lança um alerta, mas o nosso objectivo é que quando o utilizador clicke neste botão a nova tarefa apareça na lista de tarefas!
 
-Mas para isso precisamos de uma estrutura de dados - um `array` - que mantenham todas as tarefas adicionadas pelo utilizador.
+Para isso precisamos de uma estrutura de dados - um `array` - que mantenha a lista actualizada de todas as tarefas adicionadas/removidas pelo utilizador.
 
 Vamos ver como criar e gerir este array no próximo módulo, quando virmos como funcionam os [Hooks](https://reactjs.org/docs/hooks-intro.html).
 
@@ -65,3 +65,7 @@ function App() {
 
 export default App;
 ```
+
+Se olhares novamente para a aplicação deves ver:
+
+<img width="900" alt="Screenshot 2022-01-23 at 21 26 10" src="https://user-images.githubusercontent.com/39055313/150698599-067c2b7e-5c7e-4fbb-abd3-16ff5914d190.png">

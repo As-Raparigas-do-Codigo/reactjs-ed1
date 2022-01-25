@@ -1,12 +1,10 @@
 # Tornar o comportamento dinâmico
 
-Ok, já sabemos como adicionar comportamento ao nosso botão, mas isto significa que este botão não é reutilizável, certo?
+Ok, já sabemos como adicionar comportamento ao nosso botão, mas se o comportamento está "hardcoded", isso significa que este botão não é reutilizável ... 🤔
 
-Mas a ideia do React é tornar os componentes reutilizáveis, por isso como é que nós garantimos que é este o caso do `Button`?
+... e a ideia do React é tornar os componentes reutilizáveis, por isso como é que nós garantimos que é este o caso do `Button`?
 
-A resposta é adicionando comportamento dinâmico, ou seja, o botão não tem o seu comportamento definido internamente, mas é-lhe passado pelo componente pai onde este é declarado.
-
-Ou seja, o nosso componente passa a receber argumentos do pai - estes argumentos são sempre chamados `props`:
+A resposta é adicionando comportamento dinâmico, ou seja, o botão não tem o seu comportamento definido internamente, mas é-lhe **passado pelo componente pai** que corresponde ao componente onde este é declarado.
 
 ```javascript
 function Button(props) {
@@ -28,7 +26,7 @@ Ou seja, em vez de termos:
 <button onClick={props.onClickHandler}>{props.title}</button>
 ```
 
-E depois o componente pai - o `App.js` - tem que passar as propriedades ao "filho" da seguinte forma:
+E depois o componente "pai" - o `App.js` - tem que passar as propriedades ao "filho" da seguinte forma:
 
 ```javascript
 import logo from './logo.svg';

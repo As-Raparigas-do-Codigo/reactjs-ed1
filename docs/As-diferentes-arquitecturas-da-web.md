@@ -6,17 +6,17 @@ No módulo de Web 1 vocês construíram websites que consistiam basicamente em p
 
 Ou seja, se tivessem construído 2 páginas - `index.html` e `contactos.html` - simplesmente colocavam um link numa das páginas que abre a outra.
 
-Reparem que o protocolo que é usado neste flow é o protocolo `file`, dado que se tratam sempre de ficheiros locais:
+Reparem que o protocolo que é usado neste flow é o [protocolo `file://`](https://en.wikipedia.org/wiki/File_URI_scheme), dado que se tratam sempre de ficheiros locais:
 
 ![file_protocol](https://user-images.githubusercontent.com/39055313/150689551-0af917d8-8517-4ef5-8a73-a105fdbc2c02.gif)
 
 No início da World Wide Web, os sites eram muito parecidos com aqueles que tens vindo a desenvolver, com a principal diferença de que os clientes/browsers carregavam estas páginas, não do próprio computador, mas sim de um servidor remoto através de **pedidos [HTTP](https://developer.mozilla.org/pt-BR/docs/Web/HTTP)**.
 
-Ou seja, se o browser quiser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
+Ou seja, para o browser mostrar a página `index.html` ou `contactos.html` de um qualquer site tinha sempre de fazer pedidos `HTTP` separados para ir buscar o conteúdo `HTML` respectivo.
 
 **Saltamos do domínio do `file` para o `http`** - é normal que estes termos ainda não te digam muito mas vão começar a fazer sentido aos poucos.
 
-**Experiência**
+#### 🧑‍🔬 Experiência
 
 No teu browser, navega até [http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html) e abre as "Developer Tools" na tab de "Network".
 
@@ -29,11 +29,11 @@ Garante que a opção "Preserve log" está seleccionada
 
 -----
 
-No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, por exemplo, permitir que os utilizadores se autenticassem.
+No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário encontrar mecanismos para se fazer coisas mais complexas como, enviar e receber dados, ou actualizar o estado do site de acordo com o utilizador que está autenticado.
 
-### Flow "Web Tradicional"
+## Flow "Web Tradicional"
 
-[ADICIONAR DIAGRAMA]
+![Screenshot 2022-01-24 at 11 05 35](https://user-images.githubusercontent.com/39055313/150771791-5c40ea3a-91f4-4b5e-b84b-1df615f44b9b.png)
 
 1. O utilizador queria ver o site [exemplo.com](http://exemplo.com)
 2. O browser fazia um pedido `HTTP` para este servidor e incluía automaticamente a cookie que comprova a sua identidade
@@ -41,13 +41,13 @@ No entanto, os sites rapidamente se tornaram mais complexos, e foi necessário e
 4. O browser renderizava esta página - [exemplo.com](http://exemplo.com)
 5. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` para a página `profile` por exemplo, juntamente com a cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `HTML` correspondente à página de perfil com a informação do utilizador.
 
-### Flow SPAs
+## Flow SPAs
 
-[ADICIONAR DIAGRAMA]
+![Screenshot 2022-01-24 at 11 15 17](https://user-images.githubusercontent.com/39055313/150773076-4443a77d-adbf-40bf-bfbe-5d63d0f86164.png)
 
 1. O browser envia um pedido `HTTP` para [exemplo.com](http://exemplo.com)
-2. O servidor responde com `HTML` e outros "assets" (css, js, imagens, etc) - **nota que este é o único pedido que devolve `HTML` em todo este fluxo*
-3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade
+2. O servidor responde com `HTML` e outros "assets" (css, js, imagens, etc) - **nota que este é o único pedido que devolve `HTML` em todo este fluxo**
+3. O browser corre o JavaScript, que pega no cookie ou token de sessão, e envia-o para o servidor para validar a sua identidade, normalmente para um endpoint de uma **API**
 4. O servidor responde com um código correspondente
 5. Se o utilizador estiver logado, o JavaScript sabe que é para mostrar a "Home" page que não é mais do que outro pedaço de `HTML` que já estava presente no `HTML` que foi inicialmente devolvido pelo servidor
 6. Se o utilizador quisesse navegar para a página de perfil, seria enviado outro pedido `HTTP` **que apenas pede os dados do utilizador**, juntamente com o token/cookie, e o servidor voltaria a validar a identidade do utilizador, e responderia com o `JSON` correspondente aos dados do utilizador
@@ -58,5 +58,3 @@ Como percebeste, só houve aqui um carregamento de HTML - uma única página HTM
 Os developers utilizam frequentemente React para construir SPAs, ainda que tal não seja obrigatório.
 
 As SPAs tornaram-se possíveis com a introdução de um conceito chamado **AJAX** (Asynchronous JavaScript and `XML`), ou seja, quando se tornou possível aos browsers enviarem pedidos de JavaScript e XML assíncronamente (sem haver um novo pedido de página HTML).
-
-![image](https://user-images.githubusercontent.com/39055313/150569545-080a9ab4-1f7c-4fb2-b89a-8c5f78fc2ef5.png)
