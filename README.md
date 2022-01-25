@@ -32,4 +32,5 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ### Aula 4
 
 - [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
+- [Styled Components](./docs/styled-components.md)
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
