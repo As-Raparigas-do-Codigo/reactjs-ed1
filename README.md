@@ -20,16 +20,16 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [A nossa primeira modificação](./docs/A-nossa-primeira-modificacao.md)
 - [Análise do componente App.js](./docs/Analise-do-componente-Appjs.md)
 - [O nosso primeiro componente](./docs/O-nosso-primeiro-componente.md)
-- [Tornar o comportamento dinâmico](./docs/Tornar-o-comportamento-dinamico.md)
+- [Adicionar comportamento ao botão](./docs/Adicionar-comportamento-ao-botao.md)
 
 ## Aula 3
 
-- [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
+- [Tornar o comportamento dinâmico](./docs/Tornar-o-comportamento-dinamico.md)
 - [Aplicação de gestão de tarefas - intro](./docs/Aplicacao-de-gestao-de-tarefas.md)
 - [Aplicação de gestão de tarefas - hooks](./docs/Aplicacao-de-gestao-de-tarefas-hooks.md)
 - [Aplicação de gestão de tarefas - map](./docs/Aplicacao-de-gestao-de-tarefas-map.md)
-- [Adicionar comportamento ao botão](./docs/Adicionar-comportamento-ao-botao.md)
 
 ### Aula 4
 
+- [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
