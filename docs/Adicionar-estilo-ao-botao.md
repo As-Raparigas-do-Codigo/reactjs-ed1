@@ -44,7 +44,7 @@ button.danger {
 
 De volta ao ficheiro `App.js`, podemos passar o estilo que queremos ao botão:
 
-```
+```javascript
 import logo from './logo.svg';
 import './App.css';
 import Button from './Button';
