@@ -36,6 +36,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Styled Components](./docs/styled-components.md)
 - [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
 
-## Aula 5 - Outras Funcionalidades do NPM
+## 🚗 Aula 5 - Routing + Gestão de Dependências
 
+- [Routing em ReactJS](./docs/routing-em-reactjs.md)
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
