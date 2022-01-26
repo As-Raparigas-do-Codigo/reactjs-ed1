@@ -30,8 +30,12 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Aplicação de gestão de tarefas - hooks](./docs/Aplicacao-de-gestao-de-tarefas-hooks.md)
 - [Aplicação de gestão de tarefas - map](./docs/Aplicacao-de-gestao-de-tarefas-map.md)
 
-## 🎨 Aula 4 - Estilo em React + Dependências
+## 🎨 Aula 4 - Estilo em React + Lógica Adicional
 
 - [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
 - [Styled Components](./docs/styled-components.md)
+- [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
+
+## Aula 5 - Outras Funcionalidades do NPM
+
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
