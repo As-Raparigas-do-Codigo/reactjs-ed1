@@ -5,7 +5,8 @@ Bem-vinda ao segundo módulo de Web.
 Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por isso se tiveres dúvidas ou quiseres rever alguma matéria consulta [este](https://github.com/As-Raparigas-do-Codigo/web-ed-3) repositório.
 
 ## Pré-Requisitos
-* [Instalação de Software](./docs/Instalacao-de-Software.md)
+
+- [Instalação de Software](./docs/Instalacao-de-Software.md)
 
 ## Aula 1 - Introdução Teórica e Arranque do Projecto
 
@@ -29,7 +30,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Aplicação de gestão de tarefas - hooks](./docs/Aplicacao-de-gestao-de-tarefas-hooks.md)
 - [Aplicação de gestão de tarefas - map](./docs/Aplicacao-de-gestao-de-tarefas-map.md)
 
-### Aula 4 - Estilo em React + Dependências
+## Aula 4 - Estilo em React + Dependências
 
 - [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
 - [Styled Components](./docs/styled-components.md)
