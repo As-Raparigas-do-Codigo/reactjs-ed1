@@ -2,7 +2,7 @@
 
 Os [styled components](https://styled-components.com/) são uma forma alternativa de escrever CSS.
 
-O conceito essencial é que cada componente de UI -  - botão, formulário, modal - tem o seu CSS associado e isolado.
+O conceito essencial é que cada componente de UI - botão, formulário, modal - tem o seu CSS associado e isolado.
 
 Vamos voltar ao nosso botão e vamos tirar-lhe o atributo `className`:
 
