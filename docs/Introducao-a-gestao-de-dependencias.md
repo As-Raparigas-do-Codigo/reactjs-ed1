@@ -66,12 +66,30 @@ Se clicarmos [no primeiro resultado](https://www.npmjs.com/package/react) vemos 
 
 ![Screenshot 2022-01-31 at 13 56 52](https://user-images.githubusercontent.com/39055313/151806576-99c3bd60-aecb-4d8e-bbd1-19fff5ee6202.png)
 
-Ou seja, se corrermos `npm i react` dentro da raíz do nosso projecto, passamos a poder usar o `react`.
+Ou seja, para instalarmos o react dentro do nosso projecto temos de usar a linha de comandos para navegar até à raíz do projecto e correr:
 
-Algumas considerações importantes:
-* `npm i react` é só uma versão abreviada de `npm install react`;
-* Para instalarmos uma ferramenta globalmente podemos correr `npm i react -g`
+```
+npm i react
+```
 
-No entanto, normalmente não é este com
+... ou alternativamente:
 
+```
+npm install react
+```
+
+Se precisamos de instalar uma dependência de forma a que esta fique disponível em todos os projectos podemos adicionar a flag `-g`, ou seja: 
+```
+npm i react -g
+```
+
+No entanto, daqui para a frente as flags que vão usar com mais frequência serão `--save` e `--save-dev`.
+
+Estas duas flags garantem que a nova dependência é guardada no ficheiro `package.json`, dentro do objecto `dependencies` ou `devDependencies`, dependendo se a dependência é usada só ou `dev` ou também em produção - a diferença vai ser mais simples de perceber no futuro.
+
+**Portanto, o comando mais importante a reter neste módulo é:**
+
+```
+npm i <nome-do-pacote> --save
+```
 
