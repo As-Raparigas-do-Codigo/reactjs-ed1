@@ -20,7 +20,7 @@ export default Button;
 
 ## Instalação de dependência
 
-Agora que sabem como é que se instalam dependências, vamos por este conhecimento à prova!
+Agora que sabes como é que se instalam dependências, vamos por este conhecimento à prova!
 
 Vai ao terminal, acede à pasta onde tens o projecto e garante que estás na raíz - para validar corre o comando `ls` e garante que vês qualquer coisa do género:
 
