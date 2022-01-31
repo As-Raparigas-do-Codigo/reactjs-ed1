@@ -18,7 +18,7 @@ function Button(props) {
 export default Button;
 ```
 
-## Instalação dos Styled Components
+## Instalação de dependência
 
 Agora que sabem como é que se instalam dependências, vamos por este conhecimento à prova!
 
@@ -45,7 +45,7 @@ Como resultado deves ver esta entrada no ficheiro `package.json`:
 },
 ```
 
-## Criar um Botão _a la_ Styled Component
+## Criação de um Botão _a la_ Styled Component
 
 E agora vamos criar um botão _a la_ styled component.
 
