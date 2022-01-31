@@ -4,35 +4,27 @@ Os [styled components](https://styled-components.com/) são uma forma alternativ
 
 O conceito essencial é que cada componente de UI -  - botão, formulário, modal - tem o seu CSS associado e isolado.
 
-Vamos voltar ao nosso botão e vamos tirar-lhe tudo o que está relacionado com CSS:
+Vamos voltar ao nosso botão e vamos tirar-lhe o atributo `className`:
 
 ```javascript
-import Button from './Button';
-
-function FormularioTarefa() {
-    function adicionarTarefa() {
-        // TBD        
-    }
+function Button(props) {
     return (
-        <div>
-            <input placeholder="Introduz a tua tarefa"/>
-            <Button title="Adicionar" onClickHandler={adicionarTarefa}/>
-        </div>        
+        <button onClick={props.onClickHandler}>{ props.title }</button>
     );
 }
 
-export default FormularioTarefa;
+export default Button;
 ```
 
 E agora vamos criar um botão _a la_ styled component.
 
-Para isso vamos criar um ficheiro `Button.sc` com a seguinte declaração:
+Para isso vamos criar um ficheiro `Button.styles` com a seguinte declaração:
 
 ```javascript
 const Button = styled.button``
 ```
 
-E agora vamos adicionar-lhe todo o CSS que queremos para todos os botões, e.g:
+E agora vamos adicionar o CSS que queremos para todos os botões, e.g:
 
 ```javascript
 const Button = styled.button`
@@ -41,7 +33,6 @@ const Button = styled.button`
 ```
 
 Agora vamos adicionar estilos específicos do tipo de botão:
-
 
 ```javascript
 const Button = styled.button`
