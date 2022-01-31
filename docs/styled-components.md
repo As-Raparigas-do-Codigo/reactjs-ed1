@@ -32,7 +32,7 @@ package-lock.json public
 Agora corre o comando de instalação:
 
 ```shell
-~ npm install --save styled-components
+~ npm i styled-components --save 
 ```
 
 Como resultado deves ver esta entrada no ficheiro `package.json`:
@@ -90,3 +90,5 @@ const DangerButton = styled(Button)`
   border-color: tomato;
 `;
 ```
+
+## Utilizar um styled component
