@@ -36,18 +36,26 @@ Agora vamos adicionar estilos específicos do tipo de botão:
 
 ```javascript
 const Button = styled.button`
-  padding: 5px;
-  ${props => props.style && props.style === 'info' && css`
-    background: blue;
-    color: tomato;
-  `}
-  ${props => props.style && props.style === 'warning' && css`
-    background: kaki;
-    color: tomato;
-  `}
-  ${props => props.style && props.style === 'danger' && css`
-    background: white;
-    color: tomato;
-  `}
-`
+  color: palevioletred;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`;
+
+const InfoButton = styled(Button)`
+  color: tomato;
+  border-color: tomato;
+`;
+
+const WarningButton = styled(Button)`
+  color: tomato;
+  border-color: tomato;
+`;
+
+const DangerButton = styled(Button)`
+  color: tomato;
+  border-color: tomato;
+`;
 ```
