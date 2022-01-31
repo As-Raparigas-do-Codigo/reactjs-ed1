@@ -4,6 +4,8 @@ Os [styled components](https://styled-components.com/) são uma forma alternativ
 
 O conceito essencial é que cada componente de UI - botão, formulário, modal - tem o seu CSS associado e isolado.
 
+## Preparação
+
 Vamos voltar ao nosso botão e vamos tirar-lhe o atributo `className`:
 
 ```javascript
@@ -15,6 +17,19 @@ function Button(props) {
 
 export default Button;
 ```
+
+## Instalação dos Styled Components
+
+Agora que sabem como é que se instalam dependências, vamos por este conhecimento à prova!
+
+Vai ao terminal, acede à pasta onde tens o projecto e garante que estás na raíz - para validar corre o comando `ls` e garante que vês qualquer coisa do género:
+
+```
+
+```
+
+
+## Criar um Botão _a la_ Styled Component
 
 E agora vamos criar um botão _a la_ styled component.
 
