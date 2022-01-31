@@ -24,20 +24,20 @@ Agora que sabem como é que se instalam dependências, vamos por este conhecimen
 
 Vai ao terminal, acede à pasta onde tens o projecto e garante que estás na raíz - para validar corre o comando `ls` e garante que vês qualquer coisa do género:
 
-```
+```shell
 README.md         package.json      src
 package-lock.json public
 ```
 
 Agora corre o comando de instalação:
 
-```
+```shell
 ~ npm install --save styled-components
 ```
 
 Como resultado deves ver esta entrada no ficheiro `package.json`:
 
-```
+```json
 "dependencies": {
     [...]
     "styled-components": "^5.3.3",
