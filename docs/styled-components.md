@@ -6,7 +6,7 @@ O conceito essencial é que cada componente de UI -  - botão, formulário, moda
 
 Vamos voltar ao nosso botão e vamos tirar-lhe tudo o que está relacionado com CSS:
 
-```
+```javascript
 import Button from './Button';
 
 function FormularioTarefa() {
@@ -28,13 +28,13 @@ E agora vamos criar um botão _a la_ styled component.
 
 Para isso vamos criar um ficheiro `Button.sc` com a seguinte declaração:
 
-```
+```javascript
 const Button = styled.button``
 ```
 
 E agora vamos adicionar-lhe todo o CSS que queremos para todos os botões, e.g:
 
-```
+```javascript
 const Button = styled.button`
   padding: 5px;
 `
@@ -43,7 +43,7 @@ const Button = styled.button`
 Agora vamos adicionar estilos específicos do tipo de botão:
 
 
-```
+```javascript
 const Button = styled.button`
   padding: 5px;
   ${props => props.style && props.style === 'info' && css`
@@ -59,5 +59,4 @@ const Button = styled.button`
     color: tomato;
   `}
 `
-```
 ```
