@@ -7,11 +7,19 @@ Como podem imaginar, todos os projectos React partilham muita coisas em comum, e
 
 Como tal é comum os programadores irem buscar "projectos base" ao Github e outras plataformas semelhantes, ou mesmo usar ferramentas para **gerar projectos-base**, que é o que nós vamos fazer usando uma ferramenta desenvolvida pelo Facebook chamada [create-react-app](https://github.com/facebook/create-react-app).
 
-[Adicionar forma de fazer via VSCode]
+Se já souberes usar a linha de comandos, navega até ao diretório onde queres criar a pasta do projecto.
 
-Agora que já sabes alguns comandos simples de navegação, identifica em que pasta estás actualmente, e navega até ao diretório onde queres criar a pasta do projecto, ou seja, se queres que a pasta do projecto seja criada no Ambiente de Trabalho, navega até ao Ambiente de Trabalho.
+Alternativamente, abre o Visual Studio Code e abre a pasta que vai conter o teu projecto, por exemplo, o Ambiente de Trabalho, fazendo `File > Open`:
 
-Assim que estiveres no diretório certo, corre:
+<img width="1440" alt="Screenshot 2022-02-02 at 20 14 09" src="https://user-images.githubusercontent.com/39055313/152230299-6eabf905-e0b4-4626-ac26-79b501de0949.png">
+
+<img width="1440" alt="Screenshot 2022-02-02 at 20 14 21" src="https://user-images.githubusercontent.com/39055313/152230341-f9ee03a3-6c26-4f06-aede-3b6ff781d91a.png">
+
+... e depois, abre o Terminal integrado:
+
+<img width="1440" alt="Screenshot 2022-02-02 at 20 18 40" src="https://user-images.githubusercontent.com/39055313/152230758-f51c00f4-ac7a-43ee-a16d-826c8b9aa08e.png">
+
+Agora podes correr:
 
 ```shell
 npx create-react-app my-app
