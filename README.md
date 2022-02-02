@@ -5,7 +5,7 @@ Bem-vinda ao segundo módulo de Web.
 Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por isso se tiveres dúvidas ou quiseres rever alguma matéria consulta [este](https://github.com/As-Raparigas-do-Codigo/web-ed-3) repositório.
 
 ## 📚 Pré-Requisitos
-
+****
 - [Instalação de Software](./docs/Instalacao-de-Software.md)
 
 ## 👋 Aula 1 - Introdução Teórica e Arranque do Projecto
@@ -40,5 +40,15 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
 
 ## Aula 6 - Próximos passos
+- useMemo
+- useCallback
+- useEffect
 
-- [Routing em ReactJS](./docs/routing-em-reactjs.md)
+mencionar que existe:
+- redux
+- routing
+- bootstrap react / material UI + outras libs de componentes
+- jest (testes)
+- typescript & babel (transpilers)
+- webpack
+- fetch e interação com APIs
