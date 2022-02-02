@@ -15,7 +15,7 @@ function App() {
   const [tarefas, setTarefas] = useState([]);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
       <ul>
       {
         tarefas.map((tarefa, key) => {
@@ -50,7 +50,7 @@ function App() {
   const [tarefas, setTarefas] = useState(['comprar leite e ovos', 'exercício']);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
       <ul>
       {
         tarefas.map((tarefa, key) => {
