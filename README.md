@@ -34,8 +34,11 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
 
-## 🚗 Aula 5 - Routing
+## 🚗 Aula 5 - Últimos toques na aplicação
 
 - [Styled Components](./docs/styled-components.md)
 - [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
+
+## Aula 6 - Próximos passos
+
 - [Routing em ReactJS](./docs/routing-em-reactjs.md)
