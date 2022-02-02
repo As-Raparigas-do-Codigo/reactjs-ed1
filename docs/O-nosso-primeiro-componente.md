@@ -46,7 +46,7 @@ export default App;
 
 Se tudo correr bem, deves agora conseguir ver o teu botão:
 
-<img width="1440" alt="Screenshot 2022-01-22 at 13 16 14" src="https://user-images.githubusercontent.com/39055313/150640002-0b082461-551f-4b2d-a0fc-ec5593365ca0.png">
+<img width="1440" alt="Screenshot 2022-02-02 at 20 28 23" src="https://user-images.githubusercontent.com/39055313/152232142-8f5133b1-9306-4bd6-8abe-bfa200ed886d.png">
 
 ## Componentes de classe vs Componentes funcionais
 
