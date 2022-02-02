@@ -18,7 +18,7 @@ function Button(props) {
 export default Button;
 ```
 
-## Instalação de dependência
+## Instalação do pacote `styled-components`
 
 Agora que sabes como é que se instalam dependências, vamos por este conhecimento à prova!
 
@@ -45,7 +45,7 @@ Como resultado deves ver esta entrada no ficheiro `package.json`:
 },
 ```
 
-## Criação de pastas de componentes
+## Re-organização de pastas
 
 Antes de começarmos a criar styled components, vamos criar algum tipo de organização.
 
@@ -69,7 +69,7 @@ import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 import Botao from '../Botao/Botao';
 ```
 
-## Criação de Styled Component
+## Criação de um Styled Component
 
 Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Botao.styles.js` e adiciona o seguinte código:
 
@@ -120,8 +120,7 @@ const BotaoStyled = styled.button`
 export default BotaoStyled;
 ```
 
-
-## Utilizar um styled component
+## Utilizar o nosso novo Styled Component
 
 Para usarmos este styled component vamos voltar ao ficheiro `Button.js` e vamos substituir o elemento HTML `<button>` por `BotaoStyled`:
 
@@ -139,4 +138,4 @@ export default Botao;
 
 Deves agora ver o teu botão com novo estilo:
 
-
+<img width="1440" alt="Screenshot 2022-02-02 at 21 06 20" src="https://user-images.githubusercontent.com/39055313/152237744-3a1fe314-c051-4cb9-89e0-b195c7b089ec.png">
