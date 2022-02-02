@@ -7,13 +7,13 @@ Para já, vamos assumir que este comportamento é sempre igual, sempre que se cl
 Olhando para esta função, consegues perceber onde adicionar esta funcionalidade?
 
 ```javascript
-function Button() {
+function Botao() {
     return (
         <button>Click me</button>
     );
 }
   
-export default Button;
+export default Botao;
 ```
 
 Se te lembras das aulas de JavaScript, então sabes que funções podem ser declaradas dentro de outras funções.
@@ -28,7 +28,7 @@ Como podes ver, no componente `<button>` esta função é passada ao evento de `
 Nota que é importante ter em conta que este código está escrito em `JSX` e não em `HTML`, e como tal temos de passar esta variável dentro de `{}`:
 
 ```javascript
-function Button() {
+function Botao() {
     var onClickHandler = function() {   // podes usar "let" em vez de "var"
         alert("Alguém clicou no botão!");
     }
@@ -37,7 +37,7 @@ function Button() {
     );
 }
   
-export default Button;
+export default Botao;
 ```
 
 <img width="1440" alt="Screenshot 2022-02-02 at 20 29 43" src="https://user-images.githubusercontent.com/39055313/152232334-93a7705a-5564-48b9-9b77-8cde83942ccb.png">
@@ -47,7 +47,7 @@ export default Button;
 Quando uma função é tão pequena como a função `onClickHandler` é muito comum declará-la "inline", ou seja, dentro da declaração do próprio elemento.
 
 ```javascript
-function Button() {
+function Botao() {
     return (
         <button onClick={function() { alert("Alguém clicou no botão!") } }>Click me</button>
     );
@@ -59,11 +59,11 @@ Como consegues ver, esta função não tem nome - é uma **função anónima**.
 Uma forma ainda mais simples de escrever este tipo de funções utiliza [arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions), também designadas "fat arrows":
 
 ```javascript
-function Button() {
+function Botao() {
     return (
         <button onClick={() => alert("Alguém clicou no botão!")}>Click me</button>
     );
 }
   
-export default Button;
+export default Botao;
 ```
