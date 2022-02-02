@@ -76,3 +76,25 @@ export default FormularioTarefa;
 ```
 <img width="1440" alt="Screenshot 2022-02-02 at 21 26 50" src="https://user-images.githubusercontent.com/39055313/152240070-c5bebe19-82d2-4a05-b249-99e55f3f0f6a.png">
 
+Finalmente, vamos invocar a função `onTarefaCriada` que é passada pelo componente pai, de forma a podermos comunicar ao componente `App` sempre que uma nova tarefa for criada:
+
+```javascript
+import { useState } from 'react';
+import Botao from '../Botao/Botao';
+
+function FormularioTarefa(props) {
+    const [novaTarefa, setNovaTarefa] = useState("")
+    return (
+        <div>
+            <input type="text" placeholder="Introduz a tua tarefa"
+                   onChange={(e) => setNovaTarefa(e.target.value)}/>
+            <Botao type="warning" 
+                   title="Adicionar" 
+                   onClickHandler={() => props.onTarefaCriada(novaTarefa)}/>
+        </div>        
+    );
+}
+
+export default FormularioTarefa;
+```
+Finalmente, vamos invocar a função `onTarefaCriada` que é passada pelo componente pai, de forma a podermos comunicar ao componente `App` sempre que uma nova tarefa for criada:
