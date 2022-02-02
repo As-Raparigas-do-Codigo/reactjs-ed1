@@ -45,25 +45,39 @@ Como resultado deves ver esta entrada no ficheiro `package.json`:
 },
 ```
 
+## Criação de pastas de componentes
+
+Antes de começarmos a criar styled components, vamos criar algum tipo de organização.
+
+Dentro da tua pasta `src`, cria uma pasta `componentes` e lá dentro cria duas novas pastas: `Botao` e `FormularioTarefas`.
+
+Coloca em cada uma o componente React correspondente, como mostrado abaixo:
+
+<img width="319" alt="Screenshot 2022-02-02 at 20 55 14" src="https://user-images.githubusercontent.com/39055313/152235940-25fd4639-0443-4a66-ad86-f1dd41ecc882.png">
+
+Garante que actualizas as tuas importações:
+
+- Dentro do `App.js` agora o componente `FormularioTarefa` é importado da seguinte forma:
+
+```
+import FormularioTarefa from './components/FormularioTarefa/FormularioTarefa';
+```
+
+- Dentro do `FormularioTarefa` o componente `Botao` é importado da seguinte forma:
+
+```
+import Botao from '../Botao/Botao';
+```
+
 ## Criação de um Botão _a la_ Styled Component
 
-E agora vamos criar um botão _a la_ styled component.
-
-Para isso vamos criar um ficheiro `Button.styles` com a seguinte declaração:
+Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Button.styles` e adiciona o seguinte código:
 
 ```javascript
-const Button = styled.button``
+const StyledButton = styled.button``
 ```
 
-E agora vamos adicionar o CSS que queremos para todos os botões, e.g:
-
-```javascript
-const Button = styled.button`
-  padding: 5px;
-`
-```
-
-Agora vamos adicionar estilos específicos do tipo de botão:
+Agora vamos adicionar o CSS que queremos para todos os botões:
 
 ```javascript
 const Button = styled.button`
@@ -73,22 +87,7 @@ const Button = styled.button`
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-`;
-
-const InfoButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
-
-const WarningButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
-
-const DangerButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
+`
 ```
 
 ## Utilizar um styled component
