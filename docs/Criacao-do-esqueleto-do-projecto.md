@@ -61,7 +61,7 @@ Podes comprovar isto abrindo uma nova tab dentro do diretório do teu projecto, 
 
 ```shell
 ? Something is already running on port 3000. Probably:
-  /usr/local/bin/node /Users/inesafonso.martins/Desktop/my-app/node_modules/react-scripts/scripts/start.js (pid 3167)
+  /usr/local/bin/node ./Desktop/my-app/node_modules/react-scripts/scripts/start.js (pid 3167)
   in /Users/inesafonso.martins/Desktop/my-app
 
 Would you like to run the app on another port instead? › (Y/n)
