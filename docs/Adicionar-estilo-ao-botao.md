@@ -44,13 +44,10 @@ De volta ao componente `FormularioTarefa`, podemos passar o estilo que queremos 
 import Button from './Button';
 
 function FormularioTarefa() {
-    function adicionarTarefa() {
-        // TBD        
-    }
     return (
         <div>
             <input type="text" placeholder="Introduz a tua tarefa"/>
-            <Button type="warning" title="Adicionar" onClickHandler={adicionarTarefa}/>
+            <Button type="warning" title="Adicionar" onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
         </div>        
     );
 }
