@@ -9,15 +9,17 @@ Como tal é comum os programadores irem buscar "projectos base" ao Github e outr
 
 Se já souberes usar a linha de comandos, navega até ao diretório onde queres criar a pasta do projecto.
 
-Alternativamente, abre o Visual Studio Code e abre a pasta que vai conter o teu projecto, por exemplo, o Ambiente de Trabalho, fazendo `File > Open`:
+Alternativamente, abre o Visual Studio Code e abre a pasta que vai conter o teu projecto, por exemplo, o Ambiente de Trabalho, fazendo "File" > "Open":
 
 <img width="1440" alt="Screenshot 2022-02-02 at 20 14 09" src="https://user-images.githubusercontent.com/39055313/152230299-6eabf905-e0b4-4626-ac26-79b501de0949.png">
+
+Escolhe a pasta e clicka "Open":
 
 <img width="1440" alt="Screenshot 2022-02-02 at 20 14 21" src="https://user-images.githubusercontent.com/39055313/152230341-f9ee03a3-6c26-4f06-aede-3b6ff781d91a.png">
 
 ... e depois, abre o Terminal integrado:
 
-<img width="1440" alt="Screenshot 2022-02-02 at 20 18 40" src="https://user-images.githubusercontent.com/39055313/152230758-f51c00f4-ac7a-43ee-a16d-826c8b9aa08e.png">
+<img width="1440" alt="Screenshot 2022-02-02 at 20 18 40" src="https://user-images.githubusercontent.com/39055313/152231093-50ac1f6e-a83b-4b57-848a-72ca897d03ba.png">
 
 Agora podes correr:
 
