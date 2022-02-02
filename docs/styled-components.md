@@ -71,9 +71,19 @@ import Botao from '../Botao/Botao';
 
 ## Criação de um Botão _a la_ Styled Component
 
-Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `StyledBotao.js` e adiciona o seguinte código:
+Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Botao.styles.js` e adiciona o seguinte código:
 
 ```javascript
+import styled from 'styled-components'
+```
+
+Nesta linha importamos a biblioteca de styled components e atribuímo-la à variável `styled`.
+
+Agora vamos declarar o componente `StyledBotao` como podes ver abaixo:
+
+```javascript
+import styled from 'styled-components'
+
 const StyledBotao = styled.button``
 ```
 
