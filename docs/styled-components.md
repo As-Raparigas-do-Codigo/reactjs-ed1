@@ -74,13 +74,13 @@ import Botao from '../Botao/Botao';
 Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Button.styles` e adiciona o seguinte código:
 
 ```javascript
-const StyledButton = styled.button``
+const StyledBotao = styled.button``
 ```
 
 Agora vamos adicionar o CSS que queremos para todos os botões:
 
 ```javascript
-const Button = styled.button`
+const StyledBotao = styled.button`
   color: palevioletred;
   font-size: 1em;
   margin: 1em;
@@ -89,5 +89,22 @@ const Button = styled.button`
   border-radius: 3px;
 `
 ```
+
+Finalmente vamos exportar este styled component para o podermos usar no resto da aplicação:
+
+
+```javascript
+const StyledBotao = styled.button`
+  color: palevioletred;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`
+
+export default StyledBotao;
+```
+
 
 ## Utilizar um styled component
