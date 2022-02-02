@@ -26,13 +26,13 @@ Este novo componente pode chamar-se, por exemplo, `FormularioTarefa` e deve ser 
 Este componente precisa de um `input` e de um botão - para o botão podemos usar o componente `Button` que já implementamos:
 
 ```javascript
-import Button from './Button';
+import Botao from './Button';
 
 function FormularioTarefa() {
     return (
         <div>
             <input type="text" placeholder="Introduz a tua tarefa"/>
-            <Button title="Adicionar" onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
+            <Botao title="Adicionar" onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
         </div>        
     );
 }
