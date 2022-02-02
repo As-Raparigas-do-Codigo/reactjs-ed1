@@ -12,12 +12,11 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 - [As diferentes arquitecturas da Web](./docs/As-diferentes-arquitecturas-da-web.md)
 - [Bibliotecas e Frameworks de Front-End](./docs/Bibliotecas-e-Frameworks-de-Front-End.md)
-- [A linha de comandos](./docs/A-linha-de-comandos.md)
+- [A linha de comandos](./docs/A-linha-de-comandos.md) [*]
 - [Criação do esqueleto do projecto](./docs/Criacao-do-esqueleto-do-projecto.md)
 
 ## 👣 Aula 2 - Primeiras Alterações ao Projecto
 
-- [Como funciona o ReactJS](./docs/Como-funciona-o-ReactJS.md)
 - [A nossa primeira modificação](./docs/A-nossa-primeira-modificacao.md)
 - [Análise do componente App.js](./docs/Analise-do-componente-Appjs.md)
 - [O nosso primeiro componente](./docs/O-nosso-primeiro-componente.md)
