@@ -65,3 +65,5 @@ export default App;
 Se olhares novamente para a aplicação deves ver:
 
 <img width="900" alt="Screenshot 2022-01-23 at 21 26 10" src="https://user-images.githubusercontent.com/39055313/150698599-067c2b7e-5c7e-4fbb-abd3-16ff5914d190.png">
+
+Se clicares no botão deves conseguir ver o alerta.
