@@ -90,7 +90,7 @@ Esta função vai buscar a lista atual de tarefas e adiciona-lhe a nova tarefa, 
 
 ------
 
-**Avançado** Spread Operator
+## Spread Operator
 
 [https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
