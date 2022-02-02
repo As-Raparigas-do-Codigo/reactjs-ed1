@@ -1,15 +1,15 @@
 # O nosso primeiro componente
 
-Dentro da pasta `src` cria um novo ficheiro `Button.js` com o seguinte conteúdo:
+Dentro da pasta `src` cria um novo ficheiro `Botao.js` com o seguinte conteúdo:
 
 ```javascript
-function Button() {
+function Botao() {
     return (
         <button>Click me</button>
     );
 }
   
-export default Button;
+export default Botao;
 ```
 
 Para podermos usar este componente dentro da nossa aplicação, temos de encontrar o componente que queremos que seja o seu pai - neste caso o componente principal da aplicação, o `App` - e temos de o importar, e depois de o declarar no sítio onde queremos que ele apareça:
@@ -17,13 +17,13 @@ Para podermos usar este componente dentro da nossa aplicação, temos de encontr
 ```javascript
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
+import Botao from './Botao';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button/>
+        <Botao/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -55,7 +55,7 @@ Nota que esta é só uma de várias síntaxes que podemos utilizar para declarar
 No entanto, é bastante comum ver componentes declarados da seguinte forma:
 
 ```javascript
-class Button extends React.Component {
+class Botao extends React.Component {
   render() {
     return <button>Click me</button>;
   }
