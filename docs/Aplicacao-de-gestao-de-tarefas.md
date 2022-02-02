@@ -29,7 +29,7 @@ Este componente precisa de um `input` e de um botão - para o botão podemos usa
 import Button from './Button';
 
 function FormularioTarefa() {
-    function adicionarTarefa() {
+    let adicionarTarefa = function() {
         // TBD        
     }
     return (
