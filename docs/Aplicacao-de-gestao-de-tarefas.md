@@ -29,13 +29,10 @@ Este componente precisa de um `input` e de um botão - para o botão podemos usa
 import Button from './Button';
 
 function FormularioTarefa() {
-    let adicionarTarefa = function() {
-        alert(); 
-    }
     return (
         <div>
             <input type="text" placeholder="Introduz a tua tarefa"/>
-            <Button title="Adicionar" onClickHandler={adicionarTarefa}/>
+            <Button title="Adicionar" onClickHandler={() => alert("Alguém clicou no botão")}/>
         </div>        
     );
 }
