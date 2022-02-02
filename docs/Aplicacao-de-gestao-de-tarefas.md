@@ -43,13 +43,9 @@ function FormularioTarefa() {
 export default FormularioTarefa;
 ```
 
-Como consegues ver, a função `adicionarTarefa` só lança um alerta, mas o nosso objectivo é que quando o utilizador clicke neste botão a nova tarefa apareça na lista de tarefas!
+Como consegues ver, a função `adicionarTarefa` só lança um alerta para já. 
 
-Para isso precisamos de uma estrutura de dados - um `array` - que mantenha a lista actualizada de todas as tarefas adicionadas/removidas pelo utilizador.
-
-Vamos ver como criar e gerir este array no próximo módulo, quando virmos como funcionam os [Hooks](https://reactjs.org/docs/hooks-intro.html).
-
-Para já, vamos voltar ao componente `App` e declarar este novo componente:
+Vamos agora voltar ao componente `App` e declarar este novo componente:
 
 ```javascript
 import './App.css';
