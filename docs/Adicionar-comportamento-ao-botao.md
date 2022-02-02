@@ -40,10 +40,11 @@ function Button() {
 export default Button;
 ```
 
-<img width="1439" alt="Screenshot 2022-01-23 at 10 49 15" src="https://user-images.githubusercontent.com/39055313/150675154-78b48605-3b66-48a0-a2eb-dcaa52295901.png">
+<img width="1440" alt="Screenshot 2022-02-02 at 20 29 43" src="https://user-images.githubusercontent.com/39055313/152232334-93a7705a-5564-48b9-9b77-8cde83942ccb.png">
 
-### Avançado: Utilização de Arrow Functions
+### Síntaxe Alternativa
 
+Quando uma função é tão pequena como a função `onClickHandler` é muito comum declará-la "inline", ou seja, dentro da declaração do próprio elemento.
 
 ```javascript
 function Button() {
@@ -53,9 +54,9 @@ function Button() {
 }
 ```
 
-Uma forma alternativa de escrever isto foi introduzida com o [EcmaScript 2015](https://www.w3schools.com/js/js_es6.asp), também designado por ES6.
+Como consegues ver, esta função não tem nome - é uma **função anónima**.
 
-Com a introdução das "arrow functions" ou "fat arrows", podemos escrever a mesma coisa que está em cima, da seguinte forma:
+Uma forma ainda mais simples de escrever este tipo de funções utiliza [arrow functions](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Functions/Arrow_functions), também designadas "fat arrows":
 
 ```javascript
 function Button() {
@@ -66,11 +67,3 @@ function Button() {
   
 export default Button;
 ```
-
-Como podes ver, dentro do evento `onClick` estamos a passar a seguinte função anónima: 
-
-```javascript
-() => alert("Alguém clicou no botão!")
-```
-
-Não te preocupes se não perceberes para já esta síntaxe, iremos explorar isto mais à frente.
