@@ -19,7 +19,7 @@ function App() {
       <ul>
       {
         tarefas.map((tarefa, key) => {
-          return <li id={key}>{tarefa}</li>
+          return <li key={key}>{tarefa}</li>
         })
       }
       </ul>
@@ -54,7 +54,7 @@ function App() {
       <ul>
       {
         tarefas.map((tarefa, key) => {
-          return <li id={key}>{tarefa}</li>
+          return <li key={key}>{tarefa}</li>
         })
       }
       </ul>
