@@ -7,7 +7,7 @@ Ok, já sabemos como adicionar comportamento ao nosso botão, mas se o comportam
 A resposta é adicionando comportamento dinâmico, ou seja, o botão não tem o seu comportamento definido internamente, mas é-lhe **passado pelo componente pai** que corresponde ao componente onde este é declarado.
 
 ```javascript
-function Button(props) {
+function Botao(props) {
    ...
 }
 ```
@@ -31,17 +31,17 @@ E depois o componente "pai" - o `App.js` - tem que passar as propriedades ao "fi
 ```javascript
 import logo from './logo.svg';
 import './App.css';
-import Button from './Button';
+import Botao from './Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Botao title="Click me" onClickHandler={() => alert("Alguém clicou no botão")}/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Button title="Click me" onClickHandler={() => alert("Alguém clicou no botão")}></Button>
         <a
           className="App-link"
           href="https://reactjs.org"

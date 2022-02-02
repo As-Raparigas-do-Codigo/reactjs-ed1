@@ -18,7 +18,7 @@ function Button(props) {
 export default Button;
 ```
 
-## Instalação de dependência
+## Instalação do pacote `styled-components`
 
 Agora que sabes como é que se instalam dependências, vamos por este conhecimento à prova!
 
@@ -45,50 +45,97 @@ Como resultado deves ver esta entrada no ficheiro `package.json`:
 },
 ```
 
-## Criação de um Botão _a la_ Styled Component
+## Re-organização de pastas
 
-E agora vamos criar um botão _a la_ styled component.
+Antes de começarmos a criar styled components, vamos criar algum tipo de organização.
 
-Para isso vamos criar um ficheiro `Button.styles` com a seguinte declaração:
+Dentro da tua pasta `src`, cria uma pasta `componentes` e lá dentro cria duas novas pastas: `Botao` e `FormularioTarefas`.
 
-```javascript
-const Button = styled.button``
+Coloca em cada uma o componente React correspondente, como mostrado abaixo:
+
+<img width="319" alt="Screenshot 2022-02-02 at 20 55 14" src="https://user-images.githubusercontent.com/39055313/152235940-25fd4639-0443-4a66-ad86-f1dd41ecc882.png">
+
+Garante que actualizas as tuas importações:
+
+- Dentro do `App.js` agora o componente `FormularioTarefa` é importado da seguinte forma:
+
+```
+import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 ```
 
-E agora vamos adicionar o CSS que queremos para todos os botões, e.g:
+- Dentro do `FormularioTarefa` o componente `Botao` é importado da seguinte forma:
 
-```javascript
-const Button = styled.button`
-  padding: 5px;
-`
+```
+import Botao from '../Botao/Botao';
 ```
 
-Agora vamos adicionar estilos específicos do tipo de botão:
+## Criação de um Styled Component
+
+Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Botao.styles.js` e adiciona o seguinte código:
 
 ```javascript
-const Button = styled.button`
+import styled from 'styled-components'
+```
+
+Nesta linha importamos a biblioteca de styled components e atribuímo-la à variável `styled`.
+
+Agora vamos declarar o componente `BotaoStyled` como podes ver abaixo:
+
+```javascript
+import styled from 'styled-components'
+
+const BotaoStyled = styled.button``
+```
+
+Agora vamos adicionar o CSS que queremos para todos os botões:
+
+```javascript
+import styled from 'styled-components'
+
+const StyledBotao = styled.button`
   color: palevioletred;
   font-size: 1em;
   margin: 1em;
   padding: 0.25em 1em;
   border: 2px solid palevioletred;
   border-radius: 3px;
-`;
-
-const InfoButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
-
-const WarningButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
-
-const DangerButton = styled(Button)`
-  color: tomato;
-  border-color: tomato;
-`;
+`
 ```
 
-## Utilizar um styled component
+Finalmente vamos exportar este styled component para o podermos usar no resto da aplicação:
+
+
+```javascript
+import styled from 'styled-components'
+
+const BotaoStyled = styled.button`
+  color: palevioletred;
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`
+
+export default BotaoStyled;
+```
+
+## Utilizar o nosso novo Styled Component
+
+Para usarmos este styled component vamos voltar ao ficheiro `Button.js` e vamos substituir o elemento HTML `<button>` por `BotaoStyled`:
+
+```javascript
+import BotaoStyled from './BotaoStyled';
+
+function Botao(props) {
+    return (
+        <BotaoStyled onClick={props.onClickHandler}>{props.title}</BotaoStyled>
+    );
+}
+  
+export default Botao;
+```
+
+Deves agora ver o teu botão com novo estilo:
+
+<img width="1440" alt="Screenshot 2022-02-02 at 21 06 20" src="https://user-images.githubusercontent.com/39055313/152237744-3a1fe314-c051-4cb9-89e0-b195c7b089ec.png">

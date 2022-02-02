@@ -88,13 +88,9 @@ export default App;
 
 Esta função vai buscar a lista atual de tarefas e adiciona-lhe a nova tarefa, que foi criada dentro do comportamento `FormularioTarefa`.
 
-------
+### Utilização do Spread Operator
 
-**Avançado** Spread Operator
-
-[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-
-Nota que usando a síntaxe mais recente do JavaScript podemos simplificar a função `adicionarTarefa` da seguinte forma:
+O [Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax) é uma síntaxe especial do JavaScript que nos permite simplificar a função `adicionarTarefa` da seguinte forma:
 
 ```javascript
 function adicionarTarefa(novaTarefa) {
@@ -102,7 +98,7 @@ function adicionarTarefa(novaTarefa) {
 }
 ```
 
-Quando a função tem apenas uma linha, podemos chamá-la diretamente na declaração do evento, simplificando ainda mais o componente:
+Como explicado no módulo anterior, quando uma função é pequena, podemos chamá-la diretamente na declaração do evento, simplificando ainda mais o componente:
 
 ```javascript
 import { useState } from 'react';
