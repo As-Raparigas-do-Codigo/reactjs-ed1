@@ -90,6 +90,8 @@ const StyledBotao = styled.button``
 Agora vamos adicionar o CSS que queremos para todos os botões:
 
 ```javascript
+import styled from 'styled-components'
+
 const StyledBotao = styled.button`
   color: palevioletred;
   font-size: 1em;
@@ -104,6 +106,8 @@ Finalmente vamos exportar este styled component para o podermos usar no resto da
 
 
 ```javascript
+import styled from 'styled-components'
+
 const StyledBotao = styled.button`
   color: palevioletred;
   font-size: 1em;
