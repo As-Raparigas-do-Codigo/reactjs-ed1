@@ -2,7 +2,7 @@
 
 ## Declaração das Variáveis de Estado
 
-Como indicamos no módulo anterior, para conseguirmos gerir as tarefas precisamos de as manter numa estrutura de dados, mais especificamente num `array`.
+Para conseguirmos gerir as tarefas precisamos de as manter numa estrutura de dados, mais especificamente num `array`.
 
 Para gerir o estado deste array vamos usar as chamadas "variáveis de estado" que sã disponibilizadas pela funcionalidade de [Hooks](https://reactjs.org/docs/hooks-intro.html) do React.
 
@@ -17,7 +17,7 @@ function App() {
   const [tarefas, setTarefas] = useState([]);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaAdicionada={}/>
+      <FormularioTarefa/>
     </div>
   );
 }
@@ -71,7 +71,7 @@ import FormularioTarefa from './FormularioTarefa';
 
 function App() {
   const [tarefas, setTarefas] = useState([]);
-  function adicionarTarefa(novaTarefa) {
+  let adicionarTarefa = function(novaTarefa) {
     var tarefasTmp = this.state.tarefas;
     tarefasTmp.push(novaTarefa);
     setTarefas(tarefasTmp);
@@ -87,6 +87,12 @@ export default App;
 ```
 
 Esta função vai buscar a lista atual de tarefas e adiciona-lhe a nova tarefa, que foi criada dentro do comportamento `FormularioTarefa`.
+
+------
+
+**Avançado** Spread Operator
+
+[https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 
 Nota que usando a síntaxe mais recente do JavaScript podemos simplificar a função `adicionarTarefa` da seguinte forma:
 

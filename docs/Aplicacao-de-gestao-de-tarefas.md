@@ -29,8 +29,8 @@ Este componente precisa de um `input` e de um botão - para o botão podemos usa
 import Button from './Button';
 
 function FormularioTarefa() {
-    function adicionarTarefa() {
-        // TBD        
+    let adicionarTarefa = function() {
+        alert(); 
     }
     return (
         <div>
@@ -43,13 +43,9 @@ function FormularioTarefa() {
 export default FormularioTarefa;
 ```
 
-Como consegues ver, a função `adicionarTarefa` só lança um alerta, mas o nosso objectivo é que quando o utilizador clicke neste botão a nova tarefa apareça na lista de tarefas!
+Como consegues ver, a função `adicionarTarefa` só lança um alerta para já. 
 
-Para isso precisamos de uma estrutura de dados - um `array` - que mantenha a lista actualizada de todas as tarefas adicionadas/removidas pelo utilizador.
-
-Vamos ver como criar e gerir este array no próximo módulo, quando virmos como funcionam os [Hooks](https://reactjs.org/docs/hooks-intro.html).
-
-Para já, vamos voltar ao componente `App` e declarar este novo componente:
+Vamos agora voltar ao componente `App` e incluir este novo componente:
 
 ```javascript
 import './App.css';
@@ -69,3 +65,5 @@ export default App;
 Se olhares novamente para a aplicação deves ver:
 
 <img width="900" alt="Screenshot 2022-01-23 at 21 26 10" src="https://user-images.githubusercontent.com/39055313/150698599-067c2b7e-5c7e-4fbb-abd3-16ff5914d190.png">
+
+Se clicares no botão deves conseguir ver o alerta.

@@ -7,6 +7,8 @@ Como podem imaginar, todos os projectos React partilham muita coisas em comum, e
 
 Como tal é comum os programadores irem buscar "projectos base" ao Github e outras plataformas semelhantes, ou mesmo usar ferramentas para **gerar projectos-base**, que é o que nós vamos fazer usando uma ferramenta desenvolvida pelo Facebook chamada [create-react-app](https://github.com/facebook/create-react-app).
 
+[Adicionar forma de fazer via VSCode]
+
 Agora que já sabes alguns comandos simples de navegação, identifica em que pasta estás actualmente, e navega até ao diretório onde queres criar a pasta do projecto, ou seja, se queres que a pasta do projecto seja criada no Ambiente de Trabalho, navega até ao Ambiente de Trabalho.
 
 Assim que estiveres no diretório certo, corre:
@@ -59,8 +61,8 @@ Podes comprovar isto abrindo uma nova tab dentro do diretório do teu projecto, 
 
 ```shell
 ? Something is already running on port 3000. Probably:
-  /usr/local/bin/node /Users/inesafonso.martins/Desktop/my-app/node_modules/react-scripts/scripts/start.js (pid 3167)
-  in /Users/inesafonso.martins/Desktop/my-app
+  /usr/local/bin/node ./Desktop/my-app/node_modules/react-scripts/scripts/start.js (pid 3167)
+  in ./Desktop/my-app
 
 Would you like to run the app on another port instead? › (Y/n)
 ```

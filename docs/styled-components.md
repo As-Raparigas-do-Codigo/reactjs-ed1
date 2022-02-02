@@ -18,18 +18,34 @@ function Button(props) {
 export default Button;
 ```
 
-## Instalação dos Styled Components
+## Instalação de dependência
 
-Agora que sabem como é que se instalam dependências, vamos por este conhecimento à prova!
+Agora que sabes como é que se instalam dependências, vamos por este conhecimento à prova!
 
 Vai ao terminal, acede à pasta onde tens o projecto e garante que estás na raíz - para validar corre o comando `ls` e garante que vês qualquer coisa do género:
 
+```shell
+README.md         package.json      src
+package-lock.json public
 ```
 
+Agora corre o comando de instalação:
+
+```shell
+~ npm i styled-components --save 
 ```
 
+Como resultado deves ver esta entrada no ficheiro `package.json`:
 
-## Criar um Botão _a la_ Styled Component
+```json
+"dependencies": {
+    [...]
+    "styled-components": "^5.3.3",
+    [...]
+},
+```
+
+## Criação de um Botão _a la_ Styled Component
 
 E agora vamos criar um botão _a la_ styled component.
 
@@ -74,3 +90,5 @@ const DangerButton = styled(Button)`
   border-color: tomato;
 `;
 ```
+
+## Utilizar um styled component

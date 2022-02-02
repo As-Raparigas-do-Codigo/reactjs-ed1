@@ -29,7 +29,7 @@ Nota que é importante ter em conta que este código está escrito em `JSX` e n�
 
 ```javascript
 function Button() {
-    var onClickHandler = function() {
+    var onClickHandler = function() {   // podes usar "let" em vez de "var"
         alert("Alguém clicou no botão!");
     }
     return (
@@ -43,6 +43,15 @@ export default Button;
 <img width="1439" alt="Screenshot 2022-01-23 at 10 49 15" src="https://user-images.githubusercontent.com/39055313/150675154-78b48605-3b66-48a0-a2eb-dcaa52295901.png">
 
 ### Avançado: Utilização de Arrow Functions
+
+
+```javascript
+function Button() {
+    return (
+        <button onClick={function() { alert("Alguém clicou no botão!") } }>Click me</button>
+    );
+}
+```
 
 Uma forma alternativa de escrever isto foi introduzida com o [EcmaScript 2015](https://www.w3schools.com/js/js_es6.asp), também designado por ES6.
 

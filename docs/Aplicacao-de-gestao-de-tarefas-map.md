@@ -2,7 +2,9 @@
 
 Portanto, a variável de estado `tarefas` foi criada para manter a lista de tarefas actualizada, mas precisamos agora de uma forma de as mostrar na interface da aplicação.
 
-Uma das formas mais simples de iterar um array e mostrar os seus objectos numa lista é usar o método `map`:
+Uma das formas mais simples de iterar um array e mostrar os seus objectos numa lista é usar o método `map`.
+
+Da mesma forma que incluímos variáveis dentro do JSX, também podemos usar funções, como consegues ver abaixo:
 
 ```javascript
 import { useState } from 'react';
@@ -11,12 +13,9 @@ import FormularioTarefa from './FormularioTarefa';
 
 function App() {
   const [tarefas, setTarefas] = useState([]);
-  function adicionarTarefa(novaTarefa) {
-    setTarefas([...tarefas, { novaTarefa}]);
-  }
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={adicionarTarefa}/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
       {
         tarefas.map((tarefa, key) => {
           return <div id={key}>{tarefa}</div>
