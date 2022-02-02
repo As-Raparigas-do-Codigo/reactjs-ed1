@@ -1,15 +1,12 @@
 import { useState } from 'react';
 import './App.css';
-import FormularioTarefa from './FormularioTarefa';
+import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 
 function App() {
   const [tarefas, setTarefas] = useState([]);
-  function adicionarTarefa(novaTarefa) {
-    setTarefas([...tarefas, { novaTarefa}]);
-  }
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={adicionarTarefa}/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
       {
         tarefas.map((tarefa, key) => {
           return <div id={key}>{tarefa}</div>
