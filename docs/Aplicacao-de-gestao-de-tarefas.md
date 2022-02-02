@@ -30,7 +30,7 @@ import Button from './Button';
 
 function FormularioTarefa() {
     let adicionarTarefa = function() {
-        // TBD        
+        alert(); 
     }
     return (
         <div>
