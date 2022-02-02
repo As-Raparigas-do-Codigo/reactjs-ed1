@@ -6,7 +6,7 @@ Bem ... quando clicamos no botão de "Adicionar Tarefa" dentro do componente `Fo
 
 Como é que fazemos isso?
 
-Primeiro temos de criar uma estrutura para manter registo do valor que está escrito dentro do `input` - para isso vamos usar os `hooks` que já conhecemos:
+Bem, primeiro temos de criar uma estrutura para manter registo do valor que está escrito dentro do `input` - para isso vamos usar os `hooks` que já conhecemos:
 
 ```javascript
 import { useState } from 'react';
