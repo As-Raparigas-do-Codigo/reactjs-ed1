@@ -69,7 +69,7 @@ import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 import Botao from '../Botao/Botao';
 ```
 
-## Criação de um Botão _a la_ Styled Component
+## Criação de Styled Component
 
 Dentro da pasta `Botao`, junto ao componente que já tens, cria um novo ficheiro chamado `Botao.styles.js` e adiciona o seguinte código:
 
