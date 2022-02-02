@@ -12,7 +12,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 - [As diferentes arquitecturas da Web](./docs/As-diferentes-arquitecturas-da-web.md)
 - [Bibliotecas e Frameworks de Front-End](./docs/Bibliotecas-e-Frameworks-de-Front-End.md)
-- [A linha de comandos](./docs/A-linha-de-comandos.md) [*]
+- [A linha de comandos](./docs/A-linha-de-comandos.md) 👩‍🔬
 - [Criação do esqueleto do projecto](./docs/Criacao-do-esqueleto-do-projecto.md)
 
 ## 👣 Aula 2 - Primeiras Alterações ao Projecto
@@ -37,7 +37,9 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ## 🚗 Aula 5 - Últimos toques na aplicação
 
 - [Styled Components](./docs/styled-components.md)
-- [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
+- [Terminar implementaçao da lógica do projecto](./docs/Terminar-logica-do-projecto.md)
 
 ## Aula 6 - Próximos passos
-- [Próximos Passos](./docs/proximos-passos.md)
+- [Próximos Passos](./docs/Proximos-passos.md) 👩‍🔬
+
+Nota que os módulos identificados com 👩‍🔬 são um pouco mais avançados e não são necessários para conseguir por o projecto a funcionar.
