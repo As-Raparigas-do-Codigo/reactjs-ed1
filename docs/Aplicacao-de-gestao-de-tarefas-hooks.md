@@ -71,7 +71,7 @@ import FormularioTarefa from './FormularioTarefa';
 
 function App() {
   const [tarefas, setTarefas] = useState([]);
-  function adicionarTarefa(novaTarefa) {
+  let adicionarTarefa = function(novaTarefa) {
     var tarefasTmp = this.state.tarefas;
     tarefasTmp.push(novaTarefa);
     setTarefas(tarefasTmp);
