@@ -60,7 +60,7 @@ Garante que actualizas as tuas importações:
 - Dentro do `App.js` agora o componente `FormularioTarefa` é importado da seguinte forma:
 
 ```
-import FormularioTarefa from './components/FormularioTarefa/FormularioTarefa';
+import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 ```
 
 - Dentro do `FormularioTarefa` o componente `Botao` é importado da seguinte forma:
