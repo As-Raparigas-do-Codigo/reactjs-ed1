@@ -47,7 +47,9 @@ function FormularioTarefa() {
     return (
         <div>
             <input type="text" placeholder="Introduz a tua tarefa"/>
-            <Button type="warning" title="Adicionar" onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
+            <Button type="warning" 
+                    title="Adicionar" 
+                    onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
         </div>        
     );
 }
