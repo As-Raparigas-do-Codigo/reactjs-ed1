@@ -8,7 +8,7 @@ Como é que fazemos isso?
 
 Primeiro temos de criar uma estrutura para manter registo do valor que está escrito dentro do `input` - para isso vamos usar os `hooks` que já conhecemos:
 
-```
+```javascript
 import { useState } from 'react';
 import Botao from '../Botao/Botao';
 
@@ -33,7 +33,7 @@ Ok, agora vamos criar um mecanismo que garante que a variável `novaTarefa` é a
 
 Para isso, vamos chamar a função `setTarefa` com o valor `e.target.value` - para entenderes isto tens de perceber que sempre que há uma alteração num elemento de `input` este automaticamente gera [um evento](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event) que podes consultar.
 
-```
+```javascript
 import { useState } from 'react';
 import Botao from '../Botao/Botao';
 
@@ -55,7 +55,7 @@ export default FormularioTarefa;
 
 OK, agora vamos testar este mecanismo simplesmente lançando um alerta com o valor actualizado da variável `novaTarefa`:
 
-```
+```javascript
 import { useState } from 'react';
 import Botao from '../Botao/Botao';
 
