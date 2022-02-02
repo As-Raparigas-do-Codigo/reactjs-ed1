@@ -97,4 +97,7 @@ function FormularioTarefa(props) {
 
 export default FormularioTarefa;
 ```
-Finalmente, vamos invocar a função `onTarefaCriada` que é passada pelo componente pai, de forma a podermos comunicar ao componente `App` sempre que uma nova tarefa for criada:
+
+E agora conseguimos ver a nossa tarefa na lista!
+
+<img width="421" alt="Screenshot 2022-02-02 at 21 32 32" src="https://user-images.githubusercontent.com/39055313/152240853-95c62cc4-ac05-47f7-bbbf-d8bb1d2eb56a.png">
