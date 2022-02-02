@@ -17,7 +17,7 @@ function App() {
   const [tarefas, setTarefas] = useState([]);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaAdicionada={}/>
+      <FormularioTarefa/>
     </div>
   );
 }
