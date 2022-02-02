@@ -88,9 +88,7 @@ export default App;
 
 Esta função vai buscar a lista atual de tarefas e adiciona-lhe a nova tarefa, que foi criada dentro do comportamento `FormularioTarefa`.
 
-------
-
-## Spread Operator
+### Utilização do Spread Operator
 
 O [Spread Operator](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax) é uma síntaxe especial do JavaScript que nos permite simplificar a função `adicionarTarefa` da seguinte forma:
 
