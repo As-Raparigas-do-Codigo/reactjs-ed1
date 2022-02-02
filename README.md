@@ -40,15 +40,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Continuar implementaçao da lógica do projecto](./docs/continuar-logica-do-projecto.md)
 
 ## Aula 6 - Próximos passos
-- useMemo
-- useCallback
-- useEffect
-
-mencionar que existe:
-- redux
-- routing
-- bootstrap react / material UI + outras libs de componentes
-- jest (testes)
-- typescript & babel (transpilers)
-- webpack
-- fetch e interação com APIs
+- [Próximos Passos](./docs/proximos-passos.md)
