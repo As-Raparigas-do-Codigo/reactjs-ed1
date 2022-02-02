@@ -5,14 +5,14 @@ Bem-vinda ao segundo módulo de Web.
 Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por isso se tiveres dúvidas ou quiseres rever alguma matéria consulta [este](https://github.com/As-Raparigas-do-Codigo/web-ed-3) repositório.
 
 ## 📚 Pré-Requisitos
-****
+
 - [Instalação de Software](./docs/Instalacao-de-Software.md)
 
 ## 👋 Aula 1 - Introdução Teórica e Arranque do Projecto
 
 - [As diferentes arquitecturas da Web](./docs/As-diferentes-arquitecturas-da-web.md)
 - [Bibliotecas e Frameworks de Front-End](./docs/Bibliotecas-e-Frameworks-de-Front-End.md)
-- [A linha de comandos](./docs/A-linha-de-comandos.md) 👩‍🔬
+- [A linha de comandos](./docs/A-linha-de-comandos.md)
 - [Criação do esqueleto do projecto](./docs/Criacao-do-esqueleto-do-projecto.md)
 
 ## 👣 Aula 2 - Primeiras Alterações ao Projecto
@@ -40,6 +40,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Terminar implementaçao da lógica do projecto](./docs/Terminar-logica-do-projecto.md)
 
 ## Aula 6 - Próximos passos
-- [Próximos Passos](./docs/Proximos-passos.md) 👩‍🔬
-
-Nota que os módulos identificados com 👩‍🔬 são um pouco mais avançados e não são necessários para conseguir por o projecto a funcionar.
+- [Próximos Passos](./docs/Proximos-passos.md)
