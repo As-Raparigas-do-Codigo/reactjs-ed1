@@ -45,7 +45,7 @@ export default FormularioTarefa;
 
 Como consegues ver, a função `adicionarTarefa` só lança um alerta para já. 
 
-Vamos agora voltar ao componente `App` e declarar este novo componente:
+Vamos agora voltar ao componente `App` e incluir este novo componente:
 
 ```javascript
 import './App.css';
