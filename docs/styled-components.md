@@ -124,7 +124,7 @@ export default BotaoStyled;
 
 Para usarmos este styled component vamos voltar ao ficheiro `Button.js` e vamos substituir o elemento HTML `<button>` por `BotaoStyled`:
 
-```
+```javascript
 import BotaoStyled from './BotaoStyled';
 
 function Botao(props) {
