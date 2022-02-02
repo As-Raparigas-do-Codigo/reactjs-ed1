@@ -41,7 +41,7 @@ Vamos fazer um pequeno teste.
 
 Em vez de inicializarmos o array `tarefas` vazio, vamos adicionar-lhe umas tarefas de teste:
 
-```
+```javascript
 import { useState } from 'react';
 import './App.css';
 import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
