@@ -79,12 +79,12 @@ import styled from 'styled-components'
 
 Nesta linha importamos a biblioteca de styled components e atribuímo-la à variável `styled`.
 
-Agora vamos declarar o componente `StyledBotao` como podes ver abaixo:
+Agora vamos declarar o componente `BotaoStyled` como podes ver abaixo:
 
 ```javascript
 import styled from 'styled-components'
 
-const StyledBotao = styled.button``
+const BotaoStyled = styled.button``
 ```
 
 Agora vamos adicionar o CSS que queremos para todos os botões:
@@ -108,7 +108,7 @@ Finalmente vamos exportar este styled component para o podermos usar no resto da
 ```javascript
 import styled from 'styled-components'
 
-const StyledBotao = styled.button`
+const BotaoStyled = styled.button`
   color: palevioletred;
   font-size: 1em;
   margin: 1em;
@@ -117,8 +117,26 @@ const StyledBotao = styled.button`
   border-radius: 3px;
 `
 
-export default StyledBotao;
+export default BotaoStyled;
 ```
 
 
 ## Utilizar um styled component
+
+Para usarmos este styled component vamos voltar ao ficheiro `Button.js` e vamos substituir o elemento HTML `<button>` por `BotaoStyled`:
+
+```
+import BotaoStyled from './BotaoStyled';
+
+function Botao(props) {
+    return (
+        <BotaoStyled onClick={props.onClickHandler}>{props.title}</BotaoStyled>
+    );
+}
+  
+export default Botao;
+```
+
+Deves agora ver o teu botão com novo estilo:
+
+
