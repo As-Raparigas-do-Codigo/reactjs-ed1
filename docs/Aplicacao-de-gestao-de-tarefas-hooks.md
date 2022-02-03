@@ -109,7 +109,7 @@ function App() {
   const [tarefas, setTarefas] = useState([]);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
     </div>
   );
 }
