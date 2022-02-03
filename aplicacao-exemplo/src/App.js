@@ -3,15 +3,17 @@ import './App.css';
 import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 
 function App() {
-  const [tarefas, setTarefas] = useState([]);
+  const [tarefas, setTarefas] = useState(['comprar leite e ovos', 'exercício']);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, { novaTarefa }]) }/>
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
+      <ul>
       {
         tarefas.map((tarefa, key) => {
-          return <div id={key}>{tarefa}</div>
+          return <li key={key}>{tarefa}</li>
         })
       }
+      </ul>
     </div>
   );
 }

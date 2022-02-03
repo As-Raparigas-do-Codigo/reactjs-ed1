@@ -1,12 +1,15 @@
+import { useState } from 'react';
 import Botao from '../Botao/Botao';
 
-function FormularioTarefa() {
+function FormularioTarefa(props) {
+    const [novaTarefa, setNovaTarefa] = useState("")
     return (
         <div>
-            <input type="text" placeholder="Introduz a tua tarefa"/>
+            <input type="text" placeholder="Introduz a tua tarefa"
+                   onChange={(e) => setNovaTarefa(e.target.value)}/>
             <Botao type="warning" 
                    title="Adicionar" 
-                   onClickHandler={() => alert("Alguém clicou no botão de adicionar tarefa")}/>
+                   onClickHandler={() => props.onTarefaCriada(novaTarefa)}/>
         </div>        
     );
 }
