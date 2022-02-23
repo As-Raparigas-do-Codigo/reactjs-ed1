@@ -4,11 +4,9 @@ E agora? O que é que podes aprender a seguir?
 
 ## Roteamento/Routing
 
-Como viste no decorrer deste workshop, as aplicações "single-page" (SPA) podem ter apenas uma página, ou seja, utilizar apenas um único URL. No entanto, é comum ver SPAs que suportam múltiplas "rotas".
+Como viste no decorrer deste workshop, as aplicações "single-page" (SPA) podem utilizar apenas um único URL. No entanto, é comum ver SPAs que suportam múltiplas "rotas".
 
-As rotas não são páginas "verdadeiras" mas servem para emular o sistema clássico de diferentes páginas `HTML`, através da mudança do URL sem haver um novo pedido `HTTP` ao servidor.
-
-Um dos casos de uso típicos para a utilização de rotas é para permitir a criação de URLs que apontam para um pedaço de conteúdo específico.
+As rotas não são páginas "verdadeiras" mas permitem que sejam criados URLs que apontam para pedaços de conteúdo específico.
 
 Essencialmente o **roteamento** consistem em definir as rotas (os URLs) que queremos que a aplicação suporte, e que conteúdo é que deve ser exibido quando se navega para cada uma.
 
