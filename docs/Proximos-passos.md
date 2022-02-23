@@ -28,6 +28,8 @@ Algo que vais ter de aprender eventualmente é como tornar as tuas aplicações 
 
 Os testes ajudam-nos a perceber se fizemos erros na lógica da aplicação, ou mesmo se algo mudou numa dependência que afectou a nossa aplicação.
 
+Uma aplicação robusta tem uma boa "code coverage", ou seja, uma grande percentagem de linhas de código cobertas por testes unitários. 
+
 Se reparares, o teu ficheiro `package.json` tem já algumas referências a uma das bibliotecas de teste mais populares para Javascript, o [Jest](https://jestjs.io/):
 
 ```json
@@ -48,7 +50,7 @@ Se reparares, o teu ficheiro `package.json` tem já algumas referências a uma d
 }
 ```
 
-Uma das formas mais simples de começar é aprender a fazer testes unitários:
+Os testes unitários podem ser tão simples como:
 
 ```js
 const sum = require('./sum');
