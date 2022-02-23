@@ -50,13 +50,9 @@ Se reparares, o teu ficheiro `package.json` tem já algumas referências a uma d
 }
 ```
 
-Sempre que na tua aplicação tens um cenário que consegues descrever da seguinte forma:
+Sempre que na tua aplicação tens um cenário que consegues descrever da seguinte forma: "Eu sei que dadas as condições x e y, deveria acontecer z", então consegues traduzir isso para um teste.
 
-"Eu sei que dadas as condições x e y, deveria acontecer z".
-
-Então consegues traduzir isso para um teste.
-
-Por exemplo: "Eu sei que quando somo 1 mais 2, deveria obter o resultado 3":
+Por exemplo: "Eu sei que quando somo 1 mais 2, deveria obter o resultado 3".
 
 Isto seria traduzido num teste unitário escrito em Jest da seguinte forma:
 
