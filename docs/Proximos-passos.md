@@ -26,7 +26,7 @@ Quando queres criar aplicações com aspecto profissional muito rapidamente, alg
 
 Algo que vais ter de aprender eventualmente é como tornar as tuas aplicações mais robustas através da escrita de testes. 
 
-Os testes ajudam-nos a perceber se fizemos erros na lógica da aplicação, ou mesmo se algo mudou numa dependência que afectou a nossa aplicação.
+Os testes ajudam-nos a perceber se fizemos erros, ou mesmo se algo mudou numa dependência que afectou a nossa aplicação.
 
 Uma aplicação robusta tem uma boa "code coverage" (ou "cobertura de código"), ou seja, uma grande percentagem de linhas de código cobertas por testes unitários. 
 
@@ -50,7 +50,15 @@ Se reparares, o teu ficheiro `package.json` tem já algumas referências a uma d
 }
 ```
 
-Os testes unitários podem ser tão simples como:
+Sempre que na tua aplicação tens um cenário que consegues descrever da seguinte forma:
+
+"Eu sei que dadas as condições x e y, deveria acontecer z".
+
+Então consegues traduzir isso para um teste.
+
+Por exemplo: "Eu sei que quando somo 1 mais 2, deveria obter o resultado 3":
+
+Isto seria traduzido num teste unitário escrito em Jest da seguinte forma:
 
 ```js
 const sum = require('./sum');
