@@ -28,7 +28,7 @@ Algo que vais ter de aprender eventualmente é como tornar as tuas aplicações 
 
 Os testes ajudam-nos a perceber se fizemos erros na lógica da aplicação, ou mesmo se algo mudou numa dependência que afectou a nossa aplicação.
 
-Uma aplicação robusta tem uma boa "code coverage", ou seja, uma grande percentagem de linhas de código cobertas por testes unitários. 
+Uma aplicação robusta tem uma boa "code coverage" (ou "cobertura de código"), ou seja, uma grande percentagem de linhas de código cobertas por testes unitários. 
 
 Se reparares, o teu ficheiro `package.json` tem já algumas referências a uma das bibliotecas de teste mais populares para Javascript, o [Jest](https://jestjs.io/):
 
