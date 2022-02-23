@@ -91,7 +91,7 @@ Outra tecnologia essencial no contexto das aplicações React modernas é o [Web
 
 Sem te aperceberes tens estado a usar Webpack desde que configuraste o projecto, é por isso que consegues importar os teus recursos usando a síntaxe:
 
-```
+```javascript
 import bar from './bar.js';
 ```
 
