@@ -98,7 +98,8 @@ Uma das formas mais simples de conseguir fazer isto é usando o [fetch](https://
 Por exemplo, imagina que querias conseguir pesquisar por pacotes `npm` dentro da tua aplicação, podias usar a API pública do `npm` da seguinte forma:
 
 ```javascript
-const [pacotes, setPacotes] = useState([])
+const [pacotes, setPacotes] = useState([]);
+
 useEffect(() => {
     fetch('https://api.npms.io/v2/search?q=react')
         .then(response => response.json())
@@ -106,7 +107,7 @@ useEffect(() => {
 }, []);
 ```
 
-## Redux
+## Avançados
 
-
-
+- [Redux](https://redux.js.org/)
+- [Flux](https://facebook.github.io/flux/)
