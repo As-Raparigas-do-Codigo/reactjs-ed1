@@ -39,5 +39,5 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Styled Components](./docs/styled-components.md)
 - [Terminar implementaçao da lógica do projecto](./docs/Terminar-logica-do-projecto.md)
 
-## Aula 6 - Próximos passos
+## 🚀 Aula 6 - Próximos passos
 - [Próximos Passos](./docs/Proximos-passos.md)
