@@ -3,18 +3,18 @@
 No decorrer dos workshops vais precisar de um editor de texto para escreveres o teu código (HTML, CSS, JS), de um navegador (um browswer) que interprete esse código (onde vemos os resultados!), e de algumas tecnologias base que vamos utilizar. Nestes workshops iremos usar:
 
 - [ ] Google Chrome
-- [ ] Sublime Text
+- [ ] Visual Studio Code
 - [ ] NodeJS + npm
 
 
-⚠️ **Nota:** Não é obrigatório usar o Google Chome ou o Sublime especificamente para acompanhar as aulas ou resolver os exercícios. É apenas mais fácil se todos os alunos utilizarem o mesmo browser e editor na resolução de bugs e apoio por parte dos mentores. Alguns aspetos podem variar entre editores e browsers, como por exemplo:
+⚠️ **Nota:** Não é obrigatório usar o Google Chome ou o Visual Studio Code especificamente para acompanhar as aulas ou resolver os exercícios. É apenas mais fácil se todos os alunos utilizarem o mesmo browser e editor na resolução de bugs e apoio por parte dos mentores. Alguns aspetos podem variar entre editores e browsers, como por exemplo:
 
 - Aceder ao menu de developer (código fonte da página, consola de javascript);
 - Alguns resultados podem variar entre browsers (Chrome vs Safari);
 - Comandos rápidos (abertura e fecho de tags, formatação de texto);
 - Packages úteis (por exemplo, de formatação automática);
 
-No entanto, se já tens outro browser (e.g., Firefox, Safari) ou editor de texto (e.g., VS Code, Notepad++) com que te sentes confortável, excelente! 😄
+No entanto, se já tens outro browser (e.g., Firefox, Safari) ou editor de texto (e.g., Sublime, Notepad++) com que te sentes confortável, excelente! 😄
 
 ## Google Chrome
 1. Acede ao [site oficial](https://www.google.com/chrome/);
@@ -26,15 +26,15 @@ No entanto, se já tens outro browser (e.g., Firefox, Safari) ou editor de texto
 
 <br>
 
-## Sublime Text
-1. Acede ao [site oficial](https://www.sublimetext.com/);
+## Visual Studio Code
+1. Acede ao [site oficial](https://code.visualstudio.com/);
 2. Clica na opção de download que for mais indicada para o teu sistema operativo;
 3. Clica no ficheiro executável que foi descarregado;
 4. Escolhe o destino onde tencionas instalar o editor de código (o predefinido serve perfeitamente);
 5. Clica "Next" e depois "Install";
-6. Clica em "Finish" e deverás ter o "Sublime Text" instalado no teu computador.
+6. Clica em "Finish" e deverás ter o "Visual Studio Code" instalado no teu computador.
 
-- [x] Sublime Text
+- [x] Visual Studio Code
 
 <br>
 
