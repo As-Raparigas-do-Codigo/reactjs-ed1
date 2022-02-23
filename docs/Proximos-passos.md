@@ -1,4 +1,4 @@
-# Próximos Passos
+# 🚀 Próximos Passos
 
 E agora? O que é que podes aprender a seguir?
 
