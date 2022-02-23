@@ -76,7 +76,7 @@ Pode parecer limitador neste momento, mas a verdade é que acaba por impedir que
 
 Quando ouvires falar de TypeScript vais provavelmente também ouvir falar de [Babel](https://babeljs.io/) ou de outro "transpiler".
 
-Um transpiler é um tradutor de código fonte numa linguagem para código fonte noutra linguagem. este caso preciamos de traduzir de TypeScript para JavaScript **porque os browsers não sabem interpretar (ler) TypeScript, nem JSX ... só JavaScript!**
+Um transpiler é um tradutor de código fonte numa linguagem para código fonte noutra linguagem. Nós precisamos sempre de traduzir de TypeScript para JavaScript **porque os browsers não sabem interpretar (ler) TypeScript, nem JSX ... só JavaScript!**
 
 ## Outros Hooks
 
