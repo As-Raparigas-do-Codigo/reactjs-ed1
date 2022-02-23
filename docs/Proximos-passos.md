@@ -6,7 +6,7 @@ E agora? O que é que podes aprender a seguir?
 
 Como viste no decorrer deste workshop, as aplicações "single-page" (SPA) podem utilizar apenas um único URL. No entanto, é comum ver SPAs que suportam múltiplas "rotas".
 
-As rotas não são páginas "verdadeiras" mas permitem que sejam criados URLs que apontam para pedaços de conteúdo específico.
+As rotas não são páginas típicas já que qualquer uma delas devolve o mesmo `HTML` e assets. No entanto, a própria lógica da aplicação decide que conteúdo mostrar com base no URL que está aberto.
 
 Essencialmente o **roteamento** consistem em definir as rotas (os URLs) que queremos que a aplicação suporte, e que conteúdo é que deve ser exibido quando se navega para cada uma.
 
