@@ -68,7 +68,11 @@ test('adds 1 + 2 to equal 3', () => {
 
 Algo que vais reparar quando começares a explorar outros projectos React, é que em vez de ficheiros com extensão `.js` muitos dos ficheiros têm extensão `.ts`, o que significa que estes ficheiros são escritos em [TypeScript](https://www.typescriptlang.org/), quje é uma versão tipada do JavaScript.
 
-O que é uma [linguagem tipada](https://pt.wikipedia.org/wiki/Linguagem_tipada)? De forma simples "é uma linguagem de programação que usa variáveis com tipos específicos." Para já, é importante saberes que o TypeScript é muito popular porque é muito mais improvável que faças alguns erros "parvos", que tendem a acontecer em Javascript.
+O que é uma [linguagem tipada](https://pt.wikipedia.org/wiki/Linguagem_tipada)? De forma simples "é uma linguagem de programação que usa variáveis com tipos específicos." 
+
+Neste momento já sabes que uma variável em JavaScript pode conter `strings`, números inteiros, `arrays`, objectos, etc. Imagina agora uma linguagem em que tens de especificar o tipo de dados que vai ser guardado numa variável quando a declaras, e nunca podes mudar o tipo da variável depois dela ser declarada.
+
+Pode parecer limitador neste momento, mas a verdade é que acaba por impedir que muitos erros "parvos" aconteçam, daí a popularidade do TypeScript.
 
 Quando ouvires falar de TypeScript vais provavelmente também ouvir falar de [Babel](https://babeljs.io/) ou de outro "transpiler".
 
