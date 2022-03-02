@@ -55,7 +55,7 @@ O resultado final é este:
 
 ![conditional-rendering](https://user-images.githubusercontent.com/39055313/156449299-a59f4161-7f63-44b1-91bb-7eea94262c0d.gif)
 
-É importante perceber que estamos aqui a usar uma expressão ternária, que é construída da seguinte forma:
+É importante perceber que estamos aqui a usar o [operador condicional ternário](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Conditional_Operator), que funciona da seguinte forma:
 
 ```
 "a condição a validar" ? "se a condição for verdadeira, executa isto" : "se a condição for falsa, executa isto" 
