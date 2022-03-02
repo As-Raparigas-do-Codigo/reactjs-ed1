@@ -43,4 +43,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Próximos Passos](./docs/Proximos-passos.md)
 
 
-[Booklet](./booklet.md)
+[Booklet](./docs/booklet.md)
