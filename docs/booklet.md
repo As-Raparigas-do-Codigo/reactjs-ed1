@@ -84,6 +84,7 @@ No final do ciclo de workshops, é esperado que as participantes desenvolvam as 
 * Fechar Lógica do Projecto Continuado.
 
 <DATA DA SEMANA 7>
+* Renderização Condicional
 * Próximos Passos.
 * Sessão de Encerramento.
 
