@@ -36,25 +36,23 @@ function App() {
   const [tarefas, setTarefas] = useState(['comprar leite e ovos', 'exercício']);
   return (
     <div className="App">
-      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
+    <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
+    {
+      tarefas.length > 0 ? 
+      <ul>
       {
-        tarefas.length > 0 ? 
-          <ul>
-            {
-              tarefas.map((tarefa, key) => {
-                return <li key={key}>{tarefa}</li>
-              })
-            }
-            </ul> : 
-            <p>
-              Ainda não adicionaste nenhuma tarefa!
-            </p>
-        }
+        tarefas.map((tarefa, key) => {
+          return <li key={key}>{tarefa}</li>
+        })
+      }
+      </ul> : 
+      <p>Ainda não adicionaste nenhuma tarefa!</p>
+    }
     </div>
-  );
-}
-
-export default App;
+    );
+  }
+  
+  export default App;
 ```
 
 É importante perceber que estamos aqui a usar uma expressão ternária, que é construída da seguinte forma:
