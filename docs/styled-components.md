@@ -92,7 +92,7 @@ Agora vamos adicionar o CSS que queremos para todos os botões:
 ```javascript
 import styled from 'styled-components'
 
-const StyledBotao = styled.button`
+const BotaoStyled = styled.button`
   color: palevioletred;
   font-size: 1em;
   margin: 1em;
