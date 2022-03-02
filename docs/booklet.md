@@ -56,32 +56,32 @@ No final do ciclo de workshops, é esperado que as participantes desenvolvam as 
 
 ### Programa
 
-<DATA DA SEMANA 1>
+<DATA DA SEMANA 1> (23 DE ABRIL)
 * Sessão de Abertura.
 * Instalação do Software Necessário.
 
-<DATA DA SEMANA 2>
+<DATA DA SEMANA 2> (30 DE ABRIL?)
 * Introdução Teórica às Diferentes Arquitecturas da Web.
 * A Linha de Comandos.
 * Criação do Esqueleto do Projeto.
 
-<DATA DA SEMANA 3>
+<DATA DA SEMANA 3> (7 DE MAIO)
 * A Construção de Projectos React.
 * Introdução à Criação de Componentes.
  
-<DATA DA SEMANA 4>
+<DATA DA SEMANA 4> (14 DE MAIO)
 * Introdução de Comportamento Dinâmico.
 * Apresentação do Projecto Continuado.
 * React Hooks.
 
-<DATA DA SEMANA 5>
+<DATA DA SEMANA 5> (21 DE MAIO)
 * Adicionar Estilo em ReactJS.
 * Introdução à Gestão de Dependências
 
-<DATA DA SEMANA 6>
+<DATA DA SEMANA 6> (28 DE MAIO)
 * Introdução aos Styled Components.
 * Fechar Lógica do Projecto Continuado.
 
-<DATA DA SEMANA 7>
+<DATA DA SEMANA 7> (4 DE JUNHO)
 * Próximos Passos.
 * Sessão de Encerramento.
