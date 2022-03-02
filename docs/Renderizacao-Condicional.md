@@ -2,13 +2,9 @@
 
 O `JSX` nos permite misturar regras de JavaScript com `HTML`, o que é uma ferramenta poderosa quando queremos renderizar alguma coisa condicionalmente.
 
-Um típico cenário de "conditional rendering" são os "empty states", isto é: o que a aplicação mostra quando ainda não tem dados.
-
-Alguns exemplos de empty states incluem:
+Um típico cenário de "conditional rendering" são os "empty states", isto é: o que a aplicação mostra quando ainda não tem dados, exemplo:
 
 ![facebook-empty-state](https://user-images.githubusercontent.com/39055313/156448028-f9cf6d3e-b0c8-43c4-a305-74635f069942.png)
-
-![35-empty-state-mobile-app-designs](https://user-images.githubusercontent.com/39055313/156449110-03a4e310-751e-4b25-8c98-0d1c0c0a98a0.jpeg)
 
 Imagina que queremos exibir uma mensagem específica ao utilizador quando não existem tarefas.
 
