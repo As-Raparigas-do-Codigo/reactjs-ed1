@@ -34,15 +34,15 @@ function App() {
     <div className="App">
     <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
     {
-      tarefas.length > 0 ? 
-      <ul>
-      {
-        tarefas.map((tarefa, key) => {
-          return <li key={key}>{tarefa}</li>
-        })
-      }
-      </ul> : 
-      <p>Ainda não adicionaste nenhuma tarefa!</p>
+      tarefas.length > 0
+        ? <ul>
+          {
+            tarefas.map((tarefa, key) => {
+              return <li key={key}>{tarefa}</li>
+            })
+          }
+          </ul>
+        : <p>Ainda não adicionaste nenhuma tarefa!</p>
     }
     </div>
   );
