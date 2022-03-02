@@ -46,6 +46,7 @@ No final do ciclo de workshops, é esperado que as participantes desenvolvam as 
 * Saber como se aplicam os React Hooks;
 * Perceber o que é um gestor de dependências e conseguir realizar operações básicas com [NPM](https://www.npmjs.com/);
 * Conseguir adicionar estilo a componentes através da construção de [Styled Components](https://styled-components.com/);
+* Perceber como renderizar componentes condicionalmente.
 
 #### Formadores
 
