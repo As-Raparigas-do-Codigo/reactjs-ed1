@@ -119,3 +119,10 @@ useEffect(() => {
 
 - [Redux](https://redux.js.org/)
 - [Flux](https://facebook.github.io/flux/)
+
+# Explorar na Aula
+
+Conditional Rendering
+
+```
+```
