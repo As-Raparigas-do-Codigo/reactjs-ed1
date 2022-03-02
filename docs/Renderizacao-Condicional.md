@@ -25,3 +25,46 @@ function App() {
 }
 ```
 
+Depois, dentro do componente `App` podemos adicionar uma regra que mostra uma frase específica quando não há tarefas, por exemplo:
+
+```javascript
+import { useState } from 'react';
+import './App.css';
+import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
+
+function App() {
+  const [tarefas, setTarefas] = useState(['comprar leite e ovos', 'exercício']);
+  return (
+    <div className="App">
+      <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
+      {
+        tarefas.length > 0 ? 
+          <ul>
+            {
+              tarefas.map((tarefa, key) => {
+                return <li key={key}>{tarefa}</li>
+              })
+            }
+            </ul> : 
+            <p>
+              Ainda não adicionaste nenhuma tarefa!
+            </p>
+        }
+    </div>
+  );
+}
+
+export default App;
+```
+
+É importante perceber que estamos aqui a usar uma expressão ternária, que é construída da seguinte forma:
+
+```
+"a condição a validar" ? "se a condição for verdadeira, executa isto" : "se a condição for falsa, executa isto" 
+```
+
+Neste caso:
+
+```
+tarefas.length > 0 ? "mostra a lista de tarefas" : "mostra a frase"
+```
