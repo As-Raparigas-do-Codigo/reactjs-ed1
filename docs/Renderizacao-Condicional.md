@@ -8,7 +8,7 @@ Alguns exemplos de empty states incluem:
 
 ![facebook-empty-state](https://user-images.githubusercontent.com/39055313/156448028-f9cf6d3e-b0c8-43c4-a305-74635f069942.png)
 
-![no-results](https://user-images.githubusercontent.com/39055313/156448037-7900ce7a-07b3-49cc-8a0d-584f68d4ca51.png)
+![35-empty-state-mobile-app-designs](https://user-images.githubusercontent.com/39055313/156449110-03a4e310-751e-4b25-8c98-0d1c0c0a98a0.jpeg)
 
 Imagina que queremos exibir uma mensagem específica ao utilizador quando não existem tarefas.
 
@@ -33,7 +33,7 @@ import './App.css';
 import FormularioTarefa from './componentes/FormularioTarefa/FormularioTarefa';
 
 function App() {
-  const [tarefas, setTarefas] = useState(['comprar leite e ovos', 'exercício']);
+  const [tarefas, setTarefas] = useState([]);
   return (
     <div className="App">
     <FormularioTarefa onTarefaCriada={ (novaTarefa) => setTarefas([...tarefas, novaTarefa]) }/>
@@ -49,11 +49,15 @@ function App() {
       <p>Ainda não adicionaste nenhuma tarefa!</p>
     }
     </div>
-    );
-  }
+  );
+}
   
-  export default App;
+export default App;
 ```
+
+O resultado final é este:
+
+![conditional-rendering](https://user-images.githubusercontent.com/39055313/156449299-a59f4161-7f63-44b1-91bb-7eea94262c0d.gif)
 
 É importante perceber que estamos aqui a usar uma expressão ternária, que é construída da seguinte forma:
 
