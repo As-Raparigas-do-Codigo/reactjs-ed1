@@ -2,7 +2,7 @@
 
 O `JSX` permite-nos misturar lógica escrita em `JavaScript` com componentes de UI escritos em `HTML`, o que é uma ferramenta poderosa quando queremos renderizar alguma coisa condicionalmente.
 
-Um típico cenário de "conditional rendering" são os "empty states", isto é: o que a aplicação mostra quando ainda não tem dados, exemplo:
+Um típico cenário de "conditional rendering" são os "empty states", isto é: o que a aplicação mostra quando não tem dados para mostrar, exemplo:
 
 ![facebook-empty-state](https://user-images.githubusercontent.com/39055313/156448028-f9cf6d3e-b0c8-43c4-a305-74635f069942.png)
 
