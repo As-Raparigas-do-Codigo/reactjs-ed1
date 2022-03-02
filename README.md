@@ -41,3 +41,6 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## 🚀 Aula 6 - Próximos passos
 - [Próximos Passos](./docs/Proximos-passos.md)
+
+
+[Booklet](./booklet.md)
