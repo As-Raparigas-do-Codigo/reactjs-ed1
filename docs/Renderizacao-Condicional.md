@@ -1,6 +1,6 @@
 # Renderização Condicional
 
-O `JSX` permite-nos misturar regras de JavaScript com `HTML`, o que é uma ferramenta poderosa quando queremos renderizar alguma coisa condicionalmente.
+O `JSX` permite-nos misturar lógica escrita em `JavaScript` com componentes de UI escritos em `HTML`, o que é uma ferramenta poderosa quando queremos renderizar alguma coisa condicionalmente.
 
 Um típico cenário de "conditional rendering" são os "empty states", isto é: o que a aplicação mostra quando ainda não tem dados, exemplo:
 
