@@ -6,6 +6,10 @@ Um típico cenário de "conditional rendering" são os "empty states", isto é: 
 
 Alguns exemplos de empty states incluem:
 
+![facebook-empty-state](https://user-images.githubusercontent.com/39055313/156448028-f9cf6d3e-b0c8-43c4-a305-74635f069942.png)
+
+![no-results](https://user-images.githubusercontent.com/39055313/156448037-7900ce7a-07b3-49cc-8a0d-584f68d4ca51.png)
+
 Imagina que queremos exibir uma mensagem específica ao utilizador quando não existem tarefas.
 
 Para começar, temos de retirar do hook aquelas tarefas que tínhamos "hardcoded":
