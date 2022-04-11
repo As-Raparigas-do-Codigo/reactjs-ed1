@@ -1,36 +1,37 @@
 # Booklet
 
-## 1ª Edição do Ciclo de Workshops de Web 2
+## 1ª Edição do Ciclo de Workshops de React JS
 
-Este ciclo de workshops pretende introduzir as participantes à construção de aplicações "Single Page" usando [ReactJS](https://reactjs.org/). Recomenda-se que as participantes tenham domínio básico de HTML, CSS e Javascript.
+Este ciclo de workshops pretende introduzir as participantes à construção de aplicações "Single Page" usando [ReactJS](https://reactjs.org/). Espera-se que as participantes tenham domínio básico de HTML, CSS e Javascript.
 Os workshops são gratuitos, mas com limite de inscrição até 40 vagas.
 
 -----------------------------------------------
 
 ### Método de Ensino:
 
-#### Duração de 7 semanas:
-Este ciclo de workshops está estruturado em 7 sessões de 2 horas semanais, a decorrer aos Sábados das 10h às 12h, em formato online.
+#### Duração de 6 semanas:
+Este ciclo de workshops está estruturado em 6 sessões de 2 horas semanais, a decorrer aos Sábados das 10h às 12h, em formato online.
 
 #### Teórico-Prático:
 Os workshops desenvolvem-se numa perspectiva teórico-prática: em cada sessão são apresentados os conceitos associados a cada tema (exemplificados com pequenos
 exertos de código) e promovida a resolução de casos práticos e problemas reais.
 
 #### Mentoria:
-Cada aluna será associada a um/a mentor/a, de modo a permitir um acompanhamento mais personalizado da sua progressão.
+Cada aluna será associada a um/a mentor/a, de modo a permitir um acompanhamento mais personalizado da sua progressão durante a duração do curso.
 
 #### Pré-Requisitos:
-Domínio Básico dos Fundamentos de HTML, CSS e JavaScript, que será avaliado com um exercício de admissão.
+Domínio básico dos fundamentos de HTML, CSS e JavaScript, que será avaliado com um exercício de admissão.
 
 #### Inscrições:
 Inscrições limitadas a 40 alunas.
 
 #### Horas de Conteúdo e Mentoria
 
-* ? Mentores
-* 12 Horas de Mentoria
+* 4 Mentores
+* 12 Horas de Aula
 * 40 Alunas Impactadas
 * 1 Projecto Continuado
+* 1 Mentor atribuído a cada aluna
 
 -----------------------------------------------
 
@@ -39,7 +40,7 @@ Inscrições limitadas a 40 alunas.
 No final do ciclo de workshops, é esperado que as participantes desenvolvam as seguintes competências:
 
 * Perceber como funcionam as "Single Page Applications" (SPAs), e como estas se comparam em relação às restantes arquitecturas que existem na Web;
-* Perceber a organização e lógica dos projectos em ReactJS;
+* Perceber a organização e lógica dos projectos em React JS;
 * Saber executar comandos básicos na linha de comandos;
 * Conseguir criar projectos em ReactJS usando a linha de comandos;
 * Conseguir construir componentes funcionais em React;
@@ -50,9 +51,10 @@ No final do ciclo de workshops, é esperado que as participantes desenvolvam as 
 
 #### Formadores
 
-* Inês Martins - Application Security Analyst na [Farfetch](https://www.farfetch.com/pt/)
+* Inês Martins - Security Researcher
 * Pedro Fonseca - Front End Developer na [KWAN](https://kwan.pt/)
-* <ADICIONAR RESTANTES>
+* Mónica Fidalgo - Front End Developer na [StoryBlok](https://www.storyblok.com/)
+* Isabel Costa - Software Engineer na [Globality](https://www.globality.com/en-us)
 
 -----------------------------------------------
 
