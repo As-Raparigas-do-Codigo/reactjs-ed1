@@ -10,9 +10,9 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## 👋 Aula 0 - Sessão de Abertura 
 
-- Aresentações.
-- Instalação do software necessário.
-- Team-building.
+- Aresentações
+- Instalação do software necessário
+- Team-building
 
 ## 👋 Aula 1 - Introdução Teórica e Arranque do Projecto
 
