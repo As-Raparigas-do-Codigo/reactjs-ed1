@@ -6,7 +6,13 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## 📚 Pré-Requisitos
 
-- [Instalação de Software](./docs/Instalacao-de-Software.md)
+- [Instalação de Software](./docs/Instalacao-de-Software.md)\
+
+## 👋 Aula 0 - Sessão de Abertura 
+
+- Aresentações.
+- Instalação do software necessário.
+- Team-building.
 
 ## 👋 Aula 1 - Introdução Teórica e Arranque do Projecto
 
