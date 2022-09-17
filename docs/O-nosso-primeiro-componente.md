@@ -32,7 +32,17 @@ return (
 );
 ```
 
-Para podermos usar este componente dentro da nossa aplicação, temos de encontrar o componente que queremos que seja o seu pai - neste caso o componente principal da aplicação, o `App` - e temos de o importar, e depois de o declarar no sítio onde queremos que ele apareça:
+Para podermos usar este componente dentro da nossa aplicação, temos de encontrar o componente que queremos que seja o seu pai - neste caso o componente principal da aplicação, o `App` - e temos de o importar:
+
+```javascript
+import logo from './logo.svg';
+import './App.css';
+import Botao from './Botao';
+```
+
+Nota que temos que atribuir um nome a este componente, que não tem necessariamente que ser igual ao nome declarado na função de componente, ou seja, podíamos importar o elemento `Botao` com outro nome qualquer, e utilizá-lo dentro do componente `App` com este _alias_.
+
+Depois de o importarmos, temos de declarar o componente no sítio onde queremos que ele apareça:
 
 ```javascript
 import logo from './logo.svg';
