@@ -8,13 +8,15 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 - [Instalação de Software](./docs/Instalacao-de-Software.md)
 
-## 👋 Aula 0 - Sessão de Abertura 
+## 👋 Aula 0 - Sessão de Abertura
+[2h]
 
 - Apresentações
 - Instalação do software necessário
 - Team-building
 
 ## 👋 Aula 1 - Introdução Teórica e Arranque do Projecto
+[1h30]
 
 - [As diferentes arquitecturas da Web](./docs/As-diferentes-arquitecturas-da-web.md)
 - [Bibliotecas e Frameworks de Front-End](./docs/Bibliotecas-e-Frameworks-de-Front-End.md)
@@ -22,7 +24,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Criação do esqueleto do projecto](./docs/Criacao-do-esqueleto-do-projecto.md)
 
 ## 👣 Aula 2 - Primeiras Alterações ao Projecto
-[~45 min]
+[45m]
 
 - [A nossa primeira modificação](./docs/A-nossa-primeira-modificacao.md)
 - [Análise do componente App.js](./docs/Analise-do-componente-Appjs.md)
