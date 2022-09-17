@@ -10,7 +10,7 @@ Repara que o teu projecto está organizado da seguinte forma:
 - `package-lock.json`: versão não editável do ficheiro `package.json` que é gerada automaticamente
 - `package.json`: ficheiro usado pelo Node para adicionar uma série de configurações sobre o projecto, incluindo a declaração de todas as dependências e suas respectivas versões
 
-Dentro da pasta `src podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
+Dentro da pasta `src` podes ver o ficheiro `App.js` que contém o componente `App` (não te preocupes para já se não o compreenderes):
 
 ```js
 import logo from './logo.svg';
