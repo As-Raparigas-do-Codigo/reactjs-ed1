@@ -8,8 +8,28 @@ function Botao() {
         <button>Click me</button>
     );
 }
-  
+
 export default Botao;
+```
+
+Nota que não é possível retornar 2 elementos JSX no `return` de uma função, ou seja, isto não seria possivel:
+
+```javascript
+return (
+    <button>Click me 1</button>
+    <button>Click me 2</button>
+);
+```
+
+Como tal, por vezes usamos [Fragments](https://reactjs.org/docs/fragments.html#short-syntax) para encapsular múltiplos elementos:
+
+```javascript
+return (
+    <>
+        <button>Click me 1</button>
+        <button>Click me 2</button>
+    </>
+);
 ```
 
 Para podermos usar este componente dentro da nossa aplicação, temos de encontrar o componente que queremos que seja o seu pai - neste caso o componente principal da aplicação, o `App` - e temos de o importar, e depois de o declarar no sítio onde queremos que ele apareça:
