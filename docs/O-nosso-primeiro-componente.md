@@ -14,7 +14,7 @@ export default Botao;
 
 Nota que não é possível retornar 2 elementos JSX no `return` de uma função, ou seja, isto não seria possivel:
 
-```javascript
+```jsx
 return (
     <button>Click me 1</button>
     <button>Click me 2</button>
@@ -23,7 +23,7 @@ return (
 
 Como tal, por vezes usamos [Fragments](https://reactjs.org/docs/fragments.html#short-syntax) para encapsular múltiplos elementos:
 
-```javascript
+```jsx
 return (
     <>
         <button>Click me 1</button>
