@@ -22,6 +22,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Criação do esqueleto do projecto](./docs/Criacao-do-esqueleto-do-projecto.md)
 
 ## 👣 Aula 2 - Primeiras Alterações ao Projecto
+[~45 min]
 
 - [A nossa primeira modificação](./docs/A-nossa-primeira-modificacao.md)
 - [Análise do componente App.js](./docs/Analise-do-componente-Appjs.md)
