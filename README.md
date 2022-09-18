@@ -9,9 +9,10 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Instalação de Software](./docs/Instalacao-de-Software.md)
 
 ## 👋 Aula 0 - Sessão de Abertura
-[2h]
+[1h40]
 
-- Apresentações
+- Apresentação ARDC
+- Apresentação sponsors
 - Instalação do software necessário
 - Team-building
 
