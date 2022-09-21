@@ -45,8 +45,6 @@ return (
 );
 ```
 
-A diferença é que o `div` tem comportamento e estilo associado, com o qual temos de lidar.
-
 Para podermos usar este componente `Botao` dentro da nossa aplicação, temos de decidir onde é que ele vai aparecer.
 
 Neste momento, a nossa aplicação só tem uma página, e todo o conteúdo desta página está declarado no componente `App`, por isso se queremos que o `Botao` apareça na página principal, temos de o colocar dentro do componente `App`.
