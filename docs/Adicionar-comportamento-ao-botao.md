@@ -1,6 +1,6 @@
 # Adicionar comportamento ao botão
 
-Vamos agora definir o que acontece quando clicamos no `<Button>`, que criamos na aula anterior.
+Vamos agora definir o que acontece quando clicamos no componente que criamos na aula anterior.
 
 Para já, vamos assumir que este comportamento é sempre igual, sempre que se clica no botão.
 
@@ -18,10 +18,9 @@ export default Botao;
 
 Se te lembras das aulas de JavaScript, então sabes que funções podem ser declaradas dentro de outras funções.
 
-Neste caso, faz sentido declarar a função que contém o comportamento do click - ao qual chamamos `onClickHandler` - dentro da função `Button`, imediatamente antes do `return`.
+Neste caso, faz sentido declarar a função que vai gerir o comportamento do click (ao qual vamos chamar `onClickHandler`) dentro da função `Button`, imediatamente antes do `return`.
 
 Isto porque **o return só deve conter o código `JSX` que vai ser devolvido pelo componente.**
-
 
 Como podes ver, no componente `<button>` esta função é passada ao evento de `onClick`, que é a forma como nos referimos ao [evento onclick](https://www.w3schools.com/jsref/event_onclick.asp) em React.
 
