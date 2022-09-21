@@ -50,6 +50,7 @@ Um exemplo disso é o código abaixo:
 ```
 
 Como podemos ver esta linha não é `HTML` válido, porque contém a expressão `{logo}`.
+
 Em HTML isto geraria um erro, mas em `JSX` significa que o conteúdo da variável `logo` vai ser injectado dentro do componente `<img>`:
  
 ### Exportação da Função
