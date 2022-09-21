@@ -14,7 +14,7 @@ export default Botao;
 
 Este vai ser o nosso componente `Botao`, que não é mais do que uma função chamada "Botao", só que em vez de retornar um booleano ou uma string (como a maior parte das funções JavaScript que conhecemos) **retorna `JSX`**.
 
-Nota que no `return` desta função só pode haver um elemento "pai", ou seja, isto não seria possivel:
+Nota que no `return` desta função tem que haver um elemento `JSX` que agregue todos os outros, ou seja, isto não seria possivel:
 
 ```jsx
 return (
