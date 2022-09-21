@@ -16,7 +16,7 @@ Este vai ser o nosso componente `Botao`, que não é mais do que uma função ch
 
 É uma regra do React que os nomes dos componentes devem começar com uma **letra maiúscula**, ou conter um ponto (`.`).
 
-Nota aindaa que no `return` desta função tem que haver um elemento `JSX` que agregue todos os outros, ou seja, isto não seria possivel:
+Nota ainda que no `return` desta função tem que haver um elemento `JSX` que agregue todos os outros, ou seja, isto não seria possivel:
 
 ```jsx
 return (
