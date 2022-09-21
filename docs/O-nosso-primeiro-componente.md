@@ -23,7 +23,7 @@ return (
 );
 ```
 
-Como tal, se queremos retornar 2 botões, podemos simplesmente colocá-los dentro de uma `div`:
+Se queremos retornar 2 ou mais elementos, podemos simplesmente colocá-los dentro de uma `div`:
 
 ```jsx
 return (
