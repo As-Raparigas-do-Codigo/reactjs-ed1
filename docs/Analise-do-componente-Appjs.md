@@ -43,11 +43,14 @@ function App() {
 
 Na verdade isto não é `HTML`, é [JSX](https://reactjs.org/docs/introducing-jsx.html), que é uma "extensão do JavaScript" que se recomenda utilizar em ReactJS (ainda que não seja obrigatório), e que nos ajuda a concatenar criar templates com dados dinâmicos.
 
-Um exemplo disso é o código abaixo, como podemos ver esta linha não é `HTML` válido é esta linha, porque contém a expressão `{logo}`, que em `JSX` significa que o conteúdo da variável `logo` vai ser injectado dentro do componente `<img>`:
+Um exemplo disso é o código abaixo:
 
 ```HTML
 <img src={logo} className="App-logo" alt="logo" />
 ```
+
+Como podemos ver esta linha não é `HTML` válido, porque contém a expressão `{logo}`.
+Em HTML isto geraria um erro, mas em `JSX` significa que o conteúdo da variável `logo` vai ser injectado dentro do componente `<img>`:
  
 ### Exportação da Função
 
