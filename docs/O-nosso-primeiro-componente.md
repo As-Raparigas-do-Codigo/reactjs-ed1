@@ -67,7 +67,7 @@ import './App.css';
 import Batatas from './Botao';
 ```
 
-Só que neste caso, teríamos de usar a palavra `Batatas` sempre que quisessemos usar o componente `Botao`.
+Só que neste caso, teríamos de usar a palavra `Batatas` sempre que quisessemos usar o componente `Botao` dentro do componente `App` - funcionava na mesma, mas poderia ficar confuso.
 
 Depois de o importarmos, temos de declarar o componente no sítio onde queremos que ele apareça:
 
