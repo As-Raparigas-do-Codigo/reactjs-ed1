@@ -55,7 +55,7 @@ Em `HTML` este código geraria um erro no browser, mas em `JSX` isto significa q
  
 ### Exportação da Função
 
-No final do documento vemos que basicamente está a exportar esta função - `App` - para poder ser utilizada no resto da app.
+No final do documento vemos que o componente `App` está a ser exportado - é necessário exportar os componentes para que o resto da aplicação saiba que eles existem.
 
 ```javascript
 export default App;
