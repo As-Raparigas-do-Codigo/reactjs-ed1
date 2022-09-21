@@ -22,9 +22,7 @@ Neste caso, faz sentido declarar a função que vai gerir o comportamento do cli
 
 Isto porque **o return só deve conter o código `JSX` que vai ser devolvido pelo componente.**
 
-Como podes ver, no componente `<button>` esta função é passada ao evento de `onClick`, que é a forma como nos referimos ao [evento onclick](https://www.w3schools.com/jsref/event_onclick.asp) em React.
-
-Nota que é importante ter em conta que este código está escrito em `JSX` e não em `HTML`, e como tal temos de passar esta variável dentro de `{}`:
+Como podes ver, no elemento `<button>` esta função é passada ao evento de `onClick`, que é a forma como nos referimos ao [evento onclick](https://www.w3schools.com/jsref/event_onclick.asp) em React.
 
 ```javascript
 function Botao() {
@@ -43,7 +41,7 @@ export default Botao;
 
 ### Síntaxe Alternativa
 
-Quando uma função é tão pequena como a função `onClickHandler` é muito comum declará-la "inline", ou seja, dentro da declaração do próprio elemento.
+Quando uma função é tão pequena como a função `onClickHandler`, é muito comum declará-la "inline", ou seja, dentro da declaração do próprio elemento.
 
 ```javascript
 function Botao() {
