@@ -102,7 +102,7 @@ export default App;
 ```
 
 
-É comum dizermos nestas situações que o componente `App` é agora o **pai** do `Botao`.´
+É comum dizermos nestas situações que o componente `App` é agora o **pai** do `Botao`.
 
 Se tudo correr bem, deves agora conseguir ver o teu botão:
 
