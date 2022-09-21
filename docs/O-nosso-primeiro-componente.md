@@ -43,7 +43,7 @@ return (
         <button>Click me 2</button>
     </>
 );
-```
+``` 
 
 Para podermos usar este componente `Botao` dentro da nossa aplicação, temos de decidir onde é que ele vai aparecer.
 
