@@ -12,7 +12,9 @@ function Botao() {
 export default Botao;
 ```
 
-Nota que não é possível retornar 2 elementos JSX no `return` de uma função, ou seja, isto não seria possivel:
+Este vai ser o nosso componente `Botao`, que não é mais do que uma função chamada "Botao", só que em vez de retornar um booleano ou uma string (como a maior parte das funções JavaScript que conhecemos) **retorna `JSX`**.
+
+Nota que no `return` desta função só pode haver um elemento "pai", ou seja, isto não seria possivel:
 
 ```jsx
 return (
@@ -21,7 +23,18 @@ return (
 );
 ```
 
-Como tal, por vezes usamos [Fragments](https://reactjs.org/docs/fragments.html#short-syntax) para encapsular múltiplos elementos:
+Como tal, se queremos retornar 2 botões, podemos simplesmente colocá-los dentro de uma `div`:
+
+```jsx
+return (
+    <div>
+        <button>Click me 1</button>
+        <button>Click me 2</button>
+    <div/>
+);
+```
+
+... ou podemos usar [Fragments](https://reactjs.org/docs/fragments.html#short-syntax) (aquelas tags vazias):
 
 ```jsx
 return (
@@ -32,7 +45,13 @@ return (
 );
 ```
 
-Para podermos usar este componente dentro da nossa aplicação, temos de encontrar o componente que queremos que seja o seu pai - neste caso o componente principal da aplicação, o `App` - e temos de o importar:
+A diferença é que o `div` tem comportamento e estilo associado, com o qual temos de lidar.
+
+Para podermos usar este componente `Botao` dentro da nossa aplicação, temos de decidir onde é que ele vai aparecer.
+
+Neste momento, a nossa aplicação só tem uma página, e todo o conteúdo desta página está declarado no componente `App`, por isso se queremos que o `Botao` apareça na página principal, temos de o colocar dentro do componente `App`.
+
+O primeiro passo é ir ao componente `App` e importar o componente `Botao`:
 
 ```javascript
 import logo from './logo.svg';
@@ -40,7 +59,17 @@ import './App.css';
 import Botao from './Botao';
 ```
 
-Nota que temos que atribuir um nome a este componente, que não tem necessariamente que ser igual ao nome declarado na função de componente, ou seja, podíamos importar o elemento `Botao` com outro nome qualquer, e utilizá-lo dentro do componente `App` com este _alias_.
+Nota que nós importamos o `Botao` e atribuímos-lhe o nome `Botao`.
+Mas seria possível também importar o componente e chamar-lhe outra coisa qualquer, exemplo:
+
+
+```javascript
+import logo from './logo.svg';
+import './App.css';
+import Batatas from './Botao';
+```
+
+Só que neste caso, teríamos de usar a palavra `Batatas` sempre que quisessemos usar o componente `Botao`.
 
 Depois de o importarmos, temos de declarar o componente no sítio onde queremos que ele apareça:
 
@@ -73,6 +102,9 @@ function App() {
 
 export default App;
 ```
+
+
+É comum dizermos nestas situações que o componente `App` é agora o **pai** do `Botao`.´
 
 Se tudo correr bem, deves agora conseguir ver o teu botão:
 
