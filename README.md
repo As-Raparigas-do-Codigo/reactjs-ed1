@@ -34,6 +34,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## 🧮 Aula 3 - Lógica em React
 
+[1h15]
 - [Tornar o comportamento dinâmico](./docs/Tornar-o-comportamento-dinamico.md)
 - [Aplicação de gestão de tarefas - intro](./docs/Aplicacao-de-gestao-de-tarefas.md)
 - [Aplicação de gestão de tarefas - hooks](./docs/Aplicacao-de-gestao-de-tarefas-hooks.md)
