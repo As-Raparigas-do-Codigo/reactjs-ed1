@@ -1,4 +1,4 @@
-# Web 2 - Edição 1
+# Workshop React JS - Edição 1
 
 Bem-vinda ao segundo módulo de Web.
 
@@ -7,6 +7,16 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 ## 📚 Pré-Requisitos
 
 - [Instalação de Software](./docs/Instalacao-de-Software.md)
+
+## Parceiros
+
+<a href="https://jobs.teleperformance.pt/">
+  <img src="https://user-images.githubusercontent.com/44099019/192474039-dea7940b-27f3-4e9e-82ee-c54ca15e6c1f.png" alt="Teleperformance logo" width="200" />
+</a>
+<br>
+<a href="https://kwan.pt/">
+  <img src="https://user-images.githubusercontent.com/44099019/192474028-f8d69226-727d-40d3-9132-2d77b3180390.png" alt="KWAN logo" width="200"/>
+</a>
 
 ## 👋 Aula 0 - Sessão de Abertura
 [1h40]
