@@ -55,4 +55,4 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Próximos Passos](./docs/Proximos-passos.md)
 
 
-[Booklet](./docs/booklet.md)
+[Booklet](https://drive.google.com/file/d/1RHyhC_6Le7bXWnbOs3AoYuHQQ9k8FjcY/view?usp=sharing)
