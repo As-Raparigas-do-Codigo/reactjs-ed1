@@ -64,5 +64,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Renderização Condicional](./docs/Renderizacao-Condicional.md)
 - [Próximos Passos](./docs/Proximos-passos.md)
 
+## Recursos Úteis
+- [The JavaScript Concepts You Should Know Before Learning React](https://www.freecodecamp.org/news/javascript-concepts-you-should-know-before-learning-react/)
 
 [Booklet](https://drive.google.com/file/d/1RHyhC_6Le7bXWnbOs3AoYuHQQ9k8FjcY/view?usp=sharing)
