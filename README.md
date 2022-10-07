@@ -51,6 +51,7 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 
 ## 🎨 Aula 4 - Estilo em React + Gestão de Dependências
 
+[1h30]
 - [Aplicação de gestão de tarefas - map](./docs/Aplicacao-de-gestao-de-tarefas-map.md)
 - [Adicionar estilo ao botão](./docs/Adicionar-estilo-ao-botao.md)
 - [Introdução à gestão de dependências](./docs/Introducao-a-gestao-de-dependencias.md)
