@@ -62,6 +62,8 @@ Este módulo vai assentar sobre os conhecimentos que aprendeste em Web 1, por is
 - [Terminar implementaçao da lógica do projecto](./docs/Terminar-logica-do-projecto.md)
 
 ## 🚀 Aula 6 - Próximos passos
+
+[1h20]
 - [Renderização Condicional](./docs/Renderizacao-Condicional.md)
 - [Próximos Passos](./docs/Proximos-passos.md)
 
